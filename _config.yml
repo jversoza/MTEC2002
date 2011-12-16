@@ -1,0 +1,6 @@
+base_url: http://localhost:4000
+domain: http://localhost:4000
+res_base_url: http://localhost:4000/resources
+course_number: MTEC2002
+course_name: Programming Foundations for Emerging Technology
+pygments: true

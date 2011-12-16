@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="{{ site.res_base_url }}/css/screen.css">
+	<link rel="stylesheet" type="text/css" href="{{ site.res_base_url }}/css/syntax.css">
+</head>
+<body>
+<div id="hd">
+<h1>{{site.course_number}}</h1>
+<h2>{{site.course_name}}</h2>
+<div id="nav-container">
+<ul id="nav">
+
+{% if page.nav== 'index' %}
+	<li class="current-page">Description</li>
+{% else %}
+	<li><a href="{{ site.base_url }}/index.html">Description</a></li>
+{% endif %}
+
+{% if page.nav== 'syllabus' %}
+	<li class="current-page">Syllabus</li>
+{% else %}
+	<li><a href="{{ site.base_url }}/syllabus/programming-foundations-2012-spring.html">Syllabus</a></li>
+{% endif %}
+</ul>
+<br class="clear-both"/>
+</div>
+</div>
+
+<div id="bd">
+	{{ content }}
+</div>
+
+<div id="ft">
+</div>
+</body>
+</html>
