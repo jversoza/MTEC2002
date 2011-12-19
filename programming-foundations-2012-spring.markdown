@@ -8,41 +8,49 @@ February 1st - Hi, How Are You?
 =====
 Topics
 -----
-* History, About, etc.
-* Setting up
-* Statements / expressions
-* Variables and values
+* History, About, Etc.
+* Setting Up
+* Statements / Expressions
+* Variables and Values
 * Arithmetic
-* Basic types:  strings and numerical types 
-* Aside: Type Systems
-	* Dynamic vs static
-	* Strong vs weak 
+* Basic Types:  Strings and Numerical Types 
+* Aside: Types 
+	* Data Types
+	* Type Systems
+		* Dynamic vs Static
+		* Strong vs Weak 
 * Your first Python program(s)
 * Version control
 
 Workshop
 -----
-* Setting up
-* Set up a github account
-* Exercise 1 through 10 in LPTHW 
+* Set Up a Github Account
+* Print Out an ASCII Image 
+* Use Variables to Change Characters in Your ASCII Image
+* Print Out a Farenheit to Celcius Conversion
 
 Homework
 -----
-* Setting up
-* Continue workshop material
+* Get Your System Prepared for Python Development
+* Exercise 1 through 10 in LPTHW 
+* Extra Credit: Accept Commandline Arguments For:
+	* ASCII Image
+	* Farenheit to Celcius
 
 February 8th - Don't Worry, Everything is Under Control
 =====
 Topics
 -----
-* More Types -  Sequences and Mappings Types
+* More Types -  Sequences and Mapping Types
 	1. Dictionary
 	2. List
 	3. Tuple
+* Mutable vs Immutable
+* Aside: Value vs Reference
 * Conditionals
 * Boolean Operators
 	1. and, or, not
-	2. bitwise operations
+	2. Bitwise Operations
 * Loops
 	1. for...
 	2. while
@@ -55,22 +63,21 @@ Workshop
 Homework
 -----
 
-February 15th - Functions
+February 15th - Get Into That Func
 =====
 Topics
 -----
 * Scope
-* More Types – functions 
 * Defining Functions
 * Parameters
-	1. positional
-	2. keyword
-	3. arbitrary #
+	1. Positional
+	2. Keyword
+	3. Arbitrary #
 * Advanced
-	1. Functions as Types
-	2. Decorators
-	3. Recursion
-	4. Objects and Classes
+	1. Recursion
+	2. Closures
+	3. Functions as Types
+	4. Decorators
 
 Workshop
 -----
@@ -78,11 +85,58 @@ Workshop
 Homework
 -----
 
-February 22nd
+February 22nd - Things
 =====
+Topics
+-----
+* Defining Classes
+* self
+* Properties
+* Methods
+* Constructors
+* Information Hiding / Encapsulation (sort of)
+* Extending Classes
+* Aside: Patterns
+	* TODO: common Pythonic patterns
+* Advanced
+	1. Magic Methods
+	2. callable
+
+Workshop
+-----
+
+Homework
+-----
+
+February 29th - Error Handling, Testing, Logging and Debugging
+=====
+Topics
+-----
+* Exceptions
+* Reading a Stack Trace
+* Unit Tests
+	1. nose
+	2. unittest / PyUnit
+* Logging
+* Debugging w/ pdb
+
+Workshop
+-----
+
+Homework
+-----
+
+March 7th - Organizing Code and Deployment
+=====
+Topics
+-----
 * What's a program? / Approaching a programming problem
-Topics
------
+* Structuring a Program
+* Packages and Modules
+	1. file layout
+	2. “main”
+* Building Environments with virtualenvs
+* Package Management using pip
 
 Workshop
 -----
@@ -90,7 +144,114 @@ Workshop
 Homework
 -----
 
-February 29th
+March 14th - Frequently Used Modules
+=====
+Topics
+-----
+* file IO
+* sys
+* optparse
+* etc...
+
+Workshop
+-----
+
+Homework
+-----
+
+March 21st - Data Structures, Algorithms
+=====
+Topics
+-----
+* Data Structures
+	1. Linked Lists, Queues
+	2. Trees
+	3. Graphs
+* Algorithms
+	1. Sorting
+	2. ?
+
+
+Workshop
+-----
+
+Homework
+-----
+
+March 28th -  PyGame
+=====
+Topics
+-----
+* Game Programming w/ PyGame...
+* Game – Hello World
+
+Workshop
+-----
+
+Homework
+-----
+
+April 4th - Django (may warrant I and II)
+=====
+Topics
+-----
+* Web Programming w/ Django
+* Django – Hello World
+
+Workshop
+-----
+
+Homework
+-----
+
+April 11th - Libraries for Consuming the Web, Machine Learning
+=====
+Topics
+-----
+* Web
+	1. request
+	2. beautiful soup
+	3. json module
+* Machine Learning
+	1. PyBrain
+	2. PyML
+
+Workshop
+-----
+
+Homework
+-----
+
+April 18th - Other Libraries
+=====
+Topics
+-----
+* Image Processing w/ PIL
+* Digital Signal Processing w/ pyo
+* Scientific Computing w/ num.py
+
+Workshop
+-----
+
+Homework
+-----
+
+April 25th - Final Project Proposals / Intro to Max/MSP
+=====
+Topics
+-----
+* Digital Audio
+* Setting Up Max
+* Patches, Hello World
+* Objects, Inputs, Outputs
+
+Workshop
+-----
+
+Homework
+-----
+
+May 2nd - Final Project Progress / Max/MSP
 =====
 Topics
 -----
@@ -101,106 +262,7 @@ Workshop
 Homework
 -----
 
-March 7th
-=====
-Topics
------
-
-Workshop
------
-
-Homework
------
-
-March 14th
-=====
-Topics
------
-
-Workshop
------
-
-Homework
------
-
-March 21st
-=====
-Topics
------
-
-Workshop
------
-
-Homework
------
-
-March 28th
-=====
-Topics
------
-
-Workshop
------
-
-Homework
------
-
-April 4th
-=====
-Topics
------
-
-Workshop
------
-
-Homework
------
-
-April 11th
-=====
-Topics
------
-
-Workshop
------
-
-Homework
------
-
-April 18th
-=====
-Topics
------
-
-Workshop
------
-
-Homework
------
-
-April 25th
-=====
-Topics
------
-
-Workshop
------
-
-Homework
------
-
-May 2nd
-=====
-Topics
------
-
-Workshop
------
-
-Homework
------
-
-May 9th
+May 9th - Final Project Progress / Jitter?
 =====
 Topics
 -----
@@ -212,7 +274,7 @@ Homework
 -----
 May 16th no class
 =====
-May 23rd
+May 23rd - Final Project Presentations
 =====
 Topics
 -----
@@ -222,70 +284,3 @@ Workshop
 
 Homework
 -----
-Objects and Classes
-Defining Classes
-self
-Properties
-Methods
-Constructors
-Information Hiding / Encapsulation (sort of)
-Extending Classes
-Patterns
-Advanced
-1. Magic Methods
-2. callable
-5. Error Handling, Testing, Logging and Debugging
-Exceptions
-Reading a Stack Trace
-Unit Tests
-1. nose
-2. unittest / PyUnit
-Logging
-Debugging w/ pdb
-6. Organizing Code and Deployment
-Structuring a Program
-Packages and Modules
-1. file layout
-2. “main”
-Building Environments with virtualenvs
-Package Management using pip
-7. Frequently Used...
-file IO
-sys
-optparse
-etc...
-8. Data Structures, Algorithms
-Data Structures
-1. Linked Lists, Queues
-2. Trees
-3. Graphs
-Algorithms
-1. Sorting
-2. ?
-9. PyGame
-Game Programming w/ PyGame...
-Game – Hello World
-10. Libraries for Consuming the Web, Machine Learning
-Web
-1. request
-2. beautiful soup
-3. json module
-Machine Learning
-1. PyBrain
-2. PyML
-11. Django (may warrant I and II)
-Web Programming w/ Django
-Django – Hello World
-12. Other Libraries
-Image Processing w/ PIL
-Digital Signal Processing w/ pyo
-Scientific Computing w/ num.py
-13. Final Project Proposals / Intro to Max/MSP
-Digital Audio
-Setting Up Max
-Patches, Hello World
-Objects, Inputs, Outputs
-14. Final Project Progress / Max/MSP
-15. Final Project Progress / Jitter?
-16. Final Project Presentations
-
