@@ -11,13 +11,13 @@
 <div id="nav-container">
 <ul id="nav">
 
-{% if page.nav== 'index' %}
+{% if page.nav-state == 'index' %}
 	<li class="current-page">Description</li>
 {% else %}
 	<li><a href="{{ site.base_url }}/index.html">Description</a></li>
 {% endif %}
 
-{% if page.nav== 'syllabus' %}
+{% if page.nav-state == 'syllabus' %}
 	<li class="current-page">Syllabus</li>
 {% else %}
 	<li><a href="{{ site.base_url }}/programming-foundations-2012-spring.html">Syllabus</a></li>

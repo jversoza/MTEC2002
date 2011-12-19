@@ -1,44 +1,227 @@
 ---
 layout: default
 title: MTEC2002 - Programming Foundations for Emerging Technology - Spring 2012
-nav: syllabus
+nav-state: syllabus
 ---
-1. Introduction
-	* History
-	* Setting up
-	* What's a program? / Approaching a Programming Problem
-	* Variables and Values
-	* Statements / Expressions
-	* Arithmetic
-	* Types 
-	* Basic Types – String and Numeric Types
-2. Control Structures
-More Types -  Sequences and Mappings Types
-1. Dictionary
-2. List
-3. Tuple
-Conditionals
-Boolean Operators
-1. and, or, not
-2. bitwise operations
-Loops
-1. for...
-2. while
-3. break, continue, etc
-3. Functions
-Functions
-More Types – functions 
-Defining Functions
-Scope
-Parameters
-1. positional
-2. keyword
-3. arbitrary #
-Advanced
-1. Functions as Types
-2. Decorators
-3. Recursion
-4. Objects and Classes
+
+February 1st - Hi, How Are You?
+=====
+Topics
+-----
+* History, About, etc.
+* Setting up
+* Statements / expressions
+* Variables and values
+* Arithmetic
+* Basic types:  strings and numerical types 
+* Aside: Type Systems
+	* Dynamic vs static
+	* Strong vs weak 
+* Your first Python program(s)
+* Version control
+
+Workshop
+-----
+* Setting up
+* Set up a github account
+* Exercise 1 through 10 in LPTHW 
+
+Homework
+-----
+* Setting up
+* Continue workshop material
+
+February 8th - Don't Worry, Everything is Under Control
+=====
+Topics
+-----
+* More Types -  Sequences and Mappings Types
+	1. Dictionary
+	2. List
+	3. Tuple
+* Conditionals
+* Boolean Operators
+	1. and, or, not
+	2. bitwise operations
+* Loops
+	1. for...
+	2. while
+	3. break, continue, etc
+	3. Functions
+
+Workshop
+-----
+
+Homework
+-----
+
+February 15th - Functions
+=====
+Topics
+-----
+* Scope
+* More Types – functions 
+* Defining Functions
+* Parameters
+	1. positional
+	2. keyword
+	3. arbitrary #
+* Advanced
+	1. Functions as Types
+	2. Decorators
+	3. Recursion
+	4. Objects and Classes
+
+Workshop
+-----
+
+Homework
+-----
+
+February 22nd
+=====
+* What's a program? / Approaching a programming problem
+Topics
+-----
+
+Workshop
+-----
+
+Homework
+-----
+
+February 29th
+=====
+Topics
+-----
+
+Workshop
+-----
+
+Homework
+-----
+
+March 7th
+=====
+Topics
+-----
+
+Workshop
+-----
+
+Homework
+-----
+
+March 14th
+=====
+Topics
+-----
+
+Workshop
+-----
+
+Homework
+-----
+
+March 21st
+=====
+Topics
+-----
+
+Workshop
+-----
+
+Homework
+-----
+
+March 28th
+=====
+Topics
+-----
+
+Workshop
+-----
+
+Homework
+-----
+
+April 4th
+=====
+Topics
+-----
+
+Workshop
+-----
+
+Homework
+-----
+
+April 11th
+=====
+Topics
+-----
+
+Workshop
+-----
+
+Homework
+-----
+
+April 18th
+=====
+Topics
+-----
+
+Workshop
+-----
+
+Homework
+-----
+
+April 25th
+=====
+Topics
+-----
+
+Workshop
+-----
+
+Homework
+-----
+
+May 2nd
+=====
+Topics
+-----
+
+Workshop
+-----
+
+Homework
+-----
+
+May 9th
+=====
+Topics
+-----
+
+Workshop
+-----
+
+Homework
+-----
+May 16th no class
+=====
+May 23rd
+=====
+Topics
+-----
+
+Workshop
+-----
+
+Homework
+-----
 Objects and Classes
 Defining Classes
 self
