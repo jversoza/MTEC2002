@@ -56,6 +56,7 @@ Topics
 	2. while
 	3. break, continue, etc
 	3. Functions
+* Aside: Modifying Code
 
 Workshop
 -----
@@ -78,6 +79,7 @@ Topics
 	2. Closures
 	3. Functions as Types
 	4. Decorators
+* Aside: Modifying Code... AND Refactoring
 
 Workshop
 -----
@@ -85,15 +87,15 @@ Workshop
 Homework
 -----
 
-February 22nd - Things
+February 22nd - Objects 'n' Things
 =====
 Topics
 -----
 * Defining Classes
-* self
 * Properties
 * Methods
 * Constructors
+* Objects, Instances, and self
 * Information Hiding / Encapsulation (sort of)
 * Extending Classes
 * Aside: Patterns
@@ -108,7 +110,7 @@ Workshop
 Homework
 -----
 
-February 29th - Error Handling, Testing, Logging and Debugging
+February 29th - Exceptionally Chatty
 =====
 Topics
 -----
@@ -119,6 +121,7 @@ Topics
 	2. unittest / PyUnit
 * Logging
 * Debugging w/ pdb
+* Refactoring, For Real This Time (Now With Unit Tests!)
 
 Workshop
 -----
@@ -126,12 +129,18 @@ Workshop
 Homework
 -----
 
-March 7th - Organizing Code and Deployment
+March 7th - We Haz a Problem 
 =====
 Topics
 -----
-* What's a program? / Approaching a programming problem
+* Approaching a programming problem
+	* Flow chart
+	* Sequence Diagrams
+	* State Diagrams
+	* Class Hierarchies
 * Structuring a Program
+	* Pseudocode
+	* Layers
 * Packages and Modules
 	1. file layout
 	2. “main”
