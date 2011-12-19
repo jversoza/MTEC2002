@@ -51,3 +51,13 @@ body {
 	width:960px;
 	margin:auto;
 }
+
+#bd h1 {
+	color:#300505;
+	border-bottom: 1px solid #300505;
+	font-size: 1.75em;
+}
+
+#bd h2 {
+	font-size: 1.25em;
+}
