@@ -4,3 +4,4 @@ res_base_url: resources
 course_number: MTEC2002
 course_name: Programming Foundations for Emerging Technology
 pygments: true
+markdown: rdiscount
