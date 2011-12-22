@@ -5,14 +5,28 @@ nav-state: index
 ---
 Overview
 ====
-* Basic programming concepts
-* Python
+* Weeks 1-8: Programming Foundations and Introduction to Python
+* Weeks 8-12: Python libraries
+* Weeks 12-16: Final project
+
+Structure
+====
+* Class
+	* Lecture
+	* Hands-on exercises
+* Assignments
+	* Weekly homework
+		* Readings
+		* Exercises
+		* Writing your own code
+		* Reading and modifying other people's code (including your peers)
+	* Projects
+		* Midterm
+		* Final
 
 Goals
 ====
-* Understand basic programming concepts
+* Understand essential concepts behind programming and software development 
+* Comprehend and modify other other peopel's code
 * Pick up any language and spot similar constructs
 * Build Python programs
-* Build Max/MSP programs
-
-
