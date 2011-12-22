@@ -4,10 +4,12 @@ title: MTEC2002 - Programming Foundations for Emerging Technology - Spring 2012
 nav-state: syllabus
 ---
 
+
 February 1st - Hi, How Are You?
 =====
 Topics
 -----
+* Introductions
 * History, About, Etc.
 * Setting Up
 * Statements / Expressions
@@ -28,14 +30,20 @@ Workshop
 * Print Out an ASCII Image 
 * Use Variables to Change Characters in Your ASCII Image
 * Print Out a Farenheit to Celcius Conversion
+* Exercise 1 through 6 in LPTHW 
+		
 
 Homework
 -----
 * Get Your System Prepared for Python Development
-* Exercise 1 through 10 in LPTHW 
+	* Excercise 0 in LPTHW
+	* TODO: links to other install resources
+* Finish up Exercise 7 through 10 in LPTHW 
+* Post homework assignments on github
 * Extra Credit: Accept Commandline Arguments For:
 	* ASCII Image
 	* Farenheit to Celcius
+
 
 February 8th - Don't Worry, Everything is Under Control
 =====
@@ -61,8 +69,10 @@ Topics
 Workshop
 -----
 
+
 Homework
 -----
+* LPTHW 28, 29, 30, 31, 32, 33, 34
 
 February 15th - Get Into That Func
 =====
@@ -86,6 +96,7 @@ Workshop
 
 Homework
 -----
+* LPTHW 18, 19, 21, 22, 23, 24, 35
 
 February 22nd - Objects 'n' Things
 =====
@@ -138,6 +149,13 @@ Topics
 	* Sequence Diagrams
 	* State Diagrams
 	* Class Hierarchies
+* Aside: Data Structures
+	1. Linked Lists, Queues
+	2. Trees
+	3. Graphs
+* Aside: Algorithms
+	1. Sorting
+	2. ?
 * Structuring a Program
 	* Pseudocode
 	* Layers
@@ -152,6 +170,7 @@ Workshop
 
 Homework
 -----
+* Create a flowchart for a well-known algorithm
 
 March 14th - Frequently Used Modules
 =====
@@ -168,26 +187,7 @@ Workshop
 Homework
 -----
 
-March 21st - Data Structures, Algorithms
-=====
-Topics
------
-* Data Structures
-	1. Linked Lists, Queues
-	2. Trees
-	3. Graphs
-* Algorithms
-	1. Sorting
-	2. ?
-
-
-Workshop
------
-
-Homework
------
-
-March 28th -  PyGame
+March 21st - PyGame
 =====
 Topics
 -----
@@ -200,7 +200,7 @@ Workshop
 Homework
 -----
 
-April 4th - Django (may warrant I and II)
+March 28th -  Django 
 =====
 Topics
 -----
@@ -213,7 +213,7 @@ Workshop
 Homework
 -----
 
-April 11th - Libraries for Consuming the Web, Machine Learning
+April 4th - Libraries for Consuming the Web
 =====
 Topics
 -----
@@ -221,6 +221,17 @@ Topics
 	1. request
 	2. beautiful soup
 	3. json module
+
+Workshop
+-----
+
+Homework
+-----
+
+April 11th -  Machine Learning
+=====
+Topics
+-----
 * Machine Learning
 	1. PyBrain
 	2. PyML
