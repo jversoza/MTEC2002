@@ -51,7 +51,7 @@ Grading
 
 Contact Information
 ====
-* email: joeversoza at gmail dot com
+* email: joeversozateaches at gmail dot com
 * github: joeversozateaches
 * twitter: joeversozateaches
 * office hours:
