@@ -19,6 +19,12 @@ body {
 	color: #eee;
 }
 
+#ft {
+	padding:20px 0px 20px 0px;
+	background-color:#300505;
+	color: #eee;
+}
+
 #nav {
 	list-style:none;
 	padding:20px 0px 10px 0px;
@@ -61,3 +67,4 @@ body {
 #bd h2 {
 	font-size: 1.25em;
 }
+

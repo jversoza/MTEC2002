@@ -8,23 +8,7 @@
 <div id="hd">
 <h1>{{site.course_number}}</h1>
 <h2>{{site.course_name}}</h2>
-<div id="nav-container">
-<ul id="nav">
-
-{% if page.nav-state == 'index' %}
-	<li class="current-page">Description</li>
-{% else %}
-	<li><a href="index.html">Description</a></li>
-{% endif %}
-
-{% if page.nav-state == 'syllabus' %}
-	<li class="current-page">Syllabus</li>
-{% else %}
-	<li><a href="programming-foundations-2012-spring.html">Syllabus</a></li>
-{% endif %}
-</ul>
-<br class="clear-both"/>
-</div>
+		{% include nav.html %}
 </div>
 
 <div id="bd">
@@ -32,6 +16,8 @@
 </div>
 
 <div id="ft">
+		{% include nav.html %}
+</div>
 </div>
 </body>
 </html>
