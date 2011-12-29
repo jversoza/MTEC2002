@@ -58,6 +58,7 @@ Topics
 	3. Tuple
 * Mutable vs Immutable
 * Aside: Value vs Reference
+* TODO: move conditionals and booleans down
 * Conditionals
 * Boolean Operators
 	1. and, or, not
