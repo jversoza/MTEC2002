@@ -30,6 +30,8 @@ There will be weekly homework.  The only way to learn how to program is to actua
 * Programming exercises - to be turned in **electronically via github**
 	* Writing your own code
 	* Reading and modifying other people's code (including your peers)
+	* Will be executed using unit tests
+	* Will be run through pylint
 
 Quizzes:
 * 4 x 10 minute quizzes
