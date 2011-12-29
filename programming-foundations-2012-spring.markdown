@@ -40,6 +40,9 @@ Homework
 	* TODO: links to other install resources
 * Finish up Exercise 7 through 10 in LPTHW 
 * Post homework assignments on github
+* Fork a sample project and make modifications
+* TODO: create and link to project
+* TODO: specify modifications to be made
 * Extra Credit: Accept Commandline Arguments For:
 	* ASCII Image
 	* Farenheit to Celcius
