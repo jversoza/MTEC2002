@@ -5,7 +5,7 @@ nav-state: index
 ---
 Overview
 ====
-This class will cover basic to intermediate programming concepts using Python.  In addition, libraries focused on web development, machine learning, gaming, and other emerging media will be introduced as examples of practical applications of Python.  The semester will be broken down into three main sections:
+This class will cover basic to intermediate programming concepts using Python.  In addition, libraries focused on web development, machine learning, gaming, and other emerging media will be introduced as examples of practical applications.  The semester will be broken down into three main sections:
 
 * Weeks 1-8: Programming Foundations and Introduction to Python
 * Weeks 8-12: Python libraries
@@ -51,7 +51,7 @@ Grading
 
 Contact Information
 ====
-* email: joeversozateaches at gmail dot com
-* github: joeversozateaches
-* twitter: joeversozateaches
+* email: 
+* github: 
+* twitter: 
 * office hours:
