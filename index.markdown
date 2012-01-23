@@ -37,7 +37,7 @@ Quizzes:
 * 4 x 10 minute quizzes
 * Questions will be **very basic** (if you've done the homework, there's no need to prep!)
 
-There will also be two major projects.  You can work as individuals or as teams.  However, if you works as teams, prove the collaboration via commits in git.
+There will also be two major projects.  You can work as individuals or as teams.  However, if you work as  a teams, collaboration must be apparent via commits in git.
 * Midterm
 * Final
 
