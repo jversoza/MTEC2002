@@ -4,313 +4,66 @@ title: MTEC2002 - Programming Foundations for Emerging Technology - Spring 2012
 nav-state: syllabus
 ---
 
-
-Class 1 - February 1st - Hi, How Are You?
+Class 1 - February 1st - Introductions, Basics, Version Control
 =====
-Topics
------
-* Introductions
-	* Hi
-	* Course Goals
-	* Lab Policy
-	* Introductions
-		* Expectations
-		* Programming Background
-* History, About, Etc.
-* Setting Up
-* Statements / Expressions
-* Variables and Values
-* Arithmetic
-* Basic Types:  Strings and Numerical Types 
-* Aside: Types 
-	* Data Types
-	* Type Systems
-		* Dynamic vs Static
-		* Strong vs Weak 
-* Your first Python program(s)
+* Introduction
+* Statements, expressions, variables
+* Basic types
 * Version control
-
-Workshop
------
-* Set Up a Github Account
-* Print Out an ASCII Image 
-* Use Variables to Change Characters in Your ASCII Image
-* Print Out a Farenheit to Celcius Conversion
-* Exercise 1 through 6 in LPTHW 
-		
-
-Homework
------
-* Get Your System Prepared for Python Development
-	* Excercise 0 in LPTHW
-	* TODO: links to other install resources
-* Finish up Exercise 7 through 10 in LPTHW 
-* Post homework assignments on github
-* Fork a sample project and make modifications
-* TODO: create and link to project
-* TODO: specify modifications to be made
-* Extra Credit: Accept Commandline Arguments For:
-	* ASCII Image
-	* Farenheit to Celcius
-
-
-Class 2 - February 8th - Don't Worry, Everything is Under Control
+Class 2 - February 8th - Data Structures, Conditionals, Loops
 =====
-Topics
------
-* More Types -  Sequences and Mapping Types
-	1. Dictionary
-	2. List
-	3. Tuple
-* Mutable vs Immutable
-* Aside: Value vs Reference
-* TODO: move conditionals and booleans down
+* Data Structures
 * Conditionals
-* Boolean Operators
-	1. and, or, not
-	2. Bitwise Operations
 * Loops
-	1. for...
-	2. while
-	3. break, continue, etc
-	3. Functions
-* Aside: Modifying Code
-
-Workshop
------
-
-
-Homework
------
-* LPTHW 28, 29, 30, 31, 32, 33, 34
-
-Class 3 - February 15th - Get Into That Func
+Class 3 - February 15th - Functions
 =====
-Topics
------
-* Scope
-* Defining Functions
-* Parameters
-	1. Positional
-	2. Keyword
-	3. Arbitrary #
-* Advanced
-	1. Recursion
-	2. Closures
-	3. Functions as Types
-	4. Decorators
+* Built-in functions
+* Functions
+Class 4 - February 22nd - Classes
+=====
+* Classes and objects
+Class 5 - February 29th - Exceptions and Testing
+=====
 * Unit Tests
-	1. nose
-	2. unittest / PyUnit
-* Aside: Modifying Code... AND Refactoring
-
-Workshop
------
-
-Homework
------
-* LPTHW 18, 19, 21, 22, 23, 24, 35
-
-Class 4 - February 22nd - Objects 'n' Things
-=====
-Topics
------
-* Defining Classes
-* Properties
-* Methods
-* Constructors
-* Objects, Instances, and self
-* Information Hiding / Encapsulation (sort of)
-* Extending Classes
-* Aside: Patterns
-	* TODO: common Pythonic patterns
-* Advanced
-	1. Magic Methods
-	2. callable
-
-Workshop
------
-
-Homework
------
-
-Class 5 - February 29th - Exceptionally Chatty
-=====
-Topics
------
 * Exceptions
-* Reading a Stack Trace
-* Logging
-* Debugging w/ pdb
-* Refactoring, For Real This Time (Now With Unit Tests!)
-
-Workshop
------
-
-Homework
------
-
-Class 6 - March 7th - We Haz a Problem 
+* Refactoring
+Class 6 - March 7th - Creating and Using Modules and Packages
 =====
-Topics
------
-* Approaching a programming problem
-	* Flow chart
-	* Sequence Diagrams
-	* State Diagrams
-	* Class Hierarchies
-* Aside: Data Structures
-	1. Linked Lists, Queues
-	2. Trees
-	3. Graphs
-* Aside: Algorithms
-	1. Sorting
-	2. ?
-* Structuring a Program
-	* Pseudocode
-	* Layers
-* Packages and Modules
-	1. file layout
-	2. “main”
-* Building Environments with virtualenvs
-* Package Management using pip
-
-Workshop
------
-
-Homework
------
-* Create a flowchart for a well-known algorithm
-
-Class 7 - March 14th - Frequently Used Modules
+* Organizing code - packages, modules
+* Common modules
+	* math, sys, re, os, os.path, logging, datetime, time and re.
+Class 7 - March 14th - Consuming the Web
 =====
-Topics
------
-* file IO
-* sys
-* optparse
-* etc...
-
-Workshop
------
-
-Homework
------
-
-Class 8 - March 21st - PyGame
+* HTTP
+* urllib
+* json
+* beautiful soup
+* machine learning
+Class 8 - March 21st - Web Development I 
 =====
-Topics
------
-* Game Programming w/ PyGame...
-* Game – Hello World
-
-Workshop
------
-
-Homework
------
-
-Class 9 - March 28th -  Django 
+* Django basics
+* Databases and quick intro to database design
+Class 9 - March 28th - Web Development II 
 =====
-Topics
------
-* Web Programming w/ Django
-* Django – Hello World
-
-Workshop
------
-
-Homework
------
-
-Class 10 - April 4th - Libraries for Consuming the Web
+* Users
+* Advanced Django
+Class 10 - April 4th - Socket Programming, More File I/O, Creating an HTTP Server
 =====
-Topics
------
-* Web
-	1. request
-	2. beautiful soup
-	3. json module
-
-Workshop
------
-
-Homework
------
-
-Class 11 - April 11th -  Machine Learning
+Class 11 - April 11th - PyGame/GASP I
 =====
-Topics
------
-* Machine Learning
-	1. PyBrain
-	2. PyML
-
-Workshop
------
-
-Homework
------
-
-Class 12 - April 18th - Other Libraries
+Class 12 - April 18th - PyGame/GASP II
 =====
-Topics
------
-* Image Processing w/ PIL
-* Digital Signal Processing w/ pyo
-* Scientific Computing w/ num.py
-
-Workshop
------
-
-Homework
------
-
-Class 13 - April 25th - Final Project Proposals / Intro to Max/MSP
+Class 13 - April 25th - Final Project Proposals / Advanced Python 
 =====
-Topics
------
-* Digital Audio
-* Setting Up Max
-* Patches, Hello World
-* Objects, Inputs, Outputs
-
-Workshop
------
-
-Homework
------
-
-Class 14 - May 2nd - Final Project Progress / Max/MSP
+* Iterators
+* Generators
+* functools
+* Magic methods
+Class 14 - May 2nd - Final Project Progress / Data structures
 =====
-Topics
------
-
-Workshop
------
-
-Homework
------
-
-Class 15 - May 9th - Final Project Progress / Jitter?
+* Data structures - linked lists, queues, etc
+Class 15 - May 9th - Final Project Progress / Algorithms
 =====
-Topics
------
-
-Workshop
------
-
-Homework
------
-May 16th no class
-=====
+* Sorting, graph algorithms, etc
 Class 16 - May 23rd - Final Project Presentations
 =====
-Topics
------
-
-Workshop
------
-
-Homework
------
