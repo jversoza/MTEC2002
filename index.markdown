@@ -7,14 +7,14 @@ Overview
 ====
 This class will cover basic to intermediate programming concepts using Python.  In addition, libraries focused on web development, machine learning, gaming, and other emerging media will be introduced as examples of practical applications.  The semester will be broken down into three main sections:
 
-* Weeks 1-8: Programming Foundations and Introduction to Python
-* Weeks 8-12: Python libraries
-* Weeks 12-16: Final project
+* Weeks 1-6: Programming Foundations and Introduction to Python
+* Weeks 6-12: Python libraries
+* Weeks 12-16: Final project / Data Structures and Algorithms
 
 More specifically, this class will help you:
 * Understand essential concepts behind programming and software development 
 * Comprehend and modify other other people's code
-* Pick up any language and spot similar constructs
+* Pick up other programming languages and spot similar constructs
 * Build Python programs
 
 Structure
