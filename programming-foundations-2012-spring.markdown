@@ -5,11 +5,17 @@ nav-state: syllabus
 ---
 
 
-February 1st - Hi, How Are You?
+Class 1 - February 1st - Hi, How Are You?
 =====
 Topics
 -----
 * Introductions
+	* Hi
+	* Course Goals
+	* Lab Policy
+	* Introductions
+		* Expectations
+		* Programming Background
 * History, About, Etc.
 * Setting Up
 * Statements / Expressions
@@ -48,7 +54,7 @@ Homework
 	* Farenheit to Celcius
 
 
-February 8th - Don't Worry, Everything is Under Control
+Class 2 - February 8th - Don't Worry, Everything is Under Control
 =====
 Topics
 -----
@@ -78,7 +84,7 @@ Homework
 -----
 * LPTHW 28, 29, 30, 31, 32, 33, 34
 
-February 15th - Get Into That Func
+Class 3 - February 15th - Get Into That Func
 =====
 Topics
 -----
@@ -93,6 +99,9 @@ Topics
 	2. Closures
 	3. Functions as Types
 	4. Decorators
+* Unit Tests
+	1. nose
+	2. unittest / PyUnit
 * Aside: Modifying Code... AND Refactoring
 
 Workshop
@@ -102,7 +111,7 @@ Homework
 -----
 * LPTHW 18, 19, 21, 22, 23, 24, 35
 
-February 22nd - Objects 'n' Things
+Class 4 - February 22nd - Objects 'n' Things
 =====
 Topics
 -----
@@ -125,15 +134,12 @@ Workshop
 Homework
 -----
 
-February 29th - Exceptionally Chatty
+Class 5 - February 29th - Exceptionally Chatty
 =====
 Topics
 -----
 * Exceptions
 * Reading a Stack Trace
-* Unit Tests
-	1. nose
-	2. unittest / PyUnit
 * Logging
 * Debugging w/ pdb
 * Refactoring, For Real This Time (Now With Unit Tests!)
@@ -144,7 +150,7 @@ Workshop
 Homework
 -----
 
-March 7th - We Haz a Problem 
+Class 6 - March 7th - We Haz a Problem 
 =====
 Topics
 -----
@@ -176,7 +182,7 @@ Homework
 -----
 * Create a flowchart for a well-known algorithm
 
-March 14th - Frequently Used Modules
+Class 7 - March 14th - Frequently Used Modules
 =====
 Topics
 -----
@@ -191,7 +197,7 @@ Workshop
 Homework
 -----
 
-March 21st - PyGame
+Class 8 - March 21st - PyGame
 =====
 Topics
 -----
@@ -204,7 +210,7 @@ Workshop
 Homework
 -----
 
-March 28th -  Django 
+Class 9 - March 28th -  Django 
 =====
 Topics
 -----
@@ -217,7 +223,7 @@ Workshop
 Homework
 -----
 
-April 4th - Libraries for Consuming the Web
+Class 10 - April 4th - Libraries for Consuming the Web
 =====
 Topics
 -----
@@ -232,7 +238,7 @@ Workshop
 Homework
 -----
 
-April 11th -  Machine Learning
+Class 11 - April 11th -  Machine Learning
 =====
 Topics
 -----
@@ -246,7 +252,7 @@ Workshop
 Homework
 -----
 
-April 18th - Other Libraries
+Class 12 - April 18th - Other Libraries
 =====
 Topics
 -----
@@ -260,7 +266,7 @@ Workshop
 Homework
 -----
 
-April 25th - Final Project Proposals / Intro to Max/MSP
+Class 13 - April 25th - Final Project Proposals / Intro to Max/MSP
 =====
 Topics
 -----
@@ -275,7 +281,7 @@ Workshop
 Homework
 -----
 
-May 2nd - Final Project Progress / Max/MSP
+Class 14 - May 2nd - Final Project Progress / Max/MSP
 =====
 Topics
 -----
@@ -286,7 +292,7 @@ Workshop
 Homework
 -----
 
-May 9th - Final Project Progress / Jitter?
+Class 15 - May 9th - Final Project Progress / Jitter?
 =====
 Topics
 -----
@@ -298,7 +304,7 @@ Homework
 -----
 May 16th no class
 =====
-May 23rd - Final Project Presentations
+Class 16 - May 23rd - Final Project Presentations
 =====
 Topics
 -----
