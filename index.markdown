@@ -55,3 +55,19 @@ Contact Information
 * github: 
 * twitter: 
 * office hours:
+
+Install
+====
+developer tools -
+rationale
+
+git - http://code.google.com/p/git-osx-installer/ - requires admin
+rationale
+
+textwrangler - http://www.barebones.com/products/textwrangler/
+rationale
+
+database?
+mysql
+
+
