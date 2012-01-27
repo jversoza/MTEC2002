@@ -13,7 +13,7 @@ This class will cover basic to intermediate programming concepts using Python.  
 
 More specifically, this class will help you:
 * Understand essential concepts behind programming and software development 
-* Comprehend and modify other other people's code
+* Comprehend and modify other people's code
 * Pick up other programming languages and spot similar constructs
 * Build Python programs
 
