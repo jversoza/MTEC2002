@@ -4,20 +4,25 @@ title: MTEC2002 - Programming Foundations for Emerging Technology - Spring 2012
 nav-state: syllabus
 ---
 
-Class 1 - February 1st - Introductions, Basics, Version Control
+Class 1 - February 1st - Introductions, Basic Types
 =====
 * Introduction
 * Statements, expressions, variables
-* Basic types
-* Version control
-Class 2 - February 8th - Data Structures, Conditionals, Loops
-=====
-* Data Structures
+* Numeric types
+* Numerical operations
+* Strings
+* Boolean logic
 * Conditionals
+* For loops
+Class 2 - February 8th - Data Structures, Version Control
+=====
+* Dictionaries, tuples
+* List comprehensions
 * Loops
+* Version control
 Class 3 - February 15th - Functions
 =====
-* Built-in functions
+* More built-in functions
 * Functions
 Class 4 - February 22nd - Classes
 =====
