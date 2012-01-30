@@ -18,6 +18,7 @@ Class 1 - February 1st - Introductions, Basic Types
 
 ###Slides
 * [Introduction](class1/slides/intro.html)
+* [Syntax](class1/slides/syntax.html)
 
 
 Class 2 - February 8th - Data Structures, Version Control
