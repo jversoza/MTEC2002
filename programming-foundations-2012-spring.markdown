@@ -31,10 +31,10 @@ __Lab 1__ - Some setup, getting familiar with the Python interpreter
 * LPTHW, Excercise 1: [A Good First Program](http://learnpythonthehardway.org/book/ex1.html)
 
 __lab 2__ - Statements, expressions, and comments
-* Exercise 2: [Comments And Pound Characters](http://learnpythonthehardway.org/book/ex2.html)
-* Exercise 3: [Numbers And Math](http://learnpythonthehardway.org/book/ex3.html)
-* Exercise 4: [Variables And Names](http://learnpythonthehardway.org/book/ex4.html)
-* Exercise 5: [More Variables And Printing](http://learnpythonthehardway.org/book/ex5.html)
+* LPTHW, Exercise 2: [Comments And Pound Characters](http://learnpythonthehardway.org/book/ex2.html)
+* LPTHW, Exercise 3: [Numbers And Math](http://learnpythonthehardway.org/book/ex3.html)
+* LPTHW, Exercise 4: [Variables And Names](http://learnpythonthehardway.org/book/ex4.html)
+* LPTHW, Exercise 5: [More Variables And Printing](http://learnpythonthehardway.org/book/ex5.html)
 
 __lab 3__ - Conditionals
 (links to be added)
