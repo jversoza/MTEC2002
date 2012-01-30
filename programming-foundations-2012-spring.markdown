@@ -28,7 +28,7 @@ __Lab 1__ - Some setup, getting familiar with the Python interpreter
 	* Make a Directory - [mkdir](http://cli.learncodethehardway.org/book/cli-crash-coursech4.html#x9-250004)
 	* Change Directory - [cd](http://cli.learncodethehardway.org/book/cli-crash-coursech5.html#x10-290005)
 	* List the Contents of a Directory - [ls](http://cli.learncodethehardway.org/book/cli-crash-coursepa1.html#x8-24000I)
-* LPTHW, Excercise 1: [A Good First Program](http://learnpythonthehardway.org/book/ex1.html)
+* LPTHW, Exercise 1: [A Good First Program](http://learnpythonthehardway.org/book/ex1.html)
 
 __lab 2__ - Statements, expressions, and comments
 * LPTHW, Exercise 2: [Comments And Pound Characters](http://learnpythonthehardway.org/book/ex2.html)
