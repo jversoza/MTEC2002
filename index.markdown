@@ -11,11 +11,12 @@ MTEC2002 - Programming Foundations for Emerging Technology
 <a name="contact" id="contact"></a>
 Contact Information
 ====
-* __Room:__ V321
+* __Instructor:__ Joe Versoza
 * __Email:__ jversoza@citytech.cuny.edu
-* __Github:__ https://github.com/jversoza
-* __Office hours:__ V103, tentatively on Mondays, 5:30-6:30
 * __Course site:__ tentatively - http://jversoza.github.com/MTEC2002
+* __Github:__ https://github.com/jversoza
+* __Lab:__ V321
+* __Office hours:__ V103, tentatively on Mondays, 5:30-6:30
 
 Overview
 ====
