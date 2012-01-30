@@ -13,8 +13,8 @@ Contact Information
 ====
 * __Instructor:__ Joe Versoza
 * __Email:__ jversoza@citytech.cuny.edu
-* __Course site:__ tentatively - http://jversoza.github.com/MTEC2002
-* __Github:__ https://github.com/jversoza
+* __Course site:__ tentatively - [http://jversoza.github.com/MTEC2002](http://jversoza.github.com/MTEC2002)
+* __Github:__ [https://github.com/jversoza](https://github.com/jversoza)
 * __Lab:__ V321
 * __Office hours:__ V103, tentatively on Mondays, 5:30-6:30
 
