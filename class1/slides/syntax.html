@@ -3,8 +3,8 @@ layout: slides
 title: Intro
 ---
 <section>
-	<h1>Syntax and Control Structures</h1>
-	<footer>Intro to Python</footer>
+	<h1>Basic Syntax and Control Structures</h1>
+	<footer>MTEC2002 - Jversoza</footer>
 </section>
 
 <section>
@@ -37,9 +37,9 @@ title: Intro
 	<li>The extension of the filename can be anything, but .py is the convention</li>
 </ul>
 {% highlight console %}
-walsh:tmp joe$ echo "print 'Hi PyGotham'" > hello.py
+walsh:tmp joe$ echo "print 'Hi!'" > hello.py
 walsh:tmp joe$ python hello.py 
-Hi PyGotham
+Hi!
 {% endhighlight %}
 <details>
 <ul>
@@ -261,7 +261,6 @@ b --->[1, 2, 3]
 <ul>
 	<li>Conditionals</li>
 	<li>Loops</li>
-	<li>Exceptions</li>
 </ul>
 <details>
 </details>
@@ -370,60 +369,6 @@ b --->[1, 2, 3]
 </details>
 </section>
 
-<section>
-<h2>Exceptions</h2>
-<ul>	
-	<li>Try-catch (with an IndexError)</li>
-</ul>
-{% highlight pycon %}
->>> li = [1, 2]
->>> try:
-...  print li[42]
-... except Exception, e:
-...  print 'Oh noez ' + str(e)
-... 
-Oh noez list index out of range
-{% endhighlight %}
-<ul>	
-	<li>Use raise to throw your own exception</li>
-</ul>
-{% highlight pycon %}
->>> raise Exception("Estoy enfermo")
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-Exception: Estoy enfermo
->>> 
-{% endhighlight %}
-<details>
-	<ul>
-		<li>Catches specified exception(s), but Exception will catch all that are subclasses of it</li>
-		<li>Optional finally keyword at end has block that will always execute</li>
-		<li>Multiple excepts allowed for different code paths per exception type</li>
-		<li>Use as to bind exceptions to name, can have multiple except blocks</li>
-	</ul>
-</details>
-</section>
-
-<section>
-<h2>Catching 'em all (multiple exception types)</h2>
-{% highlight pycon %}
->>> def raise_e(e):
-...  try:
-...   raise e
-...  except (NameError, IndexError) as e:
-...   print type(e)
-... 
->>> raise_e(Exception)
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-  File "<stdin>", line 3, in raise_e
-Exception
-{% endhighlight %}
-<ul>	
-</ul>
-<details>
-</details>
-</section>
 
 <section>
 <h2>A brief detour</h2>
@@ -494,8 +439,7 @@ for n in range(1,100):
 	<li>Mutability</li>
 	<li>Numbers</li>
  	<li>Strings</li>
- 	<li>Lists and Tuples</li>
- 	<li>Dictionaries</li>
+ 	<li>Lists</li>
  	<li>Booleans and Comparison Operators</li>
 </ul>
 <details>
@@ -708,57 +652,9 @@ re.sub("a.$", "ooooo", "foo bar baz") # regex
 </section>
 
 <section>
-<h2>List comprehensions</h2>
-<ul>
-	<li>A compact way of acting on every element in a list to return a new list
-		<ul>
-			<li>Think of it as a one line for in loop</li>
-			<li>If you're familiar with functional programming, it does some of the things that map, filter and lambda do in one construct</li>
-		</ul>
-	</li>
-	<li>General pattern: <em>expression</em> for <em>var</em> in <em>list</em></li> 
-	<li>...followed by an optional if which acts like a filter</li>
-	<li>...or even zero or more for's</li>
-</ul>
-{% highlight pycon %}
->>> [s.strip() for s in ['   space ', 'man   ']]
-['space', 'man']
->>> [s.strip() for s in ['   space ', 'man   '] \
-...  if s.upper().strip() == 'MAN']
-['man']
-{% endhighlight %}
-<details>
-<pre>
-map maps a function to every element in an array/list
-filter filters an array/list using a function
-lambda allows for anonymous functions
-.... all of these actually exist in Python
-</pre>
-</details>
-</section>
-
-<section>
-<h2>Another look</h2>
-{% highlight pycon %}
->>> [s.strip() for s in ['   space ', 'man   '] \
-...  if s.upper().strip() == 'MAN']
-['man']
-{% endhighlight %}
-<ul>
-	<li>The expression for... in list basically goes through each list item and runs the expression</li>
-	<li>The if expression at the end only includes the element in the new list if it satisfies the condition</li> 
-</ul>
-<details>
-</details>
-</section>
-
-<section>
 <h2>A few quick exercises</h2>
 <p>Use a for loop that will iterate over a list and create a new list with the cubes of every value in the first list.  Use range to create the initial list.</p><br />
 <p>Use a for loop to go through a list of names.  Return a new list containing filtered list of three letter names all transformed to upper case  The list of names is as follows:  ['bob', 'alice', 'carol', 'dave', 'eve' ] </p>
-<p><br />
-Do both exercises above using list comprehensions.
-</p>
 <details>
 </details>
 </section>
@@ -766,13 +662,6 @@ Do both exercises above using list comprehensions.
 <section>
 <h2>Solutions</h2>
 {% highlight pycon %}
->>>[x.upper() for x in ['bob', 'alice', 'carol', 'dave', 'eve' ] if len(x) == 3]
-['BOB', 'EVE']
->>> [x**3 for x in range(5)]
-[0, 1, 8, 27, 64]
->>> [x**3 for x in range(1,5)]
-[1, 8, 27, 64]
->>> [x**3 for x in range(1,6)]
 {% endhighlight %}
 <details>
 </details>
@@ -811,54 +700,6 @@ Do both exercises above using list comprehensions.
 (demo) for k, v in ...
 </pre>
 </details>
-</section>
-
-<section>
-<h2>Dictionary</h2>
-<ul>
-	<li>Mutable, Mapping</li>
-	<li>An unordered set of key-value pairs (really!  you absolutely cannot rely on the order of dictionary elements)</li>
-	<li>Called associative arrays or hashes in other languages</li>
-	<li>Keys must be unique and immutable (numbers and strings work great!)</li>
-	<li>Values can be anything!</li>
-	<li>Like JSON, curly braces and colons to represent dictionaries and name/value pairs</li>
-</ul>
-<details>
-<ul>
-	<li>(demo) accessing elements</li>
-</ul>
-</details>
-</section>
-
-<section>
-<h2>Iterating through dictionaries</h2>
-{% highlight python %}
->>> d = {'foo':'bar', 'baz':'qux'}
->>> for e in d:
-...  print e
-... 
-foo
-baz
-?
-{% endhighlight %}
-<details>
-<ul>
-	<li>(demo) regular for loop goes through keys</li>
-	<li>(demo) for loop using k, v to get error</li>
-	<li>(demo) items()</li>
-</ul>
-</details>
-</section>
-
-<section>
-<h2>There's a bit more to it</h2>
-<ul>
-	<li>And if a key doesn't exist...</li>
-	<li>d.get('bob') # no exception, get None instead</li>
-	<li>d = dict(foo = "bar", baz = "qux") # constructor style rather than dict literal</li>
-	<li>d.keys() # returns a list of the dict's keys</li>
-	<li>d.items() # returns a list of tuples of the name value pairs</li>
-</ul>
 </section>
 
 <section>
@@ -903,56 +744,3 @@ baz
 </details>
 </section>
 
-<section>
-<h2>Using modules</h2>
-<ul>
-	<li>A module is a file with Python code in it</li>
-	<li>Python has many built-in modules - help('modules')</li>
-	<li>You can bring in all of the definitions in a module by using the import statement </li>
-	<li>import <em>modulename</em> (no quotes around the module name)</li>
-	<li>Try importing the following modules:<ul>
-		<li>sys</li>
-		<li>os</li>
-		<li>json</li>
-		<li>urllib</li>
-	</ul>
-	<li>What do these modules do?  What are some methods and attributes that are in them?</li>
-</ul>
-<details>
-</details>
-</section>
-
-<section>
-<h2>Putting it all together</h2>
-<p>Use urllib and json to get tweets about Python using the twitter search API:
-</p>
-<ul>
-	<li>print the 10 latest tweets about Python</li> 
-	<li>by users that have a handle that starts with 'j'</li>
-	<li>while remembering to include exception handling</li>
-</ul>
-<br />
-<p>You'll need a couple of bits of information:
-</p>
-<ul>
-	<li>Twitter search api docs: <br />https://dev.twitter.com/docs/using-search</li>
-	<li>The url to perform the search: <br />http://search.twitter.com/search.json?q=%40python</li>
-</ul>
-<details>
-<b>ACTIVITY TIME</b>
-</details>
-</section>
-
-<section>
-<h2>A bit of help</h2>
-{% highlight python %}
->>> import urllib
->>> import json
->>> # should probably look for IOError here...
->>> f = urllib.urlopen(\
-...  'http://search.twitter.com/search.json?q=%40python')
-...
->>> d = json.loads(f.read())
->>> d['results'][0]['text']
-{% endhighlight %}
-</section>
