@@ -105,6 +105,8 @@ Class 13 - April 25th - Final Project Proposals / Advanced Python
 * Generators
 * functools
 * Magic methods
+* Design patterns in Python
+* Proposals
 
 
 Class 14 - May 2nd - Final Project Progress / Data structures
