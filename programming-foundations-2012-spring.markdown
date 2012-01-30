@@ -36,7 +36,11 @@ __lab 2__ - Statements, expressions, and comments
 * LPTHW, Exercise 4: [Variables And Names](http://learnpythonthehardway.org/book/ex4.html)
 * LPTHW, Exercise 5: [More Variables And Printing](http://learnpythonthehardway.org/book/ex5.html)
 
-__lab 3__ - Prompts and conditionals
+__lab 3__ - Strings
+* LPTHW, Exercise 6: [Strings And Text](http://learnpythonthehardway.org/book/ex6.html)
+* LPTHW, Exercise 7: [More Printing](http://learnpythonthehardway.org/book/ex7.html)
+
+__lab 4__ - Prompts and conditionals
 * LPTHW, Exercise 11: [Asking Questions](http://learnpythonthehardway.org/book/ex11.html)
 * LPTHW, Exercise 12: [Prompting People](http://learnpythonthehardway.org/book/ex12.html)
 * LPTHW, Exercise 27: [Memorizing Logic](http://learnpythonthehardway.org/book/ex27.html)
@@ -45,8 +49,12 @@ __lab 3__ - Prompts and conditionals
 * LPTHW, Exercise 30: [Else And If](http://learnpythonthehardway.org/book/ex30.html)
 * LPTHW, Exercise 31: [Making Decisions](http://learnpythonthehardway.org/book/ex31.html)
 
-__lab 4__ - Loops and lists
+__lab 5__ - Loops and lists
 * LPTHW, Exercise 32: [Loops And Lists](http://learnpythonthehardway.org/book/ex32.html)
+* Time allowing, go back to do
+	* LPTHW, Exercise 8: [Printing, Printing](http://learnpythonthehardway.org/book/ex8.html)
+	* LPTHW, Exercise 9: [Printing, Printing, Printing](http://learnpythonthehardway.org/book/ex9.html)
+	* LPTHW, Exercise 10: [What Was That?](http://learnpythonthehardway.org/book/ex10.html)
 
 
 ###Homework
