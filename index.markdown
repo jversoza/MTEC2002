@@ -18,6 +18,13 @@ Contact Information
 * __Lab:__ V321
 * __Office hours:__ V103, tentatively on Mondays, 5:30-6:30
 
+
+Required Textbooks
+====
+
+* [Learn Python the Hard Way](http://learnpythonthehardway.org/book/) (online version is available for free)
+* [How to Think Like a Computer Scientist](http://openbookproject.net/thinkCSpy/) (online version is available for free)
+
 Overview
 ====
 This class will cover basic to intermediate programming concepts using Python.  In addition, libraries focused on web development, machine learning, gaming, and other emerging media will be introduced as examples of practical applications.  The semester will be broken down into three main sections:
