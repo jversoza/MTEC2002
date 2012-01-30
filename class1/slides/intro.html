@@ -1,0 +1,232 @@
+---
+layout: slides
+title: Intro
+---
+<section>
+	<h1>Class 1 - Introductions and Python Basics</h1>
+	<footer>MTEC2002 - Joseph Versoza </footer>
+</section>
+
+<section>
+<h2>About this course...</h2>
+<ul>
+	<li>MTEC2002 - Programming Foundations for Emerging Technology</li>
+	<li>
+	<a href="../../index.html#contact">Course description</a>
+<!--
+		<ul>
+			<li>Class structure </li>
+			<li> </li>
+		</ul>
+-->
+	</li>
+</ul>
+<details>
+<ul>
+	<li></li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>Class goals</h2>
+<ul>
+	<li>Learn Python!</li>
+	<li>Try out some commonly used Python libraries (web development, machine learning, etc)</li>
+	<li>Comprehend and modify other people’s code</li>
+	<li>Learn programming and software development concepts and practices that can be applied to other languages</li>
+</ul>
+<details>
+</details>
+</section>
+
+<section>
+<h2>Basic class structure - three main sections</h2>
+<ol>
+	<li>Python basics</li>
+	<li>Python libraries</li>
+	<li>Final project / data structures and algorithms</li>
+</ol>
+<details>
+</details>
+</section>
+
+<section>
+<h2>What to expect</h2>
+<ul>
+	<li>Lectures</li>
+	<li>In-class labs</li>
+	<li>
+	Homework
+	<ul>
+		<li>Readings</li>
+		<li>Exercises</li>
+	</ul>
+	</li>
+	<li>Two major projects</li>
+	<li>Four "no-study" quizzes</li>
+</ul>
+<details>
+</details>
+</section>
+
+<section>
+<h2>Introductions</h2>
+<ul>
+	<li>What's the last language you learned?</li>
+	<li>If you know more than one language, what's your favorite and why?</li>
+	<li>What's the last thing that you programmed</li>
+</ul>
+<details>
+</details>
+</section>
+
+<section>
+<h2>About Python...</h2>
+<ul>
+	<li>Python history and language features</li>
+	<li>Setting up</li>
+</ul>
+<details>
+</details>
+</section>
+
+<section>
+<h2>Some Python history</h2>
+<ul>
+	<li>Yes, it was named after Monty Python</li>
+	<li>Based on ABC</li>
+	<li>Invented in 1991 by this bearded Dutch guy (Guido van Rossum):</li>
+</ul>
+<div class="img-container">
+	<img src="../img/guido.jpg" />
+</div>
+<details>
+<ul>
+	<li>ABC - teaching / prototyping language meant to replace BASIC, Pascal, etc</li>
+	<li>Also known as Python's "Benevolent Dictator for Life"</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>Where it's going (and how it's getting there)</h2>
+<ul>
+	<li>Two active branches of Python: 2.x and 3.x</li>
+	<li>Python Enhancement Proposals (PEPs)</li>
+	<li>CPython - reference implementation, but there are others</li>
+	<li>The Python Software Foundation (PSF)</li>
+</ul>
+<details>
+<ul>
+	<li>3.x meant to remove duplicate features and perceived flaws with prior implementation</li>
+	<li>3.x is not backward compatible, but some features have been backported</li>
+	<li>PEPs provide structure for evolution and dev of Python; add language features as well as conventions</li>
+	<li>(C, Java, C#), and new implementations are maturing (PyPy - Python in Python!)</li>
+ 	<li>PSF - non-profit organization that provides organizational structure, governance and community building</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>Where you've seen it before</h2>
+<ul>
+	<li>http://en.wikipedia.org/wiki/List_of_Python_software#Applications</li>
+	<li><a href="http://brainsik.theory.org/.:./2009/why-reddit-uses-python">reddit uses Pylons</a><a href="https://github.com/reddit/reddit"></a></li>
+	<li><a href="http://www.quora.com/Quora-Infrastructure/Why-did-Quora-choose-Python-for-its-development">Quora uses Tornado</a></li>
+	<li><a href="http://en.wikipedia.org/wiki/Eve_Online#Development">EVE Online uses Tornado</a></li>
+	<li>Frameworks like Django (Disqus), Turbogears (SourceForge)</li>
+	<li>Youtube</li>
+	<li>First language supported by Google AppEngine</li>
+	<li>Original Bittorent client</li>
+	<li>etc...</li>
+</ul>
+<details>
+<ul>
+	<li>http://ontwik.com/python/pycon-2011-disqus-serving-400-million-people-with-python/</li>
+	<li>http://compoundthinking.com/blog/index.php/2009/07/16/turbogears-on-sourceforge/</li>
+	<li>http://sayspy.blogspot.com/2006/12/youtube-runs-on-python.html</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>About the <em>language</em></h2>
+<ul>
+	<li>Dynamic / interpreted programming language</li>
+	<li>Dynamically typed</li>
+	<li>Strongly typed</li>
+	<li>Whitespace significant</li>
+	<li>Multi-paradigm</li>
+	<li>Comprehensive standard library</li>
+</ul>
+<details>
+<ul>
+	<li>Technically it's compiled to bytecode, much like Java or c#, but there's no explicit compilation step<li> 
+	<li>Dynamically typed - type checks are done at run time rather than compile time, allowing for for types and functionality to be generated at run time... allows duck typing (ex file-like classes in python)<li> 
+	<li>Imperetive, object oriented, and to some extent, functional programming</li>
+</details>
+</section>
+
+<section>
+<h2>And all of that means...</h2>
+<ul>
+    <li>Ease of use</li>
+	<li>Easier to Ask Forgiveness than Permission (EAFP)</li>
+	<li>One obvious way to do things</li>
+	<li>Readability</li>
+	<li>Batteries included</li>
+</ul>
+<details>
+<ul>
+	<li>Ease of use - no need to wait for compile, no need to declare types, type checking at runtime</li>
+	<li>Ease of use - No coercion like PHP or JavaScript</li>
+	<li>EAFP - duck typing and exceptions</li>
+	<li>Readability - forces proper indentation; whitespace is both human and computer "readable"</li>
+	<li>Batteries Included - large standard library</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>Setup</h2>
+<p>The current 2.x release is 2.7.2, so we'll try to use a veresion as close to that as possible.  This lab has 2.6.1 installed.</p>
+<ul>
+	<li>Python is installed by default on OSX or Ubuntu </li>
+	<li>Windows XP and later: http://www.python.org/download/releases/</li>
+</ul>
+<details>
+<ul>	
+	<li>Although Python 3.x is the eventual future of Python, it hasn't been widely adopted in production systems yet, so we're going with 2.x</li>  
+	<li>2.7.1 is on Lion and Natty</li>
+	<li>Though for most of what we're doing, 2.7.x or 2.6.x should suffice</li>
+	<li>For Windows, I've heard that there may be some PYTHON_PATH issues</li>
+	<li>For the server (putty on windows, or ssh on OSX, Linux), you may be constrained a bit (no installing packages?)</li>
+	<li>The browser based interpreter is really a Python to JS compiler.  Definitely can't install packages.</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>Aaaaaannnnnnnddddd <b>GO!</b></h2>
+<p>Test your install by typing "python" in terminal or cmd.exe</p>
+{% highlight pycon %}
+
+walsh:~ joe$ python
+Python 2.7.1 (r271:86832, Jun 16 2011, 16:59:05) 
+[GCC 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2335.15.00)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print "Aaaaaannnnnnnddddd GO!"
+Aaaaaaand we're on!
+
+
+{% endhighlight %}
+</section>
+
+<section>
+<h2>Some miscellaneous links</h2>
+<ul>
+	<li>http://www.python.org</li>
+	<li>http://learnpythonthehardway.org/</li>
+</ul>
+</section>

@@ -1,0 +1,958 @@
+---
+layout: slides
+title: Intro
+---
+<section>
+	<h1>Syntax and Control Structures</h1>
+	<footer>Intro to Python</footer>
+</section>
+
+<section>
+<h2>Overview</h2>
+<ul>
+	<li>The Python interpreter</li>
+	<li>Syntax</li>
+	<li>Control structures</li>
+	<li>Data types</li>
+</ul>
+<details>
+</details>
+</section>
+
+<section>
+<h2>The Python interpreter</h2>
+<ul>
+	<li>Running programs</li>
+	<li>Interactive shell</li>
+	<li>Some mild introspection</li>
+</ul>
+<details>
+</details>
+</section>
+
+<section>
+<h2>Running programs</h2>
+<ul>
+	<li>Use the interpreter followed by the filename of your program</li>
+	<li>The extension of the filename can be anything, but .py is the convention</li>
+</ul>
+{% highlight console %}
+walsh:tmp joe$ echo "print 'Hi PyGotham'" > hello.py
+walsh:tmp joe$ python hello.py 
+Hi PyGotham
+{% endhighlight %}
+<details>
+<ul>
+	<li>Can pass flags... for example --help shows help, -c runs a command</li>
+	<li>python -c 'print "hello"'</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>Interactive shell</h2>
+<ul>
+	<li>Without the filename, the interactive shell is started</li>
+	<li>Executes input line-by-line</li>
+</ul>
+{% highlight pycon %}
+>>> # prompts for an expression or statement
+... # prompts that an expression or statement needs more input
+{% endhighlight %}
+<ul>
+	<li>&lt;Enter&gt; after a prompt for more input ends that expression or statement</li>
+	<li>Values returned from expressions are printed out</li>
+	<li>Instant feedback is great for testing, debugging and experimenting</li>
+</ul>
+<details>
+<pre>
+5 + 3
+import sys
+if True:
+	print "I don't believe it!"
+if True: # waiting for input shows an error
+...
+# show what "asdf" vs "" resolves to in if statement
+</pre>
+</details>
+</section>
+
+<section>
+<h2>Some mild introspection... and others</h2>
+<ul>
+	<li>help</li>
+	<li>dir</li>
+	<li>type</li>
+	<li>import</li>
+	<li>print</li>
+</ul>
+<details>
+<pre>
+help() # no params gives you interactive help.  "quit" or ^D to quit.
+keywords, ^D
+help([1, 2, 3]), import sys, help(sys) #... by the way, brackets denotes a list!
+import sys, dir(sys), dir(""), dir([]) # import brings in a module... (which is just a file with code)
+type(sys), type(5), li = [], type(li), dir(li), type(li.append),
+ help(li.append), li, li.append('foo'), li
+</pre>
+</details>
+</section>
+
+<section>
+<h2>Syntax</h2>
+<ul>
+	<li>Basic syntax</li>
+	<li>Dot notation, functions/methods and attributes</li>
+	<li>Expressions and simple assignment</li>
+	<li>Space! Object spaces, namespaces</li>
+	<li>Assignment / binding?</li>
+</ul>
+<details>
+</details>
+</section>
+
+<section>
+<h2>Basic syntax</h2>
+<ul>
+	<li>White space significant</li>
+	<li>Colon and indentation signify code blocks</li>
+	<li>Each line is a single statement</li>
+</ul>
+<details>
+<ul>
+	<li>Leading whitespace is meaningful to the program structure!</li>
+	<li>You can use tabs or spaces, but not both.  The convention is to use 4 spaces, though any number is possible as long as it's consistent (demo if with one space, then two).  I use tabs, which is bad.</li>
+	<li>blocks, or groups of statements are specified by indentation level.</li>
+	<li>lines separate statements, unless you explicitly create a continuation using a backslash, but must indent next (demo).</li>
+	<li>or """ quoted string, or an unbalanced brace, bracket, parens (demo).</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>Dot notation, functions/methods and attributes</h2>
+<ul>
+	<li>Dots are used for accessing both functions/methods and attributes</li>
+	<li>Functions and methods are invoked with parentheses; they're "callables"</li>
+	<li>Attributes can be accessed and assigned</li>
+</ul>
+<details>
+<ul>
+	<li>You'll see that they're both actually the same... functions/methods are just callable attributes.  use [].append</li>
+	<li>Demo callable keyword (foo = 12, def bar(): pass, callable)</li>
+</ul>
+<pre>
+>>> class Foo:
+...  def __init__(self):
+...   self.bar = 12
+</pre>
+</details>
+</section>
+
+
+<section>
+<h2>Expressions and simple assignment</h2>
+<ul>
+	<li>Arithmetic operations</li>
+	<li>Assignment</li>
+	<li>Multiple and consecutive assignment</li>
+	<li>Undefined variables</li>
+</ul>
+<details>
+<ul>
+	<li>(demo)+ - *  / all work as you'd expect.  whitespace separating tokens is not significant.</li>
+	<li>(demo) also % (modulo), 5**2 for exponents, bitwise ops 6&amp;2, 2|4, 8&lt;&lt;1 </li>
+	<li>(demo) use = to assign variables</li>
+	<li>(demo) a = b = c = 2</li>
+	<li>(demo) (a, b, c) = (1, 2, 3) ... these are actually tuples, we'll talk about these later</li>
+	<li>(demo) use undefined u + 2 throws NameError</li>
+</ul>
+</details>
+</section>
+
+<section>
+
+<h2>Space! Object spaces, namespaces</h2>
+<ul>
+	<li>Distinction between names (variable names) and values (1, "foo", [23, 35])</li>
+	<li>Namespace - holds names</li>
+	<li>Object space - holds values</li>
+	<li>Names reference values</li>
+	<li>Unreferenced values "disappear" after use; referenced values persist as variables</li>
+</ul>
+{% highlight python %}
+a = "A string"
+b = ["a", "list", "of", "strings"]
+"a " + "b " + "c"
+{% endhighlight %}
+<details>
+</details>
+</section>
+
+<section>
+<h2>Which looks like...</h2>
+{% highlight python %}
+"""
+namespace         object space
+----------         -------------
+a   ----------->   "A string"
+
+b   ----------->   ["a", ...."strings"]
+
+                   "a " + "b " + "c" ---> not referenced! 
+
+
+"""
+{% endhighlight %}
+<details>
+<ul>
+	<li>no ref... reclaim space with gc</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>And that matters... why? (<s>assignment</s> binding)</h2>
+<ul>
+	<li>Again, names are references to values; any name can refer to any value</li>
+	<li>Assignment <b>copies references, not values</b> (hence binding)!</li>
+	<li>The value determines the type, not the name</li>
+	<li>Function parameters are passed as references</li>
+	<li>Immutable objects look like they're dealt with by value, but they're not!  A new instance is created behind the scenes</li>
+</ul>
+<details>
+<ul>
+	<li>Legal names consist of letters, numbers and underscores (though numbers can't be first)</li>
+	<li>(unlike java or c where the variable name is typed)</li>
+	<li>pointer diagrams</li>
+	<li>(demo) ? a = [1,2,3], a.append() ..... eventually b = a... ask about what b will be</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>Queue crude ASCII art</h2>
+{% highlight python %}
+a = [1, 2, 3]
+b = a
+"""
+a -------->[1, 2, 3]
+             ^
+b -----------|
+"""
+
+
+a = [1, 2, 3]
+b = [1, 2, 3]
+"""
+a --->[1, 2, 3]
+b --->[1, 2, 3]
+"""
+{% endhighlight %}
+<details>
+<ul>
+	<li>no ref... reclaim space with gc</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>Control structures</h2>
+<ul>
+	<li>Conditionals</li>
+	<li>Loops</li>
+	<li>Exceptions</li>
+</ul>
+<details>
+</details>
+</section>
+
+<section>
+<h2>Conditionals</h2>
+{% highlight pycon %}
+>>> animal = "duck"
+>>> if animal == "cat":
+...  print "meow"
+... elif animal == "duck":
+...  print "quack"
+... else:
+...  print "are you sure it's not a mineral?"
+{% endhighlight %}
+<ul>
+	<li>elif and else are optional; there can be arbitrary number of elifs</li>
+	<li>No switch-case!  Use many elif's</li>
+</ul>
+<details>
+<ul>
+	<li>Note the colon and indentation to denote blocks</li>
+	<li>elif!?</li>
+	<li>yes, it prints quack</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>Loops</h2>
+<ul>	
+	<li>For loops iterate over items in a sequence (such as lists or chars in a string)</li>
+	<li>Not for arithmetic loop progression (well, maybe with some prodding)</li>
+</ul>
+{% highlight pycon %}
+>>> for i in [-1, 1, 1, 5]:
+...  print i + 2
+{% endhighlight %}
+
+{% highlight pycon %}
+>>> for k, v in {'name':'doughnut', 
+...  'flavor':'frosted with sprinkles'}.items():
+...  print "key = " + k + ", value = " + v
+{% endhighlight %}
+<ul>
+	<li>Just like every other while loop</li>
+</ul>
+{% highlight pycon %}
+>>> while(True):
+...  print 'too.  many.  sprinkles.'
+{% endhighlight %}
+<details>
+<ul>
+	<li>you can do multiple assignments for iterating over dictionaries</li>
+	<li>using range(len(li)) is one way to to iterate over indices</li>
+	<li>? what's it print; yes, it prints quack</li>
+	<li>? what's the output of other for loop</li>
+	<li>? what's the output of while loop</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>Loopier</h2>
+<ul>	
+	<li>Pass, break, and continue</li>
+</ul>
+{% highlight pycon %}
+>>> for i in range(5):
+...  pass 
+{% endhighlight %}
+<ul>
+	<li>else in a loop? only executes after loop terminates normally</li>
+</ul>
+{% highlight pycon %}
+>>> for i in range(5):
+...  print i
+... else:
+...  print "done"
+{% endhighlight %}
+<details>
+(demo) Pass doesn't do anything at all (use for loop)
+(demo) break and continue if necessary
+</details>
+</section>
+
+<section>
+<h2>Loopiest</h2>
+<ul>	
+	<li>A closer look (we're getting ahead of ourselves)</li>
+</ul>
+{% highlight pycon %}
+>>> {'foo':'bar', 'baz':'qux'}.items()
+[('foo', 'bar'), ('baz', 'qux')]
+
+>>> for a, b, c in [(1, 2, 3),(4, 5, 6),(7, 8, 9)]:
+...  print str(a) + ", " + str(b) + ", " + str(c)
+... 
+1, 2, 3
+4, 5, 6
+7, 8, 9
+{% endhighlight %}
+<details>
+(demo) mentioned items... what does that do?  dictionary to list of tuples
+</details>
+</section>
+
+<section>
+<h2>Exceptions</h2>
+<ul>	
+	<li>Try-catch (with an IndexError)</li>
+</ul>
+{% highlight pycon %}
+>>> li = [1, 2]
+>>> try:
+...  print li[42]
+... except Exception, e:
+...  print 'Oh noez ' + str(e)
+... 
+Oh noez list index out of range
+{% endhighlight %}
+<ul>	
+	<li>Use raise to throw your own exception</li>
+</ul>
+{% highlight pycon %}
+>>> raise Exception("Estoy enfermo")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+Exception: Estoy enfermo
+>>> 
+{% endhighlight %}
+<details>
+	<ul>
+		<li>Catches specified exception(s), but Exception will catch all that are subclasses of it</li>
+		<li>Optional finally keyword at end has block that will always execute</li>
+		<li>Multiple excepts allowed for different code paths per exception type</li>
+		<li>Use as to bind exceptions to name, can have multiple except blocks</li>
+	</ul>
+</details>
+</section>
+
+<section>
+<h2>Catching 'em all (multiple exception types)</h2>
+{% highlight pycon %}
+>>> def raise_e(e):
+...  try:
+...   raise e
+...  except (NameError, IndexError) as e:
+...   print type(e)
+... 
+>>> raise_e(Exception)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 3, in raise_e
+Exception
+{% endhighlight %}
+<ul>	
+</ul>
+<details>
+</details>
+</section>
+
+<section>
+<h2>A brief detour</h2>
+<ul>	
+	<li>Remember what range() does?</li>
+	<li>Remember how to iterate over a list?</li>
+</ul>
+<details>
+<ul>	
+	<li>range returns a list of integers</li>
+	<li>iterate over a list with a for loop....</li>
+	<li>(demo) list of integers</li>
+	<li>(demo) iterating over list of integers</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>FizzBuzz</h2>
+<p> Print integers 1 to 100, but replace multiples of 3 with "Fizz" and multiples of 5 with "Buzz" and multiples of both with "FizzBuzz" </p>
+{% highlight console %}
+joe@walsh~/projects/archived/fizzbuzz$ python fizzbuzz.py 
+1
+2
+fizz
+4
+buzz
+fizz
+7
+8
+fizz
+buzz
+11
+fizz
+13
+14
+fizzbuzz
+{% endhighlight %}
+<details>
+<b>ACTIVITY TIME!</b>
+</details>
+</section>
+
+<section>
+<h2>One way to do it:</h2>
+{% highlight python %}
+for n in range(1,100):
+	if n % 3 == 0 and n % 5 == 0:
+		print "fizzbuzz"
+	elif n % 3 == 0:
+		print "fizz"
+	elif n % 5 == 0:
+		print "buzz"
+	else:
+		print n
+{% endhighlight %}
+<details>
+<ul>
+	<li>Remember, no case statement!</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>Data types</h2>
+<ul>
+	<li>Types of types (Yeah, really)</li>
+	<li>Mutability</li>
+	<li>Numbers</li>
+ 	<li>Strings</li>
+ 	<li>Lists and Tuples</li>
+ 	<li>Dictionaries</li>
+ 	<li>Booleans and Comparison Operators</li>
+</ul>
+<details>
+</details>
+</section>
+
+<section>
+<h2>Types of types (Yeah, really)</h2>
+<ul>
+	<li>Numerics</li>
+	<li>Sequences - can be indexed into using numerical keys</li>
+	<li>Mappings - can be indexed into using arbitrary keys</li>
+ 	<li>Files - a sequence of bytes</li>
+ 	<li>Classes</li>
+ 	<li>Instances</li>
+ 	<li>Exceptions</li>
+</ul>
+<details>
+</details>
+</section>
+
+<section>
+<h2><s>Accept</s> Recreate the things you cannot change...</h2>
+<p>Some types in Python are not mutable, like strings and numbers! (Remember, values have types).</p>
+{% highlight pycon %}
+>>> a
+'foo'
+>>> b
+'foo'
+>>> a + " bar"
+'foo bar'
+>>> a
+'foo'
+>>> b
+'foo'
+>>> a = a + " bar"
+>>> a
+'foo bar'
+{% endhighlight %}
+<p>A new string is actually being made when you do concatenation; you don't get a modified version of the old string.</p>
+<details>
+</details>
+</section>
+
+<section>
+<h2>Change the things you can (by reference)</h2>
+<p>Compare that to what happens with mutable data types like lists</p>
+{% highlight pycon %}
+>>> a = [1, 2, 3]
+>>> b = a
+>>> a
+[1, 2, 3]
+>>> b
+[1, 2, 3]
+>>> a.append(4)
+>>> a
+[1, 2, 3, 4]
+>>> b # what will the value be?
+{% endhighlight %}
+<details>
+</details>
+</section>
+
+<section>
+<h2>Numbers</h2>
+<ul>
+	<li>Immutable, Numeric</li>
+	<li>int --&gt; 5</li>
+	<li>long --&gt; 5.5555555</li>
+	<li>float --&gt; 5.55</li>
+	<li>complex --&gt; 5 + 5j</li>
+	<li>Types widen int --&gt; long --&gt; float --&gt; complex</li>
+	<li>Construtors: int(), long(), float(), and complex()</li>
+</ul>
+<details>
+<ul>
+	<li>'Regular' numbers get int type, numbers with a decimal point are floats</li>
+	<li>(demo) floats and ints using type()</li>
+	<li>operands are widened to accommodate wider type when performing operations</li>
+	<li>(demo) operations on two integers yield integers 5 / 2</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>About sequences...</h2>
+<ul>
+	<li>Strings, lists, tuples</li>
+	<li>Index into sequences by using brackets [i]</li>
+	<li>Negative indexes start from the right</li>
+	<li>A subset of a sequence from index n <em>up to</em> m can be sliced out using [n:m]</li>
+</ul>
+<details>
+<pre>
+questions!
+>>> "nerds"[0] #first element,  >>> "nerds"[4] #last element (n - 1)
+>>> "nerds"[5] #IndexError 
+>>> "nerds"[-1] #from the right,  >>> "nerds"[-2] #again
+>>> "nerds"[0:2] #slices
+>>> "nerds"[3:1] #nothing to slice
+>>> "nerds"[3:-1] #something to slice even though negative
+>>> "nerds"[3:] #no end index,  >>> "nerds"[:2] #no start index
+</pre>
+</details>
+</section>
+
+<section>
+<h2>Strings</h2>
+<ul>
+	<li>Immutable, Sequence</li>
+	<li>String literals delimited with
+		<ul>
+			<li>'single quotes'</li>
+			<li>"double quotes"</li>
+			<li>"""triple double quotes</br>
+					span lines!"""</li>
+		</ul>
+	</li>
+	<li>Use backslash to escape quotes, doublequotes and other backslashes</li>
+	<li>\n is a new line (line feed), \r is a carriage return</li>
+	<li>unicode strings are prefixed by u... u"snowman"</li>
+</ul>
+<details>
+<ul>
+	<li>(demo) note that you don't have to escape when using mixed quoting</li>
+	<li>(demo) same as above... don't have to escape double quotes in triple double quotes  </li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>String formatting / interpolation</h2>
+<ul>
+	<li>String and unicode objects can be formatted using the % operator
+		<ul>
+			<li>String interpolation is a way of substituting values into a format string</li>
+			<li><em>format</em> % <em>value(s)</em></li>
+		</ul>
+	</li>
+</ul>
+{% highlight python %}
+>>> a = "milk"
+>>> b = "cookies"
+>>> s = "I like %s and %s" % (a, b)
+>>> s
+'I like milk and cookies'
+{% endhighlight %}
+<details>
+</details>
+</section>
+
+<section>
+<h2>% what?</h2>
+<ul>
+	<li>Format strings use %<em>character</em> as placeholder for values</li>
+	<li>These are called conversion specifiers</li>
+	<li>Some available conversion specifiers include:
+		<ul>
+			<li>%d - integer</li>	
+			<li>%f - float</li>	
+			<li>%s - string</li>	
+			<li>%c - character</li>	
+		</ul>
+	</li>
+</ul>
+<details>
+<ul>
+	<li>An exception will be thrown if the type does not match the type specified in the format</li>
+	<li>"%i will throw an exception" % "foo"</li>
+	<li>There are more complex conversion specifiers; these are the most common</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>Common string functions and methods</h2>
+<p>String methods and functions can be used on both variables and string literals:</p>
+{% highlight python %}
+a = "foo"
+a.upper()
+"foo".upper()
+{% endhighlight %}
+<p>Common functions and methods:</p>
+{% highlight python %}
+len("foo") # length of string
+re.sub("a.$", "ooooo", "foo bar baz") # regex
+"  foo ".strip() # strip surrounding whitespace
+"foo".startswith('f') # true if string starts with x
+"foo".startswith('f') # true if string starts with x
+"foo bar baz".split(' ') # returns list of substrings
+{% endhighlight %}
+<details>
+</details>
+</section>
+
+<section>
+<h2>Lists</h2>
+<ul>
+	<li>Mutable, Sequence</li>
+	<li>Introduced by brackets... []</li>
+	<li>Each value is separated by commas</li>
+	<li>Use list(a) to copy an array</li>
+</ul>
+<details>
+<ul>
+<li>Since arrays are mutable and passed by reference, be careful copying</li>
+<li>(demo) copying</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>List comprehensions</h2>
+<ul>
+	<li>A compact way of acting on every element in a list to return a new list
+		<ul>
+			<li>Think of it as a one line for in loop</li>
+			<li>If you're familiar with functional programming, it does some of the things that map, filter and lambda do in one construct</li>
+		</ul>
+	</li>
+	<li>General pattern: <em>expression</em> for <em>var</em> in <em>list</em></li> 
+	<li>...followed by an optional if which acts like a filter</li>
+	<li>...or even zero or more for's</li>
+</ul>
+{% highlight pycon %}
+>>> [s.strip() for s in ['   space ', 'man   ']]
+['space', 'man']
+>>> [s.strip() for s in ['   space ', 'man   '] \
+...  if s.upper().strip() == 'MAN']
+['man']
+{% endhighlight %}
+<details>
+<pre>
+map maps a function to every element in an array/list
+filter filters an array/list using a function
+lambda allows for anonymous functions
+.... all of these actually exist in Python
+</pre>
+</details>
+</section>
+
+<section>
+<h2>Another look</h2>
+{% highlight pycon %}
+>>> [s.strip() for s in ['   space ', 'man   '] \
+...  if s.upper().strip() == 'MAN']
+['man']
+{% endhighlight %}
+<ul>
+	<li>The expression for... in list basically goes through each list item and runs the expression</li>
+	<li>The if expression at the end only includes the element in the new list if it satisfies the condition</li> 
+</ul>
+<details>
+</details>
+</section>
+
+<section>
+<h2>A few quick exercises</h2>
+<p>Use a for loop that will iterate over a list and create a new list with the cubes of every value in the first list.  Use range to create the initial list.</p><br />
+<p>Use a for loop to go through a list of names.  Return a new list containing filtered list of three letter names all transformed to upper case  The list of names is as follows:  ['bob', 'alice', 'carol', 'dave', 'eve' ] </p>
+<p><br />
+Do both exercises above using list comprehensions.
+</p>
+<details>
+</details>
+</section>
+
+<section>
+<h2>Solutions</h2>
+{% highlight pycon %}
+>>>[x.upper() for x in ['bob', 'alice', 'carol', 'dave', 'eve' ] if len(x) == 3]
+['BOB', 'EVE']
+>>> [x**3 for x in range(5)]
+[0, 1, 8, 27, 64]
+>>> [x**3 for x in range(1,5)]
+[1, 8, 27, 64]
+>>> [x**3 for x in range(1,6)]
+{% endhighlight %}
+<details>
+</details>
+</section>
+
+<section>
+<h2>Common list functions</h2>
+<ul>
+	<li>range(5), range(1, 6) # returns list up to, but not including... </li>
+	<li>[1, 2, 4, 1, 5, 1].count(1) # returns number of occurrences of arg in list</li>
+	<li>li.append(4) # appends element to end of list</li>
+	<li>li.remove(4) # removes first occurrence of...</li>
+	<li>li.pop() # Returns and removes the last element</li>
+	<li>li.extend([3, 4]) # appends all items of one list to the other...</li>
+	<li>li.sort() # sorts list in place</li>
+</ul>
+<details>
+</details>
+</section>
+
+<section>
+<h2>Tuples</h2>
+<ul>
+	<li>Immutable, Sequence</li>
+	<li>Tuples are just comma delimited sequences: 1, 2 </li>
+	<li>They're usually wrapped in ()'s though: (1, 2), but it's the commas that are important!</li>
+	<li>A tuple can be unpacked into variables: a, b, c = t where t is a tuple with 3 values</li>
+	<li>Look familiar?  Multiple assignment is really just sequence unpacking.</li>
+	<li>You can think of tuples as immutable lists!</li>
+</ul>
+<details>
+<pre>
+(demo) can't append because immutable
+(demo) just commas
+(demo) packing unpacking
+(demo) for k, v in ...
+</pre>
+</details>
+</section>
+
+<section>
+<h2>Dictionary</h2>
+<ul>
+	<li>Mutable, Mapping</li>
+	<li>An unordered set of key-value pairs (really!  you absolutely cannot rely on the order of dictionary elements)</li>
+	<li>Called associative arrays or hashes in other languages</li>
+	<li>Keys must be unique and immutable (numbers and strings work great!)</li>
+	<li>Values can be anything!</li>
+	<li>Like JSON, curly braces and colons to represent dictionaries and name/value pairs</li>
+</ul>
+<details>
+<ul>
+	<li>(demo) accessing elements</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>Iterating through dictionaries</h2>
+{% highlight python %}
+>>> d = {'foo':'bar', 'baz':'qux'}
+>>> for e in d:
+...  print e
+... 
+foo
+baz
+?
+{% endhighlight %}
+<details>
+<ul>
+	<li>(demo) regular for loop goes through keys</li>
+	<li>(demo) for loop using k, v to get error</li>
+	<li>(demo) items()</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>There's a bit more to it</h2>
+<ul>
+	<li>And if a key doesn't exist...</li>
+	<li>d.get('bob') # no exception, get None instead</li>
+	<li>d = dict(foo = "bar", baz = "qux") # constructor style rather than dict literal</li>
+	<li>d.keys() # returns a list of the dict's keys</li>
+	<li>d.items() # returns a list of tuples of the name value pairs</li>
+</ul>
+</section>
+
+<section>
+<h2>Booleans and comparison operators</h2>
+<ul>
+	<li>Of course, True and False</li>
+	<li>Usual comparison operators, &gt;, &lt;, &gt;=, &lt;=, ==, &lt;&gt;, and !=</li>
+	<li>Comparison operators can be chained: 7 &gt; 5 &gt; 3</li>
+	<li>and and or returns one of their operands! 
+		<ul>
+			<li>Short circuit evaluation</li>
+			<li>and returns the left hand operator if it's False (it already knows outcome, so just return), otherwise, the right hand operator is returned</li>
+			<li>or returns the left hand operator if it's True</li>
+		</ul>
+	</li>
+</ul>
+<details>
+<pre>
+7 >5 > 2 # chained
+>>> 0 and 25 # left hand op is False and "and"
+>>> 25 and 0
+>>> 25 and 35
+>>> 25 and 35 and 45
+# note that these evaluate to True or False
+(8 > 2) and "foo" or "bar" # trick for ternary, but don't do it...
+</pre>
+</details>
+</section>
+
+<section>
+<h2>What's considered False?</h2>
+<ul>
+	<li>False (obv!)</li>
+	<li>None</li>
+	<li>Any empty sequence, such as '', () or [], or mapping, such as {}</li>
+	<li>0 for any numeric type</li>
+	<li>User defined classes that define a __nonzero__() or __len__() method that returns something False-y</li>
+</ul>
+<br />
+<p>Everything else is True</p>
+<details>
+</details>
+</section>
+
+<section>
+<h2>Using modules</h2>
+<ul>
+	<li>A module is a file with Python code in it</li>
+	<li>Python has many built-in modules - help('modules')</li>
+	<li>You can bring in all of the definitions in a module by using the import statement </li>
+	<li>import <em>modulename</em> (no quotes around the module name)</li>
+	<li>Try importing the following modules:<ul>
+		<li>sys</li>
+		<li>os</li>
+		<li>json</li>
+		<li>urllib</li>
+	</ul>
+	<li>What do these modules do?  What are some methods and attributes that are in them?</li>
+</ul>
+<details>
+</details>
+</section>
+
+<section>
+<h2>Putting it all together</h2>
+<p>Use urllib and json to get tweets about Python using the twitter search API:
+</p>
+<ul>
+	<li>print the 10 latest tweets about Python</li> 
+	<li>by users that have a handle that starts with 'j'</li>
+	<li>while remembering to include exception handling</li>
+</ul>
+<br />
+<p>You'll need a couple of bits of information:
+</p>
+<ul>
+	<li>Twitter search api docs: <br />https://dev.twitter.com/docs/using-search</li>
+	<li>The url to perform the search: <br />http://search.twitter.com/search.json?q=%40python</li>
+</ul>
+<details>
+<b>ACTIVITY TIME</b>
+</details>
+</section>
+
+<section>
+<h2>A bit of help</h2>
+{% highlight python %}
+>>> import urllib
+>>> import json
+>>> # should probably look for IOError here...
+>>> f = urllib.urlopen(\
+...  'http://search.twitter.com/search.json?q=%40python')
+...
+>>> d = json.loads(f.read())
+>>> d['results'][0]['text']
+{% endhighlight %}
+</section>
