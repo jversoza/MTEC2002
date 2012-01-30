@@ -61,8 +61,8 @@ __lab 5__ - Loops and lists
 * Read [Intro to LPTHW](http://learnpythonthehardway.org/book/intro.html)
 * Use [Excercise 0](http://learnpythonthehardway.org/book/ex0.html) to install Python
 * Browse through learncodethehardway 
-* Fizz Buzz (via [Imran On Tech](http://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/))
-	Write a program that prints the numbers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print "FizzBuzz".
+* Fizz Buzz (via [Imran On Tech](http://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/)) -  
+ "Write a program that prints the numbers from 1 to 100. But for multiples of three print 'Fizz' instead of the number and for the multiples of five print 'Buzz'. For numbers which are multiples of both three and five print 'FizzBuzz'."
 
 
 Class 2 - February 8th - Data Structures, Version Control
