@@ -1,9 +1,9 @@
 ---
 layout: default
-title: MTEC2002 - Programming Foundations for Emerging Technology
+title: MTEC2002 - Media Skills Lab IV (Programming in Python) - Spring 2012
 nav-state: index
 ---
-MTEC2002 - Programming Foundations for Emerging Technology
+MTEC2002 - Media Skills Lab IV (Programming in Python)
 ====
 * __Semester:__ Spring 2012
 * __Department:__ Emerging Media Technologies
@@ -16,8 +16,7 @@ Contact Information
 * __Course site:__ tentatively - [http://jversoza.github.com/MTEC2002](http://jversoza.github.com/MTEC2002)
 * __Github:__ [https://github.com/jversoza](https://github.com/jversoza)
 * __Lab:__ V321
-* __Office hours:__ V103, tentatively on Mondays, 5:30-6:30
-
+* __Office hours:__ V103, Tuesdays 5:30 to 6:30
 
 Required Textbooks
 ====
@@ -59,14 +58,29 @@ Quizzes:
 * 4 x quizzes
 * Questions will be **very basic** (if you've done the homework, there's no need to prep!)
 
-There will also be two major projects.  You can work as individuals or as teams.  However, if you work as  a teams, collaboration must be apparent via commits in git.
+There will also be two major projects that you are expected to work on outside of class. 
 * Midterm
 * Final
+
+Attendance
+====
+Attendance is required for all classes. If a student misses a class session, it is the student's responsibility to make up any work missed. More than 3 absences will result in an "F" (Failure). Two late arrivals = one absence.
 
 Grading
 ====
 * 10% - participation (in class, and electronically!)
 * 5% - quizzes
-* 50% - homework
+* 50% - labwork/homework
 * 10% - midterm
 * 25% - final project
+
+Lab Policy
+====
+1. No food or beverages at any time.
+2. Do not modify desktop settings and do not leave any files on the desktop.
+3. Locate all of your work in the assigned student folder.
+4. No installation of software unless working with an instructor.
+5. You are responsible for keeping all of your files on portable storage media. We cannot promise your files will remain from one class to the next.
+6. Lab is reserved for students enrolled in MTEC or ENT courses.
+7. Open lab hours are posted and subject to change.
+
