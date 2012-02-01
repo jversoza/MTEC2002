@@ -55,17 +55,22 @@ __Part 5__ - Loops and lists
 
 
 ###Homework
+Due next class, Feb 8th, Wednesday, 6PM
 * Read [Intro to LPTHW](http://learnpythonthehardway.org/book/intro.html)
-* Use [Excercise 0](http://learnpythonthehardway.org/book/ex0.html) to install Python on your home computer
 * Number guessing game 
 	* __Turn in via github__ by the start of next week's class (Feb 8th, Wednesday, 6PM)
 	* https://github.com/[your github username]/mtec2002_assignments/blob/master/class1/hw/guess_number.py
 * Fizz Buzz (via [Imran On Tech](http://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/)) -  
 	* __Turn in via github__ by the start of next week's class (Feb 8th, Wednesday, 6PM)
 	* https://github.com/[your github username]/mtec2002_assignments/blob/master/class1/hw/fizz_buzz.py
-* Make a Directory - [mkdir](http://cli.learncodethehardway.org/book/cli-crash-coursech4.html#x9-250004)
-* Change Directory - [cd](http://cli.learncodethehardway.org/book/cli-crash-coursech5.html#x10-290005)
-* List the Contents of a Directory - [ls](http://cli.learncodethehardway.org/book/cli-crash-coursepa1.html#x8-24000I)
+
+
+Suggested reading and exercises
+* Use [Excercise 0](http://learnpythonthehardway.org/book/ex0.html) to install Python on your home computer
+* Getting familiar with the commandline
+	* Make a Directory - [mkdir](http://cli.learncodethehardway.org/book/cli-crash-coursech4.html#x9-250004)
+	* Change Directory - [cd](http://cli.learncodethehardway.org/book/cli-crash-coursech5.html#x10-290005)
+	* List the Contents of a Directory - [ls](http://cli.learncodethehardway.org/book/cli-crash-coursepa1.html#x8-24000I)
 
 
 Class 2 - February 8th - Data Structures, Version Control
