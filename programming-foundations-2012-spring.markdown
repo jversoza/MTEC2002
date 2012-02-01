@@ -23,25 +23,21 @@ Class 1 - February 1st - Introductions, Basic Types
 * [Close](class1/slides/close.html)
 
 ###Labs
-__Lab 1__ - Some setup, getting familiar with the Python interpreter
-
-* A whirlwind intro to the commandline - via [learncodethehardway](cli.learncodethehardway.org)
-	* Make a Directory - [mkdir](http://cli.learncodethehardway.org/book/cli-crash-coursech4.html#x9-250004)
-	* Change Directory - [cd](http://cli.learncodethehardway.org/book/cli-crash-coursech5.html#x10-290005)
-	* List the Contents of a Directory - [ls](http://cli.learncodethehardway.org/book/cli-crash-coursepa1.html#x8-24000I)
+__Part 1__ - Some setup, getting familiar with the Python interpreter
+* See [Setting Up](class1/slides/setup.html)
 * LPTHW, Exercise 1: [A Good First Program](http://learnpythonthehardway.org/book/ex1.html)
 
-__lab 2__ - Statements, expressions, and comments
+__Part 2__ - Statements, expressions, and comments
 * LPTHW, Exercise 2: [Comments And Pound Characters](http://learnpythonthehardway.org/book/ex2.html)
 * LPTHW, Exercise 3: [Numbers And Math](http://learnpythonthehardway.org/book/ex3.html)
 * LPTHW, Exercise 4: [Variables And Names](http://learnpythonthehardway.org/book/ex4.html)
 * LPTHW, Exercise 5: [More Variables And Printing](http://learnpythonthehardway.org/book/ex5.html)
 
-__lab 3__ - Strings
+__Part 3__ - Strings
 * LPTHW, Exercise 6: [Strings And Text](http://learnpythonthehardway.org/book/ex6.html)
 * LPTHW, Exercise 7: [More Printing](http://learnpythonthehardway.org/book/ex7.html)
 
-__lab 4__ - Prompts and conditionals
+__Part 4__ - Prompts and conditionals
 * LPTHW, Exercise 11: [Asking Questions](http://learnpythonthehardway.org/book/ex11.html)
 * LPTHW, Exercise 12: [Prompting People](http://learnpythonthehardway.org/book/ex12.html)
 * LPTHW, Exercise 27: [Memorizing Logic](http://learnpythonthehardway.org/book/ex27.html)
@@ -50,7 +46,7 @@ __lab 4__ - Prompts and conditionals
 * LPTHW, Exercise 30: [Else And If](http://learnpythonthehardway.org/book/ex30.html)
 * LPTHW, Exercise 31: [Making Decisions](http://learnpythonthehardway.org/book/ex31.html)
 
-__lab 5__ - Loops and lists
+__Part 5__ - Loops and lists
 * LPTHW, Exercise 32: [Loops And Lists](http://learnpythonthehardway.org/book/ex32.html)
 * Time allowing, go back to do
 	* LPTHW, Exercise 8: [Printing, Printing](http://learnpythonthehardway.org/book/ex8.html)
@@ -60,10 +56,16 @@ __lab 5__ - Loops and lists
 
 ###Homework
 * Read [Intro to LPTHW](http://learnpythonthehardway.org/book/intro.html)
-* Use [Excercise 0](http://learnpythonthehardway.org/book/ex0.html) to install Python
-* Browse through learncodethehardway 
+* Use [Excercise 0](http://learnpythonthehardway.org/book/ex0.html) to install Python on your home computer
+* Number guessing game 
+	* __Turn in via github__ by the start of next week's class (Feb 8th, Wednesday, 6PM)
+	* https://github.com/[your github username]/mtec2002_assignments/blob/master/class1/hw/guess_number.py
 * Fizz Buzz (via [Imran On Tech](http://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/)) -  
- "Write a program that prints the numbers from 1 to 100. But for multiples of three print 'Fizz' instead of the number and for the multiples of five print 'Buzz'. For numbers which are multiples of both three and five print 'FizzBuzz'."
+	* __Turn in via github__ by the start of next week's class (Feb 8th, Wednesday, 6PM)
+	* https://github.com/[your github username]/mtec2002_assignments/blob/master/class1/hw/fizz_buzz.py
+* Make a Directory - [mkdir](http://cli.learncodethehardway.org/book/cli-crash-coursech4.html#x9-250004)
+* Change Directory - [cd](http://cli.learncodethehardway.org/book/cli-crash-coursech5.html#x10-290005)
+* List the Contents of a Directory - [ls](http://cli.learncodethehardway.org/book/cli-crash-coursepa1.html#x8-24000I)
 
 
 Class 2 - February 8th - Data Structures, Version Control
