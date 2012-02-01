@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: MTEC2002 - Programming Foundations for Emerging Technology - Spring 2012
 nav-state: syllabus
@@ -19,7 +18,9 @@ Class 1 - February 1st - Introductions, Basic Types
 
 ###Slides
 * [Introduction](class1/slides/intro.html)
+* [Setting Up](class1/slides/setup.html)
 * [Syntax](class1/slides/syntax.html)
+* [Close](class1/slides/close.html)
 
 ###Labs
 __Lab 1__ - Some setup, getting familiar with the Python interpreter
