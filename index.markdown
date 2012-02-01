@@ -47,19 +47,25 @@ Each class will consist of the following
 * In-class labs 
 * Close and summary
 
-There will be weekly homework.  The only way to learn how to program is to actually program.   **A lot**.  Roughly, the homework will consist of: 
+Course Work
+====
+The labs for each week will be purposely ambitious.  Leftover material will be for take-home assignments.  Consequently, there will be weekly homework.  The only way to learn how to program is to actually program.   **A lot**.  Roughly, the homework will consist of: 
 * Readings 
-* Programming exercises - to be turned in **electronically via github**
+* Left over lab work and short programming exercises	
 	* Writing your own code
 	* Reading and modifying other people's code (including your peers)
 	* Will be executed using unit tests
 	* Will be run through pylint
 
+Homework policies:
+* To be turned in **electronically via github**
+* No later than the beginning of the following class (that is, the following Wednesay at 6:00 PM)
+
 Quizzes:
 * 4 x quizzes
 * Questions will be **very basic** (if you've done the homework, there's no need to prep!)
 
-There will also be two major projects that you are expected to work on outside of class. 
+There will also be two major projects that you are expected to work on outside of class: 
 * Midterm
 * Final
 
