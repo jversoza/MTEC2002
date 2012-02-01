@@ -19,7 +19,9 @@ Class 1 - February 1st - Introductions, Basic Types
 ###Slides
 * [Introduction](class1/slides/intro.html)
 * [Setting Up](class1/slides/setup.html)
-* [Syntax](class1/slides/syntax.html)
+* [String and Numbers](class1/slides/strings_numbers.html)
+* [Prompts and Conditionals](class1/slides/prompts_and_conditionals.html)
+* [Lists and Loops](class1/slides/lists_and_loops.html)
 * [Close](class1/slides/close.html)
 
 ###Labs
@@ -27,17 +29,15 @@ __Part 1__ - Some setup, getting familiar with the Python interpreter
 * See [Setting Up](class1/slides/setup.html)
 * LPTHW, Exercise 1: [A Good First Program](http://learnpythonthehardway.org/book/ex1.html)
 
-__Part 2__ - Statements, expressions, and comments
+__Part 2__ - Statements, expressions, comments, strings and numbers!
 * LPTHW, Exercise 2: [Comments And Pound Characters](http://learnpythonthehardway.org/book/ex2.html)
 * LPTHW, Exercise 3: [Numbers And Math](http://learnpythonthehardway.org/book/ex3.html)
 * LPTHW, Exercise 4: [Variables And Names](http://learnpythonthehardway.org/book/ex4.html)
 * LPTHW, Exercise 5: [More Variables And Printing](http://learnpythonthehardway.org/book/ex5.html)
-
-__Part 3__ - Strings
 * LPTHW, Exercise 6: [Strings And Text](http://learnpythonthehardway.org/book/ex6.html)
 * LPTHW, Exercise 7: [More Printing](http://learnpythonthehardway.org/book/ex7.html)
 
-__Part 4__ - Prompts and conditionals
+__Part 3__ - Prompts and conditionals
 * LPTHW, Exercise 11: [Asking Questions](http://learnpythonthehardway.org/book/ex11.html)
 * LPTHW, Exercise 12: [Prompting People](http://learnpythonthehardway.org/book/ex12.html)
 * LPTHW, Exercise 27: [Memorizing Logic](http://learnpythonthehardway.org/book/ex27.html)
@@ -46,9 +46,9 @@ __Part 4__ - Prompts and conditionals
 * LPTHW, Exercise 30: [Else And If](http://learnpythonthehardway.org/book/ex30.html)
 * LPTHW, Exercise 31: [Making Decisions](http://learnpythonthehardway.org/book/ex31.html)
 
-__Part 5__ - Loops and lists
+__Part 4__ - Loops and lists
 * LPTHW, Exercise 32: [Loops And Lists](http://learnpythonthehardway.org/book/ex32.html)
-* Time allowing, go back to do
+* Time allowing, go back to do:
 	* LPTHW, Exercise 8: [Printing, Printing](http://learnpythonthehardway.org/book/ex8.html)
 	* LPTHW, Exercise 9: [Printing, Printing, Printing](http://learnpythonthehardway.org/book/ex9.html)
 	* LPTHW, Exercise 10: [What Was That?](http://learnpythonthehardway.org/book/ex10.html)
