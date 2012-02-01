@@ -1,12 +1,13 @@
 ---
 layout: default
-title: MTEC2002 - Media Skills Lab IV (Programming in Python) - Spring 2012
+title: MTEC2002 - Programming Foundations for Emerging Technology - Spring 2012
 nav-state: index
 ---
-MTEC2002 - Media Skills Lab IV (Programming in Python)
+MTEC2002
 ====
 * __Semester:__ Spring 2012
 * __Department:__ Emerging Media Technologies
+* __Also Listed As:__ Media Skills Lab IV
 
 <a name="contact" id="contact"></a>
 Contact Information
@@ -62,6 +63,7 @@ There will also be two major projects that you are expected to work on outside o
 * Midterm
 * Final
 
+<a name="policies" id="policies"></a>
 Attendance
 ====
 Attendance is required for all classes. If a student misses a class session, it is the student's responsibility to make up any work missed. More than 3 absences will result in an "F" (Failure). Two late arrivals = one absence.
