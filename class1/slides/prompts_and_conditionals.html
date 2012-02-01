@@ -1,0 +1,96 @@
+---
+layout: slides
+title: Prompts and Conditionals
+---
+<section>
+	<h1>Prompts and Conditionals</h1>
+	<footer>MTEC2002 - Joe Versoza</footer>
+</section>
+
+
+<section>
+<h2>Overview</h2>
+<ul>
+	<li>True and False</li>
+	<li>Boolean logic</li>
+	<li>Conditionals</li>
+</ul>
+</section>
+
+
+<section>
+<h2>Booleans</h2>
+<p>In Python (note the uppercase first letter):</p>
+<ul>
+	<li>True</li>
+	<li>False</li>
+</ul>
+</section>
+
+
+<section>
+<h2>What's considered False?</h2>
+<ul>
+	<li>False (obv!)</li>
+	<li>None (think of this as null in Java/Processing)</li>
+	<li>Any empty sequence, such as '', () or [], or mapping, such as {}</li>
+	<li>0 for any numeric type</li>
+	<li>User defined classes that define a __nonzero__() or __len__() method that returns something False-y</li>
+</ul>
+<br />
+<p>Everything else is True</p>
+<details>
+</details>
+</section>
+
+
+<section>
+<h2>Comparison operators</h2>
+<ul>
+	<li>Usual comparison operators, &gt;, &lt;, &gt;=, &lt;=, ==, &lt;&gt;, and !=</li>
+	<li>Comparison operators can be chained: 7 &gt; 5 &gt; 3</li>
+	<li><strong>and</strong> and <strong>or</strong> returns one of their operands! 
+		<ul>
+			<li>Short circuit evaluation</li>
+			<li>and returns the left hand operator if it's False (it already knows outcome, so just return), otherwise, the right hand operator is returned</li>
+			<li>or returns the left hand operator if it's True</li>
+		</ul>
+	</li>
+</ul>
+<details>
+<pre>
+7 >5 > 2 # chained
+>>> 0 and 25 # left hand op is False and "and"
+>>> 25 and 0
+>>> 25 and 35
+>>> 25 and 35 and 45
+# note that these evaluate to True or False
+(8 > 2) and "foo" or "bar" # trick for ternary, but don't do it...
+</pre>
+</details>
+</section>
+
+
+<section>
+<h2>Conditionals</h2>
+{% highlight pycon %}
+>>> animal = "duck"
+>>> if animal == "cat":
+...  print "meow"
+... elif animal == "duck":
+...  print "quack"
+... else:
+...  print "are you sure it's not a mineral?"
+{% endhighlight %}
+<ul>
+	<li>elif and else are optional; there can be arbitrary number of elifs</li>
+	<li>No switch-case!  Use many elif's</li>
+</ul>
+<details>
+<ul>
+	<li>Note the colon and indentation to denote blocks</li>
+	<li>elif!?</li>
+	<li>yes, it prints quack</li>
+</ul>
+</details>
+</section>

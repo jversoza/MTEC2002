@@ -19,7 +19,7 @@ Class 1 - February 1st - Introductions, Basic Types
 ###Slides
 * [Introduction](class1/slides/intro.html)
 * [Setting Up](class1/slides/setup.html)
-* [String and Numbers](class1/slides/strings_numbers.html)
+* [String and Numbers](class1/slides/strings_and_numbers.html)
 * [Prompts and Conditionals](class1/slides/prompts_and_conditionals.html)
 * [Lists and Loops](class1/slides/lists_and_loops.html)
 * [Close](class1/slides/close.html)
@@ -48,6 +48,9 @@ __Part 3__ - Prompts and conditionals
 
 __Part 4__ - Loops and lists
 * LPTHW, Exercise 32: [Loops And Lists](http://learnpythonthehardway.org/book/ex32.html)
+* Instructions for the next two labs are in the file
+	* https://github.com/ __GITHUB USERNAME__ /mtec2002_assignments/blob/master/class1/labs/loops_cubes.py
+	* https://github.com/ __GITHUB USERNAME__ /mtec2002_assignments/blob/master/class1/labs/loops_three_letter.py
 * Time allowing, go back to do:
 	* LPTHW, Exercise 8: [Printing, Printing](http://learnpythonthehardway.org/book/ex8.html)
 	* LPTHW, Exercise 9: [Printing, Printing, Printing](http://learnpythonthehardway.org/book/ex9.html)
@@ -59,10 +62,12 @@ Due next class, Feb 8th, Wednesday, 6PM
 * Read [Intro to LPTHW](http://learnpythonthehardway.org/book/intro.html)
 * Number guessing game 
 	* __Turn in via github__ by the start of next week's class (Feb 8th, Wednesday, 6PM)
-	* https://github.com/[your github username]/mtec2002_assignments/blob/master/class1/hw/guess_number.py
+	* Instructions are in the file
+	* https://github.com/ __GITHUB USERNAME__ /mtec2002_assignments/blob/master/class1/hw/guess_number.py
 * Fizz Buzz (via [Imran On Tech](http://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/)) -  
 	* __Turn in via github__ by the start of next week's class (Feb 8th, Wednesday, 6PM)
-	* https://github.com/[your github username]/mtec2002_assignments/blob/master/class1/hw/fizz_buzz.py
+	* Instructions are in the file
+	* https://github.com/ __GITHUB USERNAME__ /mtec2002_assignments/blob/master/class1/hw/fizz_buzz.py
 
 
 Suggested reading and exercises

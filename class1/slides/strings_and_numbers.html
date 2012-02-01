@@ -1,23 +1,23 @@
 ---
 layout: slides
-title: Intro
+title: Strings and Numbers
 ---
 <section>
-	<h1>Basic Syntax and Control Structures</h1>
+	<h1>Strings and Numbers</h1>
 	<footer>MTEC2002 - Joe Versoza</footer>
 </section>
+
 
 <section>
 <h2>Overview</h2>
 <ul>
 	<li>The Python interpreter</li>
 	<li>Syntax</li>
-	<li>Control structures</li>
-	<li>Data types</li>
+	<li>Strings</li>
+	<li>Numbers</li>
 </ul>
-<details>
-</details>
 </section>
+
 
 <section>
 <h2>The Python interpreter</h2>
@@ -170,386 +170,10 @@ type(sys), type(5), li = [], type(li), dir(li), type(li.append),
 </details>
 </section>
 
-<section>
-
-<h2>Space! Object spaces, namespaces</h2>
-<ul>
-	<li>Distinction between names (variable names) and values (1, "foo", [23, 35])</li>
-	<li>Namespace - holds names</li>
-	<li>Object space - holds values</li>
-	<li>Names reference values</li>
-	<li>Unreferenced values "disappear" after use; referenced values persist as variables</li>
-</ul>
-{% highlight python %}
-a = "A string"
-b = ["a", "list", "of", "strings"]
-"a " + "b " + "c"
-{% endhighlight %}
-<details>
-</details>
-</section>
-
-<section>
-<h2>Which looks like...</h2>
-{% highlight python %}
-"""
-namespace         object space
-----------         -------------
-a   ----------->   "A string"
-
-b   ----------->   ["a", ...."strings"]
-
-                   "a " + "b " + "c" ---> not referenced! 
-
-
-"""
-{% endhighlight %}
-<details>
-<ul>
-	<li>no ref... reclaim space with gc</li>
-</ul>
-</details>
-</section>
-
-<section>
-<h2>And that matters... why? (<s>assignment</s> binding)</h2>
-<ul>
-	<li>Again, names are references to values; any name can refer to any value</li>
-	<li>Assignment <b>copies references, not values</b> (hence binding)!</li>
-	<li>The value determines the type, not the name</li>
-	<li>Function parameters are passed as references</li>
-	<li>Immutable objects look like they're dealt with by value, but they're not!  A new instance is created behind the scenes</li>
-</ul>
-<details>
-<ul>
-	<li>Legal names consist of letters, numbers and underscores (though numbers can't be first)</li>
-	<li>(unlike java or c where the variable name is typed)</li>
-	<li>pointer diagrams</li>
-	<li>(demo) ? a = [1,2,3], a.append() ..... eventually b = a... ask about what b will be</li>
-</ul>
-</details>
-</section>
-
-<section>
-<h2>Queue crude ASCII art</h2>
-{% highlight python %}
-a = [1, 2, 3]
-b = a
-"""
-a -------->[1, 2, 3]
-             ^
-b -----------|
-"""
-
-
-a = [1, 2, 3]
-b = [1, 2, 3]
-"""
-a --->[1, 2, 3]
-b --->[1, 2, 3]
-"""
-{% endhighlight %}
-<details>
-<ul>
-	<li>no ref... reclaim space with gc</li>
-</ul>
-</details>
-</section>
-
-<section>
-<h2>Control structures</h2>
-<ul>
-	<li>Conditionals</li>
-	<li>Loops</li>
-</ul>
-<details>
-</details>
-</section>
-
-<section>
-<h2>Conditionals</h2>
-{% highlight pycon %}
->>> animal = "duck"
->>> if animal == "cat":
-...  print "meow"
-... elif animal == "duck":
-...  print "quack"
-... else:
-...  print "are you sure it's not a mineral?"
-{% endhighlight %}
-<ul>
-	<li>elif and else are optional; there can be arbitrary number of elifs</li>
-	<li>No switch-case!  Use many elif's</li>
-</ul>
-<details>
-<ul>
-	<li>Note the colon and indentation to denote blocks</li>
-	<li>elif!?</li>
-	<li>yes, it prints quack</li>
-</ul>
-</details>
-</section>
-
-<section>
-<h2>Loops</h2>
-<ul>	
-	<li>For loops iterate over items in a sequence (such as lists or chars in a string)</li>
-	<li>Not for arithmetic loop progression (well, maybe with some prodding)</li>
-</ul>
-{% highlight pycon %}
->>> for i in [-1, 1, 1, 5]:
-...  print i + 2
-{% endhighlight %}
-
-{% highlight pycon %}
->>> for k, v in {'name':'doughnut', 
-...  'flavor':'frosted with sprinkles'}.items():
-...  print "key = " + k + ", value = " + v
-{% endhighlight %}
-<ul>
-	<li>Just like every other while loop</li>
-</ul>
-{% highlight pycon %}
->>> while(True):
-...  print 'too.  many.  sprinkles.'
-{% endhighlight %}
-<details>
-<ul>
-	<li>you can do multiple assignments for iterating over dictionaries</li>
-	<li>using range(len(li)) is one way to to iterate over indices</li>
-	<li>? what's it print; yes, it prints quack</li>
-	<li>? what's the output of other for loop</li>
-	<li>? what's the output of while loop</li>
-</ul>
-</details>
-</section>
-
-<section>
-<h2>Loopier</h2>
-<ul>	
-	<li>Pass, break, and continue</li>
-</ul>
-{% highlight pycon %}
->>> for i in range(5):
-...  pass 
-{% endhighlight %}
-<ul>
-	<li>else in a loop? only executes after loop terminates normally</li>
-</ul>
-{% highlight pycon %}
->>> for i in range(5):
-...  print i
-... else:
-...  print "done"
-{% endhighlight %}
-<details>
-(demo) Pass doesn't do anything at all (use for loop)
-(demo) break and continue if necessary
-</details>
-</section>
-
-<section>
-<h2>Loopiest</h2>
-<ul>	
-	<li>A closer look (we're getting ahead of ourselves)</li>
-</ul>
-{% highlight pycon %}
->>> {'foo':'bar', 'baz':'qux'}.items()
-[('foo', 'bar'), ('baz', 'qux')]
-
->>> for a, b, c in [(1, 2, 3),(4, 5, 6),(7, 8, 9)]:
-...  print str(a) + ", " + str(b) + ", " + str(c)
-... 
-1, 2, 3
-4, 5, 6
-7, 8, 9
-{% endhighlight %}
-<details>
-(demo) mentioned items... what does that do?  dictionary to list of tuples
-</details>
-</section>
-
-
-<section>
-<h2>A brief detour</h2>
-<ul>	
-	<li>Remember what range() does?</li>
-	<li>Remember how to iterate over a list?</li>
-</ul>
-<details>
-<ul>	
-	<li>range returns a list of integers</li>
-	<li>iterate over a list with a for loop....</li>
-	<li>(demo) list of integers</li>
-	<li>(demo) iterating over list of integers</li>
-</ul>
-</details>
-</section>
-
-<section>
-<h2>FizzBuzz</h2>
-<p> Print integers 1 to 100, but replace multiples of 3 with "Fizz" and multiples of 5 with "Buzz" and multiples of both with "FizzBuzz" </p>
-{% highlight console %}
-joe@walsh~/projects/archived/fizzbuzz$ python fizzbuzz.py 
-1
-2
-fizz
-4
-buzz
-fizz
-7
-8
-fizz
-buzz
-11
-fizz
-13
-14
-fizzbuzz
-{% endhighlight %}
-<details>
-<b>ACTIVITY TIME!</b>
-</details>
-</section>
-
-<section>
-<h2>One way to do it:</h2>
-{% highlight python %}
-for n in range(1,100):
-	if n % 3 == 0 and n % 5 == 0:
-		print "fizzbuzz"
-	elif n % 3 == 0:
-		print "fizz"
-	elif n % 5 == 0:
-		print "buzz"
-	else:
-		print n
-{% endhighlight %}
-<details>
-<ul>
-	<li>Remember, no case statement!</li>
-</ul>
-</details>
-</section>
-
-<section>
-<h2>Data types</h2>
-<ul>
-	<li>Types of types (Yeah, really)</li>
-	<li>Mutability</li>
-	<li>Numbers</li>
- 	<li>Strings</li>
- 	<li>Lists</li>
- 	<li>Booleans and Comparison Operators</li>
-</ul>
-<details>
-</details>
-</section>
-
-<section>
-<h2>Types of types (Yeah, really)</h2>
-<ul>
-	<li>Numerics</li>
-	<li>Sequences - can be indexed into using numerical keys</li>
-	<li>Mappings - can be indexed into using arbitrary keys</li>
- 	<li>Files - a sequence of bytes</li>
- 	<li>Classes</li>
- 	<li>Instances</li>
- 	<li>Exceptions</li>
-</ul>
-<details>
-</details>
-</section>
-
-<section>
-<h2><s>Accept</s> Recreate the things you cannot change...</h2>
-<p>Some types in Python are not mutable, like strings and numbers! (Remember, values have types).</p>
-{% highlight pycon %}
->>> a
-'foo'
->>> b
-'foo'
->>> a + " bar"
-'foo bar'
->>> a
-'foo'
->>> b
-'foo'
->>> a = a + " bar"
->>> a
-'foo bar'
-{% endhighlight %}
-<p>A new string is actually being made when you do concatenation; you don't get a modified version of the old string.</p>
-<details>
-</details>
-</section>
-
-<section>
-<h2>Change the things you can (by reference)</h2>
-<p>Compare that to what happens with mutable data types like lists</p>
-{% highlight pycon %}
->>> a = [1, 2, 3]
->>> b = a
->>> a
-[1, 2, 3]
->>> b
-[1, 2, 3]
->>> a.append(4)
->>> a
-[1, 2, 3, 4]
->>> b # what will the value be?
-{% endhighlight %}
-<details>
-</details>
-</section>
-
-<section>
-<h2>Numbers</h2>
-<ul>
-	<li>Immutable, Numeric</li>
-	<li>int --&gt; 5</li>
-	<li>long --&gt; 5.5555555</li>
-	<li>float --&gt; 5.55</li>
-	<li>complex --&gt; 5 + 5j</li>
-	<li>Types widen int --&gt; long --&gt; float --&gt; complex</li>
-	<li>Construtors: int(), long(), float(), and complex()</li>
-</ul>
-<details>
-<ul>
-	<li>'Regular' numbers get int type, numbers with a decimal point are floats</li>
-	<li>(demo) floats and ints using type()</li>
-	<li>operands are widened to accommodate wider type when performing operations</li>
-	<li>(demo) operations on two integers yield integers 5 / 2</li>
-</ul>
-</details>
-</section>
-
-<section>
-<h2>About sequences...</h2>
-<ul>
-	<li>Strings, lists, tuples</li>
-	<li>Index into sequences by using brackets [i]</li>
-	<li>Negative indexes start from the right</li>
-	<li>A subset of a sequence from index n <em>up to</em> m can be sliced out using [n:m]</li>
-</ul>
-<details>
-<pre>
-questions!
->>> "nerds"[0] #first element,  >>> "nerds"[4] #last element (n - 1)
->>> "nerds"[5] #IndexError 
->>> "nerds"[-1] #from the right,  >>> "nerds"[-2] #again
->>> "nerds"[0:2] #slices
->>> "nerds"[3:1] #nothing to slice
->>> "nerds"[3:-1] #something to slice even though negative
->>> "nerds"[3:] #no end index,  >>> "nerds"[:2] #no start index
-</pre>
-</details>
-</section>
 
 <section>
 <h2>Strings</h2>
 <ul>
-	<li>Immutable, Sequence</li>
 	<li>String literals delimited with
 		<ul>
 			<li>'single quotes'</li>
@@ -636,111 +260,21 @@ re.sub("a.$", "ooooo", "foo bar baz") # regex
 </section>
 
 <section>
-<h2>Lists</h2>
+<h2>Numbers</h2>
 <ul>
-	<li>Mutable, Sequence</li>
-	<li>Introduced by brackets... []</li>
-	<li>Each value is separated by commas</li>
-	<li>Use list(a) to copy an array</li>
+	<li>int --&gt; 5</li>
+	<li>long --&gt; 5.5555555</li>
+	<li>float --&gt; 5.55</li>
+	<li>complex --&gt; 5 + 5j</li>
+	<li>Types widen int --&gt; long --&gt; float --&gt; complex</li>
+	<li>Construtors: int(), long(), float(), and complex()</li>
 </ul>
 <details>
 <ul>
-<li>Since arrays are mutable and passed by reference, be careful copying</li>
-<li>(demo) copying</li>
+	<li>'Regular' numbers get int type, numbers with a decimal point are floats</li>
+	<li>(demo) floats and ints using type()</li>
+	<li>operands are widened to accommodate wider type when performing operations</li>
+	<li>(demo) operations on two integers yield integers 5 / 2</li>
 </ul>
 </details>
 </section>
-
-<section>
-<h2>A few quick exercises</h2>
-<p>Use a for loop that will iterate over a list and create a new list with the cubes of every value in the first list.  Use range to create the initial list.</p><br />
-<p>Use a for loop to go through a list of names.  Return a new list containing filtered list of three letter names all transformed to upper case  The list of names is as follows:  ['bob', 'alice', 'carol', 'dave', 'eve' ] </p>
-<details>
-</details>
-</section>
-
-<section>
-<h2>Solutions</h2>
-{% highlight pycon %}
-{% endhighlight %}
-<details>
-</details>
-</section>
-
-<section>
-<h2>Common list functions</h2>
-<ul>
-	<li>range(5), range(1, 6) # returns list up to, but not including... </li>
-	<li>[1, 2, 4, 1, 5, 1].count(1) # returns number of occurrences of arg in list</li>
-	<li>li.append(4) # appends element to end of list</li>
-	<li>li.remove(4) # removes first occurrence of...</li>
-	<li>li.pop() # Returns and removes the last element</li>
-	<li>li.extend([3, 4]) # appends all items of one list to the other...</li>
-	<li>li.sort() # sorts list in place</li>
-</ul>
-<details>
-</details>
-</section>
-
-<section>
-<h2>Tuples</h2>
-<ul>
-	<li>Immutable, Sequence</li>
-	<li>Tuples are just comma delimited sequences: 1, 2 </li>
-	<li>They're usually wrapped in ()'s though: (1, 2), but it's the commas that are important!</li>
-	<li>A tuple can be unpacked into variables: a, b, c = t where t is a tuple with 3 values</li>
-	<li>Look familiar?  Multiple assignment is really just sequence unpacking.</li>
-	<li>You can think of tuples as immutable lists!</li>
-</ul>
-<details>
-<pre>
-(demo) can't append because immutable
-(demo) just commas
-(demo) packing unpacking
-(demo) for k, v in ...
-</pre>
-</details>
-</section>
-
-<section>
-<h2>Booleans and comparison operators</h2>
-<ul>
-	<li>Of course, True and False</li>
-	<li>Usual comparison operators, &gt;, &lt;, &gt;=, &lt;=, ==, &lt;&gt;, and !=</li>
-	<li>Comparison operators can be chained: 7 &gt; 5 &gt; 3</li>
-	<li>and and or returns one of their operands! 
-		<ul>
-			<li>Short circuit evaluation</li>
-			<li>and returns the left hand operator if it's False (it already knows outcome, so just return), otherwise, the right hand operator is returned</li>
-			<li>or returns the left hand operator if it's True</li>
-		</ul>
-	</li>
-</ul>
-<details>
-<pre>
-7 >5 > 2 # chained
->>> 0 and 25 # left hand op is False and "and"
->>> 25 and 0
->>> 25 and 35
->>> 25 and 35 and 45
-# note that these evaluate to True or False
-(8 > 2) and "foo" or "bar" # trick for ternary, but don't do it...
-</pre>
-</details>
-</section>
-
-<section>
-<h2>What's considered False?</h2>
-<ul>
-	<li>False (obv!)</li>
-	<li>None</li>
-	<li>Any empty sequence, such as '', () or [], or mapping, such as {}</li>
-	<li>0 for any numeric type</li>
-	<li>User defined classes that define a __nonzero__() or __len__() method that returns something False-y</li>
-</ul>
-<br />
-<p>Everything else is True</p>
-<details>
-</details>
-</section>
-
