@@ -17,12 +17,13 @@ Class 1 - February 1st - Introductions, Basic Types
 * For loops
 
 ###Slides
-* [Introduction](class1/slides/intro.html)
-* [Setting Up](class1/slides/setup.html)
-* [String and Numbers](class1/slides/strings_and_numbers.html)
-* [Prompts and Conditionals](class1/slides/prompts_and_conditionals.html)
-* [Lists and Loops](class1/slides/lists_and_loops.html)
-* [Close](class1/slides/close.html)
+* [Introduction](class1/slides/intro.html), [annotated](http://jversoza.github.com/MTEC2002/onstage.html#http://jversoza.github.com/MTEC2002/class1/slides/intro.html)
+* [Setting Up](class1/slides/setup.html), [annotated](http://jversoza.github.com/MTEC2002/onstage.html#http://jversoza.github.com/MTEC2002/class1/slides/setup.html)
+* [String and Numbers](class1/slides/strings_and_numbers.html), [annotated](http://jversoza.github.com/MTEC2002/onstage.html#http://jversoza.github.com/MTEC2002/class1/slides/strings_and_numbers.html)
+* [Prompts and Conditionals](class1/slides/prompts_and_conditionals.html), [annotated](http://jversoza.github.com/MTEC2002/onstage.html#http://jversoza.github.com/MTEC2002/class1/slides/prompts_and_conditionals.html)
+* [Lists and Loops](class1/slides/lists_and_loops.html), [annotated](http://jversoza.github.com/MTEC2002/onstage.html#http://jversoza.github.com/MTEC2002/class1/slides/lists_and_loops.html)
+* [Close](class1/slides/close.html), [annotated](http://jversoza.github.com/MTEC2002/onstage.html#http://jversoza.github.com/MTEC2002/class1/slides/close.html)
+
 
 ###Labs
 __Part 1__ - Some setup, getting familiar with the Python interpreter
