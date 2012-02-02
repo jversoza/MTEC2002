@@ -14,15 +14,13 @@ Class 1 - February 1st - Introductions, Basic Types
 * Strings
 * Boolean logic
 * Conditionals
-* For loops
 
 ###Slides
 * [Introduction](class1/slides/intro.html), [annotated](http://jversoza.github.com/MTEC2002/onstage.html#http://jversoza.github.com/MTEC2002/class1/slides/intro.html)
 * [Setting Up](class1/slides/setup.html), [annotated](http://jversoza.github.com/MTEC2002/onstage.html#http://jversoza.github.com/MTEC2002/class1/slides/setup.html)
 * [String and Numbers](class1/slides/strings_and_numbers.html), [annotated](http://jversoza.github.com/MTEC2002/onstage.html#http://jversoza.github.com/MTEC2002/class1/slides/strings_and_numbers.html)
 * [Prompts and Conditionals](class1/slides/prompts_and_conditionals.html), [annotated](http://jversoza.github.com/MTEC2002/onstage.html#http://jversoza.github.com/MTEC2002/class1/slides/prompts_and_conditionals.html)
-* [Lists and Loops](class1/slides/lists_and_loops.html), [annotated](http://jversoza.github.com/MTEC2002/onstage.html#http://jversoza.github.com/MTEC2002/class1/slides/lists_and_loops.html)
-* [Close](class1/slides/close.html), [annotated](http://jversoza.github.com/MTEC2002/onstage.html#http://jversoza.github.com/MTEC2002/class1/slides/close.html)
+* [Close](class1/slides/close.html), [annotated](http://jversoza.github.com/MTEC2002/onstage.html#http://jversoza.github.com/MTEC2002/class1/slides/cloe.html)
 
 
 ###Labs
@@ -47,36 +45,33 @@ __Part 3__ - Prompts and conditionals
 * LPTHW, Exercise 30: [Else And If](http://learnpythonthehardway.org/book/ex30.html)
 * LPTHW, Exercise 31: [Making Decisions](http://learnpythonthehardway.org/book/ex31.html)
 
-__Part 4__ - Loops and lists
-* LPTHW, Exercise 32: [Loops And Lists](http://learnpythonthehardway.org/book/ex32.html)
-* Instructions for the next two labs are in the file
-	* https://github.com/ __GITHUB USERNAME__ /mtec2002_assignments/blob/master/class1/labs/loops_cubes.py
-	* https://github.com/ __GITHUB USERNAME__ /mtec2002_assignments/blob/master/class1/labs/loops_three_letter.py
-* Time allowing, go back to do:
-	* LPTHW, Exercise 8: [Printing, Printing](http://learnpythonthehardway.org/book/ex8.html)
-	* LPTHW, Exercise 9: [Printing, Printing, Printing](http://learnpythonthehardway.org/book/ex9.html)
-	* LPTHW, Exercise 10: [What Was That?](http://learnpythonthehardway.org/book/ex10.html)
 
-
+<a class="homework1" id="homework1"></a>
 ###Homework
-Due next class, Feb 8th, Wednesday, 6PM
-* Read [Intro to LPTHW](http://learnpythonthehardway.org/book/intro.html)
-* Number guessing game 
-	* __Turn in via github__ by the start of next week's class (Feb 8th, Wednesday, 6PM)
-	* Instructions are in the file
-	* https://github.com/ __GITHUB USERNAME__ /mtec2002_assignments/blob/master/class1/hw/guess_number.py
-* Fizz Buzz (via [Imran On Tech](http://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/)) -  
-	* __Turn in via github__ by the start of next week's class (Feb 8th, Wednesday, 6PM)
-	* Instructions are in the file
-	* https://github.com/ __GITHUB USERNAME__ /mtec2002_assignments/blob/master/class1/hw/fizz_buzz.py
+Due before next class, __Feb 8th, Wednesday, 6PM__
 
-
-Suggested reading and exercises
-* Use [Excercise 0](http://learnpythonthehardway.org/book/ex0.html) to install Python on your home computer
-* Getting familiar with the commandline
-	* Make a Directory - [mkdir](http://cli.learncodethehardway.org/book/cli-crash-coursech4.html#x9-250004)
-	* Change Directory - [cd](http://cli.learncodethehardway.org/book/cli-crash-coursech5.html#x10-290005)
-	* List the Contents of a Directory - [ls](http://cli.learncodethehardway.org/book/cli-crash-coursepa1.html#x8-24000I)
+* Brush up on the commandline.  There is nothing to turn in for this part of the homework.  Read through the following chapters and do __both__ the "Do This" and "Do More" sections (only do the part appropriate for the operating system you're using - Windows, OSX or Linux).
+	* [Introduction](http://cli.learncodethehardway.org/book/cli-crash-courseli3.html#x4-3000)
+	* [Setting Up](http://cli.learncodethehardway.org/book/cli-crash-coursech1.html)
+	* [Make a Directory - mkdir](http://cli.learncodethehardway.org/book/cli-crash-coursech4.html#x9-250004)
+	* [Change Directory - cd](http://cli.learncodethehardway.org/book/cli-crash-coursech5.html#x10-290005)
+	* [List the Contents of a Directory - ls](http://cli.learncodethehardway.org/book/cli-crash-coursepa1.html#x8-24000I)
+* Read [Intro to LPTHW](http://learnpythonthehardway.org/book/intro.html).  Again, just read throug introduction, there is nothing to turn in for this part of the homework.
+* Use [Excercise 0](http://learnpythonthehardway.org/book/ex0.html) to install Python on your home computer.  Again, there is nothing to trun in for this part of the homework.  However, you should have a Python installation on your home machine.
+* To be __submitted electronically via github__.  Don't forget to __try the Extra Credit__
+	* LPTHW, Exercise 2: [Comments And Pound Characters](http://learnpythonthehardway.org/book/ex2.html)
+	* LPTHW, Exercise 3: [Numbers And Math](http://learnpythonthehardway.org/book/ex3.html)
+	* LPTHW, Exercise 4: [Variables And Names](http://learnpythonthehardway.org/book/ex4.html)
+	* LPTHW, Exercise 5: [More Variables And Printing](http://learnpythonthehardway.org/book/ex5.html)
+	* LPTHW, Exercise 6: [Strings And Text](http://learnpythonthehardway.org/book/ex6.html)
+	* LPTHW, Exercise 7: [More Printing](http://learnpythonthehardway.org/book/ex7.html)
+	* LPTHW, Exercise 11: [Asking Questions](http://learnpythonthehardway.org/book/ex11.html)
+	* LPTHW, Exercise 12: [Prompting People](http://learnpythonthehardway.org/book/ex12.html)
+	* LPTHW, Exercise 27: [Memorizing Logic](http://learnpythonthehardway.org/book/ex27.html)
+	* LPTHW, Exercise 28: [Boolean Practice](http://learnpythonthehardway.org/book/ex28.html)
+	* LPTHW, Exercise 29: [What If](http://learnpythonthehardway.org/book/ex29.html)
+	* LPTHW, Exercise 30: [Else And If](http://learnpythonthehardway.org/book/ex30.html)
+	* LPTHW, Exercise 31: [Making Decisions](http://learnpythonthehardway.org/book/ex31.html)
 
 
 Class 2 - February 8th - Data Structures, Version Control
@@ -86,6 +81,27 @@ Class 2 - February 8th - Data Structures, Version Control
 * Loops
 * Version control
 
+###Slides
+* [Lists and Loops](class1/slides/lists_and_loops.html), [annotated](http://jversoza.github.com/MTEC2002/onstage.html#http://jversoza.github.com/MTEC2002/class1/slides/lists_and_loops.html)
+
+###Labs
+__Part 1__ - Loops and lists
+* LPTHW, Exercise 32: [Loops And Lists](http://learnpythonthehardway.org/book/ex32.html)
+* Instructions for the next two labs are in the file
+	* https://github.com/ __GITHUB USERNAME__ /mtec2002_assignments/blob/master/class1/labs/loops_cubes.py
+	* https://github.com/ __GITHUB USERNAME__ /mtec2002_assignments/blob/master/class1/labs/loops_three_letter.py
+* Time allowing, go back to do:
+	* LPTHW, Exercise 8: [Printing, Printing](http://learnpythonthehardway.org/book/ex8.html)
+	* LPTHW, Exercise 9: [Printing, Printing, Printing](http://learnpythonthehardway.org/book/ex9.html)
+	* LPTHW, Exercise 10: [What Was That?](http://learnpythonthehardway.org/book/ex10.html)
+* Number guessing game 
+	* __Turn in via github__ by the start of next week's class (Feb 8th, Wednesday, 6PM)
+	* Instructions are in the file
+	* https://github.com/ __GITHUB USERNAME__ /mtec2002_assignments/blob/master/class1/hw/guess_number.py
+* Fizz Buzz (via [Imran On Tech](http://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/)) -  
+	* __Turn in via github__ by the start of next week's class (Feb 8th, Wednesday, 6PM)
+	* Instructions are in the file
+	* https://github.com/ __GITHUB USERNAME__ /mtec2002_assignments/blob/master/class1/hw/fizz_buzz.py
 
 Class 3 - February 15th - Functions
 =====
