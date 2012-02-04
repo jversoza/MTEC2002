@@ -68,7 +68,12 @@ Due before next class, __Feb 8th, Wednesday, 6PM__
 	* LPTHW, Exercise 11: [Asking Questions](http://learnpythonthehardway.org/book/ex11.html)
 	* LPTHW, Exercise 12: [Prompting People](http://learnpythonthehardway.org/book/ex12.html)
 	* LPTHW, Exercise 27: [Memorizing Logic](http://learnpythonthehardway.org/book/ex27.html)
+		* Read this exercise, and memorize the truth tables
+		* There is nothing to copy and paste into github for this exercise
 	* LPTHW, Exercise 28: [Boolean Practice](http://learnpythonthehardway.org/book/ex28.html)
+		* Read the exercise and do the activities - solve each equality test and type it out in a file.  Test your answers using the interactive Python shell. 
+		* Paste your answers __and__ your session from your interactive shell as comments in the file.  See this [example](class1/hw/lpthw_ex28.py
+). 
 	* LPTHW, Exercise 29: [What If](http://learnpythonthehardway.org/book/ex29.html)
 	* LPTHW, Exercise 30: [Else And If](http://learnpythonthehardway.org/book/ex30.html)
 	* LPTHW, Exercise 31: [Making Decisions](http://learnpythonthehardway.org/book/ex31.html)
