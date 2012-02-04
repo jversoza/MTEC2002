@@ -56,7 +56,7 @@ Due before next class, __Feb 8th, Wednesday, 6PM__
 	* [Make a Directory - mkdir](http://cli.learncodethehardway.org/book/cli-crash-coursech4.html#x9-250004)
 	* [Change Directory - cd](http://cli.learncodethehardway.org/book/cli-crash-coursech5.html#x10-290005)
 	* [List the Contents of a Directory - ls](http://cli.learncodethehardway.org/book/cli-crash-coursepa1.html#x8-24000I)
-* Read [Intro to LPTHW](http://learnpythonthehardway.org/book/intro.html).  Again, just read throug introduction, there is nothing to turn in for this part of the homework.
+* Read [Intro to LPTHW](http://learnpythonthehardway.org/book/intro.html).  Again, just read through introduction, there is nothing to turn in for this part of the homework.
 * Use [Excercise 0](http://learnpythonthehardway.org/book/ex0.html) to install Python on your home computer.  Again, there is nothing to trun in for this part of the homework.  However, you should have a Python installation on your home machine.
 * To be __submitted electronically via github__.  Don't forget to __try the Extra Credit__
 	* LPTHW, Exercise 2: [Comments And Pound Characters](http://learnpythonthehardway.org/book/ex2.html)
@@ -76,9 +76,9 @@ Due before next class, __Feb 8th, Wednesday, 6PM__
 
 Class 2 - February 8th - Data Structures, Version Control
 =====
-* Dictionaries, tuples
-* List comprehensions
+* Lists, Dictionaries, tuples
 * Loops
+* List comprehensions
 * Version control
 
 ###Slides
