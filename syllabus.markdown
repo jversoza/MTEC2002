@@ -107,6 +107,21 @@ __Part 1__ - Loops and lists
 	* __Turn in via github__ by the start of next week's class (Feb 8th, Wednesday, 6PM)
 	* Instructions are in the file
 	* https://github.com/ __GITHUB USERNAME__ /mtec2002_assignments/blob/master/class1/hw/fizz_buzz.py
+* short review
+	* help
+	* dir
+	* conditionals
+
+* commandline
+	* cd
+	* lwd
+	* ls
+* review strings + string methods
+* raw input guessing game
+* implement modulo
+* 2 ways to loop through
+* some array manipulation exercises
+* main?
 
 Class 3 - February 15th - Functions
 =====
