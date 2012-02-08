@@ -121,3 +121,41 @@ A database will be necessary during the web development (with Django) portion of
 ##Install Instructions:
 http://dev.mysql.com/downloads/mysql/
 
+PyGame
+=====
+##Overview: 
+Python library for game development.
+
+##Rationale:
+Required library for Python game development
+
+##Install Instructions:
+http://www.pygame.org/ftp/pygame-1.9.2pre-py2.6-macosx10.6.mpkg.zip
+
+MacPorts
+=====
+##Overview:
+Package management system for OSX.
+
+##Rationale:
+Allows ability to install open source applications and projects using port, a package management tool commonly found in BSD based systems.
+
+##Install Instructions:
+http://www.macports.org/install.php
+
+OpenCV
+=====
+##Overview:
+OpenCV is a realtime computer vision library.
+
+##Rationale:
+Students may potentially use openCV as part of their final projects.
+
+##Install Instructions:
+sudo port -v install opencv +python26
+(see http://opencv.willowgarage.com/wiki/Mac_OS_X_OpenCV_Port)
+
+
+Max/MSP
+=====
+?
