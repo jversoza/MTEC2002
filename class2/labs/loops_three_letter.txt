@@ -1,0 +1,14 @@
+lab - three_letter.py
+=====
+1.  Write a function that takes a list of strings.  It returns only the strings that are three letters long.
+
+Example Output:
+
+>>> only_three(["Alice", "Bob", "Eve"])
+['Bob', 'Eve']
+
+	a. Test your function (use a list with no 3 letter words and a list with some 3 letter words).  Paste the output of your interactive shell session here.
+	===
+
+	b. EXTRA CREDIT: There's already a function that filters lists.  Look it up and try using it.  Hint: it takes a function as an argument!
+					

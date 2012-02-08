@@ -1,0 +1,13 @@
+lab - sums.py
+=====
+1.  There is already a built in sum function.  What do you think it does?  What parameters does it take?  Use help to find out, write the answer here:
+===
+
+2.  Try implementing your own version of sum().  Your version will only take one parameter - a list of numbers.
+
+	a.  Test your program.  Write the output of your interactive shell session here:
+	===
+
+	b.  EXTRA CREDIT: Try adding the second parameter.
+
+

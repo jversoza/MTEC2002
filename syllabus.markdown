@@ -79,54 +79,110 @@ Due before next class, __Feb 8th, Wednesday, 6PM__
 	* LPTHW, Exercise 31: [Making Decisions](http://learnpythonthehardway.org/book/ex31.html)
 
 
-Class 2 - February 8th - Data Structures, Version Control
+Class 2 - February 8th - Functions, Lists, and Loops
 =====
-* Lists, Dictionaries, tuples
+* Functions
+* Lists
 * Loops
-* List comprehensions
-* Version control
 
 ###Slides
-* [Lists and Loops](class1/slides/lists_and_loops.html), [annotated](http://jversoza.github.com/MTEC2002/onstage.html#http://jversoza.github.com/MTEC2002/class1/slides/lists_and_loops.html)
+* [Review - Strings, Variables, Conditionals, etc](class2/slides/review.html)
+* [Functions](class2/slides/functions.html)
+* [Lists, Sequences](class2/slides/lists.html)
+* [Loops and Lists](class2/slides/loops_and_lists.html)
+* [Loopier - While Loops, Nested Loops](class2/slides/loopier.html)
 
 ###Labs
-__Part 1__ - Loops and lists
-* LPTHW, Exercise 32: [Loops And Lists](http://learnpythonthehardway.org/book/ex32.html)
-* Instructions for the next two labs are in the file
-	* https://github.com/ __GITHUB USERNAME__ /mtec2002_assignments/blob/master/class1/labs/loops_cubes.py
-	* https://github.com/ __GITHUB USERNAME__ /mtec2002_assignments/blob/master/class1/labs/loops_three_letter.py
-* Time allowing, go back to do:
-	* LPTHW, Exercise 8: [Printing, Printing](http://learnpythonthehardway.org/book/ex8.html)
-	* LPTHW, Exercise 9: [Printing, Printing, Printing](http://learnpythonthehardway.org/book/ex9.html)
-	* LPTHW, Exercise 10: [What Was That?](http://learnpythonthehardway.org/book/ex10.html)
-* Number guessing game 
-	* __Turn in via github__ by the start of next week's class (Feb 8th, Wednesday, 6PM)
-	* Instructions are in the file
-	* https://github.com/ __GITHUB USERNAME__ /mtec2002_assignments/blob/master/class1/hw/guess_number.py
-* Fizz Buzz (via [Imran On Tech](http://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/)) -  
-	* __Turn in via github__ by the start of next week's class (Feb 8th, Wednesday, 6PM)
-	* Instructions are in the file
-	* https://github.com/ __GITHUB USERNAME__ /mtec2002_assignments/blob/master/class1/hw/fizz_buzz.py
-* short review
-	* help
-	* dir
-	* conditionals
+For this lab, create a directory called mtec2002_class2, and place all you Python source files (.py) and text files (.txt) there.  Zip up the folder and email it to me.
 
-* commandline
-	* cd
-	* lwd
-	* ls
+__Part 1__ - Review
+* [Guess a number](class2/labs/guess_number.txt)
+* For every code change submit a new file with the suffix of the exercise number (ex. guess_number_1.py, guess_number_2b.py)
+
+__Part 2__ - Functions
+* [How to Think Like a Computer Scientist: Chapter 3 - Functions](http://www.openbookproject.net/thinkcs/python/english2e/ch03.html)
+* Read the entire chapter, including the definitions
+* Follow along in the interactive shell
+* Create a file called thinkcs_chap_03.txt.  Use it for the activities in this chapter (see below)
+* Section 3.1 - Definitions and use
+	* create tryme1.py
+	* try running it
+* Section 3.3 - Parameters, arguments, and the import statement
+	* paste activities from interactive shell into thinkcs_chap_03.txt 
+	* put them under a heading called "==3.3=="
+	* create chap03.py and try running it
+* Section 3.4 - Composition
+	* paste activities from interactive shell into thinkcs_chap_03.txt 
+	* put them under a heading called "==3.4=="
+* Section 3.5 - Variables and parameters are local
+	* paste activities from interactive shell into thinkcs_chap_03.txt 
+	* put them under a heading called "==3.5=="
+* Section 3.6 - Stack Diagrams
+	* tryme2.py
+	* try running it
+* Section 3.8 - Exercises
+	1. create tryme3.py
+	2. create a new version of tryme3.py called tryme3_2.py.  Answer the quetion and paste it into thinkcs_chap_03.txt under a heading called "==3.8 - 2=="
+	3. create a new version of tryme3.py called tryme3_3.py.  Answer the question and paste it into thinkcs_chap_03.txt under a heading called "==3.8 - 3=="
+	4. create import_test.py and paste the output from you interactive shell session in thinkcs_chap_03.txt under a heading called "==3.8 - 4=="
+* EXTRA CREDIT: Wrap the code in your last version of guess_number.py in a function that accepts two parameters: secret_number and close_by.  Try importing the file in the interactive shell... and call your function.  Save your new file  as guess_number_function.py and the results of your interactive session.
+
+__Part 3__ - Lists, Sequences
+* Open up terminal and start the interactive shell
+* Do the activities in http://www.diveintopython.net/native_data_types/lists.html
+* Copy the as much as you can of your session and paste it into a file called diveintopython_lists_output.txt
+* [Strings to Lists and Back](class2/labs/strings_to_lists)
+
+__Part 4__ - Loops and Lists
+* LPTHW, Exercise 32: [Loops_and_Lists](http://learnpythonthehardway.org/book/ex32.html)
+* [Loops and Cubes](class2/labs/loops_cubes.txt)
+* [Loops and Three Letter Words](class2/labs/loops_three_letter.txt)
+* Loops Sum
+
+__Part 5__ - Loopier - While Loops, Nested Loops
+* [Fizz Buzz](class2/labs/fizz_buzz.txt) (via [Imran On Tech](http://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/)) -  
+* [Nested Loops, Nested Lists]()
+
+
+EXTRA CREDIT
 * review strings + string methods
-* raw input guessing game
-* implement modulo
+* lists
+* some quick list exercises
+* string methods and lists
 * 2 ways to loop through
+	* cubes
+	* uppercase
+* use loop to return only 3 letters
+	* handle
 * some array manipulation exercises
 * main?
+* print out a matrix... used rand
+* if main
+* indes vs search
+* nested lists
+###hw
+* greetings
+	* list of names
+	* ask for input, greet all names
+		* do two ways
+	* limit the greeting to just greetings in list
+	* do some branching that allows you to add greetings
+* implement modulo
+* modify number guessing so that you have to continue guessing
+	* don't give the answer
+* binary search
+* lpth function on functions?
+	* extra credit - use a function so that you have a func and a list comprehension
+
 
 Class 3 - February 15th - Functions
 =====
+* [Sans Loops - List Comprehensions](class2/slides/sans_loops.html)
+__Part 1__ - Sans Loops - List Comprehensions
+* Loops and Cubes using list comp
+* Tuples and Dictionaries
 * More built-in functions
-* Functions
+* More About Functions
 
 
 Class 4 - February 22nd - Classes

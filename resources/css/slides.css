@@ -34,7 +34,7 @@ section[aria-selected] ~ section { left: +150% }
 .chapter h1 {line-height: 600px; vertical-align: middle; margin: 0; text-align: center; display: block}
  
 p {
-	padding: 0 0 1em 2em;
+	padding: 1em 0 1em 2em;
 }
 
 h1 {

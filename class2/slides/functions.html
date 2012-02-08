@@ -1,0 +1,90 @@
+---
+layout: slides
+title: Class 2 - Functions
+---
+<section>
+	<h1>Class 2 - Functions</h1>
+	<footer>MTEC2002 - Joe Versoza</footer>
+</section>
+
+
+<section>
+<h2>Functions</h2>
+<ul>
+	<li>A grouping of statements</li>
+	<li>Called by name, with an optional list of parameters</li>
+	<li>Can return values using the keyword <strong>return</strong></li>
+	<li>Some built-in examples of functions that you've seen so far are:</li> 
+	<ul>
+		<li>len("some string") # what do you think this function returns?</li>
+		<li>dir(5)</li>
+		<li>int("5")</li>
+	</ul>
+	</li>
+</ul>
+</section>
+
+
+<section>
+<h2>Defining functions</h2>
+<ul>
+	<li>Use <strong>def</strong> to start a function definition</li>
+	<li>Parameters are surrounded by parentheses</li>
+	<li>Must be defined before use!</li>
+</ul>
+{% highlight pycon %}
+def NAME( LIST OF PARAMETERS ):
+    STATEMENTS
+{% endhighlight %}
+{% highlight pycon %}
+>>> def hi(who):
+...  return "hello %s" % (who)
+{% endhighlight %}
+</section>
+
+
+<section>
+<h2>Calling functions</h2>
+<p>Functions can be called with positional arguments</p>
+{% highlight python %}
+def f(a, b, c):
+ print "%s %s %s" % (a, b, c)
+
+f("by", "it's", "toe")
+{% endhighlight %}
+</section>
+
+
+<section>
+<h2>Functions in functions</h2>
+<p>You can use the results of functions as parameters for functions!</p>
+{% highlight python %}
+def hi(name):
+	print "Hello %s!" % (name)
+
+def make_name():
+	return "Bob"
+
+hi(make_name())
+
+# what will this print?
+{% endhighlight %}
+</section>
+
+
+<section>
+<h2>Functions in functions</h2>
+<p>You can call another function in a function!</p>
+{% highlight python %}
+def hi(name):
+	print "Hello %s!" % (name)
+
+def hi_everyone():
+	hi("Bob")
+	hi("Alice")
+
+hi_everyone()
+
+# what will this print?
+{% endhighlight %}
+</section>

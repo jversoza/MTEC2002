@@ -1,0 +1,91 @@
+lab - guess_number.py
+=====
+1.  Open guess_number.py.  Write a program that stores a number in a variable named secret_number.  When the program is run, it asks the user to:
+
+Guess what number I'm thinking of...
+
+For a hint on how to get user input, see exercise 11 of LPTHW (http://learnpythonthehardway.org/book/ex11.html).  Use the function "int()" to convert the user's input into an integer.  Store the user's guess in a variable called guess (of course!).  If the number entered is the same as the secret number, print out "You got it!".  If the number entered is not equal to the secret number, print out whether or not it was too low or to high.  Use conditionals to implement this - see exercises 29 through 31 in LPTHW for hints.
+
+Example:
+
+(number stored in variable is 5)
+
+walsh:~ joe$ python /tmp/guess_number.py
+Guess what number I'm thinking of...  25
+Too high!
+walsh:~ joe$ python /tmp/guess_number.py 
+Guess what number I'm thinking of...  2
+Too low!
+walsh:~ joe$ python /tmp/guess_number.py 
+Guess what number I'm thinking of...  5
+You got it!
+
+	a.  Test your program with 3 test cases - one too high, one too low, and one that's equal.  Paste the output of your program below:
+	===
+
+	b.  Why do you have to use int() to convert user input?  Use help(raw_input) and help(int) in the interactive shell for some hints.  Answer below:
+	===
+
+
+2.  Modify your program to output the guess, as well the message.  If the guess is wrong, also print out the correct answer (in the same line).  Don't hardcode the numbers; use the variables that you created and use string interpolation.  Make sure you use  %d in the string format.  See http://docs.python.org/library/stdtypes.html section 5.6.2
+
+Example:
+
+(number stored in variable is 5)
+
+walsh:~ joe$ python /tmp/guess_number.py
+Guess what number I'm thinking of...  25
+You guessed 25.  Too high!  The right answer is 5.
+walsh:~ joe$ python /tmp/guess_number.py 
+Guess what number I'm thinking of...  2
+You guessed 2.  Too low!  The right answer is 5.
+walsh:~ joe$ python /tmp/guess_number.py 
+Guess what number I'm thinking of...  5
+You guessed 5.  You got it!
+	
+	a.  Test your program with 3 test cases - one too high, one too low, and one that's equal.  Paste the output of your program below:
+	===
+
+	b.  Why did you have to use %d instead of %s?  What is %s?  See the documentation on python.org for a hint: http://docs.python.org/library/stdtypes.html.  Answer below:
+	===
+
+
+3.  Continue modifying your program.  It should still do the same thing as #2.  However, if the guess is either one below or one above, instead of printing "Too high!" or "Too low!", print out "You were just off by 1!"
+	
+Example:
+
+walsh:~ joe$ python /tmp/guess_number.py
+Guess what number I'm thinking of...1
+You guessed 1.  Too low!  The right answer is 5.
+walsh:~ joe$ python /tmp/guess_number.py
+Guess what number I'm thinking of...7
+You guessed 7.  Too high!  The right answer is 5.
+walsh:~ joe$ python /tmp/guess_number.py
+Guess what number I'm thinking of...4
+You guessed 4.  You were just off by 1.  The right answer is 5
+walsh:~ joe$ python /tmp/guess_number.py
+Guess what number I'm thinking of...6
+You guessed 6.  You were just off by 1.  The right answer is 5
+walsh:~ joe$ python /tmp/guess_number.py
+Guess what number I'm thinking of...5
+You guessed 5.  You got it
+walsh:~ joe$ 
+
+	a.  Test your program with 5 test cases - one too high, one too low, one that's too high by 1, one that's too low by 1, and finally, one that's equal.  Paste the output of your program below:
+	===
+
+	b.  How many elif statements did you use?  If you used more than 3 elifs, modify your program so that you only use three elifs (hint - consider using "or" in one of your conditions to combine two elifs).  Write the new conditional you used below, and create a guess_number_3b.py version of your program:
+	===
+
+
+4.  EXTRA CREDIT: Modify your program so that you can easily change "off by 1" to "off by x".   You should be able to just set a single variable (that is, make a variable to store that value, and use that value in your conditional as well as print statements).  Test that the new code works (don't forget edge cases... for example, if you're doing off by 2, check a few numbers in that range, such as both 1 and 2 below the secret_number)
+
+	a.  EXTRA CREDIT: Test your output with 7 cases (the extra two are for off by exactly x, versus off by x - 1).  Submit your new program.  Paste the output below:
+	===
+
+	b.  EXTRA CREDIT: What does the function "abs()" do?  Use "help()" in the interactive shell to figure it out.  Would abs be helpful in your program?  If you haven't already used it in your implementation, try using it now.  Turn in your new code and answer the questions below:
+	===
+
+5.  EXTRA CREDIT: You can compose functions.  For example, if you have a function f, and a function g, you can call f(g(x)).  This means that you're using the result of g(x) and making the value that's passed into funciton f.  Specifically, you can make raw_input and the conversion into int just one line.   Test that the new program works (use all 5 test cases) and write the "composed" function below:
+===
+

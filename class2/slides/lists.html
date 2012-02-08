@@ -1,0 +1,110 @@
+---
+layout: slides
+title: Lists and Loops
+---
+<section>
+	<h1>Lists, Sequences</h1>
+	<footer>MTEC2002 - Joe Versoza</footer>
+</section>
+
+<section>
+<h2>Types of types (Yeah, really)</h2>
+<ul>
+	<li>Numerics - what are some numeric types that we know?</li>
+	<li>Sequences - you already know one, take a guess!</li>
+</ul>
+</section>
+
+
+<section>
+<h2>Numerics</h2>
+<ul>
+	<li>int</li>
+	<li>float</li>
+	<li>long</li>
+	<li>complex</li>
+</ul>
+</section>
+
+<section>
+<h2>About sequences...</h2>
+<ul>
+	<li>An ordered collection of "stuff"</li>
+	<li>Strings - an ordered set of characters</li>
+	<li>Index into (retrieve item from) sequences by using brackets [i], with initial index 0</li>
+	<li>Negative indexes start from the right, where -1 is the last character</li>
+	<li>A subset of a sequence from index n <em>up to</em> m can be sliced out using [n:m]</li>
+	<li>Again... m - up to, but not including!</li>
+</ul>
+<details>
+<pre>
+questions!
+>>> "nerds"[0] #first element,  >>> "nerds"[4] #last element (n - 1)
+>>> "nerds"[5] #IndexError 
+>>> "nerds"[-1] #from the right,  >>> "nerds"[-2] #again
+>>> "nerds"[0:2] #slices
+>>> "nerds"[3:1] #nothing to slice
+>>> "nerds"[3:-1] #something to slice even though negative
+>>> "nerds"[3:] #no end index,  >>> "nerds"[:2] #no start index
+</pre>
+</details>
+</section>
+
+
+<section>
+<h2>Lists</h2>
+<ul>
+	<li>Introduced by brackets... []</li>
+	<li>Each value is separated by commas</li>
+	<li>A list of integers - [1, 2, 3, 4]</li>
+	<li>A list of strings - ['foo', 'bar', baz']</li>
+	<li>A list of integers, strings and other lists! - ['foo', 1, ['foo', 'bar', 'baz']]</li>
+</ul>
+<details>
+<ul>
+<li>Since arrays are mutable and passed by reference, be careful copying</li>
+<li>(demo) copying</li>
+</ul>
+</details>
+</section>
+
+
+<section>
+<h2>Some list related functions</h2>
+<ul>
+	<li>range(5), range(1, 6) # returns list up to, but not including... </li>
+	<li>len()</li>
+</ul>
+</section>
+
+<section>
+<h2>Some functions that you can call on lists</h2>
+<ul>
+	<li>li.append(4) # appends element to end of list</li>
+	<li>li.remove(4) # removes first occurrence of...</li>
+	<li>li.pop() # Returns and removes the last element</li>
+	<li>li.extend([3, 4]) # appends all items of one list to the other...</li>
+	<li>li.sort() # sorts list in place</li>
+	<li>[1, 2, 4, 1, 5, 1].count(1) # returns number of occurrences of arg in list</li>
+</ul>
+</section>
+
+<section>
+<h2>Looking for something?</h2>
+<ul>
+	<li>['a', 'b', 'c'].index('c') # return index of item, or exception</li>
+	<li>'c' in ['a','b', 'c'] # returns boolean</li>
+</ul>
+</section>
+
+<section>
+<h2>Strings to Lists and Back</h2>
+<ul>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+</ul>
+</section>
+
+

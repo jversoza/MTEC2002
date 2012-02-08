@@ -1,72 +1,62 @@
 ---
 layout: slides
-title: Setup
+title: Class 2 - Review Strings, Numbers, Variables, Conditionals
 ---
 <section>
-	<h1>Class 1 - Setting Up Your Programming Environment</h1>
+	<h1>Class 2 - Review Strings, Numbers, Variables, Conditionals</h1>
 	<footer>MTEC2002 - Joe Versoza</footer>
 </section>
 
 
 <section>
-<h2>Getting started</h2>
-<p>We'll start our series of lab exercises by:</p>
+<h2>What we went over</h2>
 <ul>
-	<li>Installing tools/applications/software that we'll need for the class</li>
-	<li>Testing the installations</li>
-	<li>Doing the first exercise and sharing it online</li>
-</ul>
-</section>
-
-
-<section>
-<h2>Tools</h2>
-<ul>
-	<li>Python (already installed on lab computers!)</li>
-	<li>A text editor - <a href="http://www.barebones.com/products/textwrangler/">TextWrangler</a></li>
-	<li>Source code management - <a href="http://git-scm.com/">git</a> (will be installed on lab computers)</li>
-	<li>A way to share code online - <a href="https://github.com/">github.com</a></li>
+	<li>commandline</li>
+	<li>Running Python</li>
+	<li>Strings and Numbers</li>
+	<li>Variables</li>
+	<li>Conditionals</li>
+	<li>User Input</li>
 </ul>
 <details>
 <ul>
-	<li>Obviously Python</li>
-	<li>Python is just text... so you need something to edit text.  Feel free to use another text editor if it's already installed.</li>
-	<li>Source code management/version control system - absolutely necessary!  No more .bak files, easy collaboration, branching code</li>
-	<li>github is website built on top of the version control system we're using, git.  It facilitates code sharing, you'll see in a bit.</li>
+	<li></li>
 </ul>
 </details>
 </section>
 
+
 <section>
-<h2>Python Install</h2>
-<p>The current 2.x release is 2.7.2, so we'll try to use a version as close to that as possible.  This lab has 2.6.1 installed.  At home... </p>
+<h2>commandline</h2>
 <ul>
-	<li>Python is installed by default on OSX or Ubuntu </li>
-	<li>For Windows (XP and later) <a href="http://www.python.org/download/releases/">download an installer from python.org</a></li>
+	<li>How do we list the contents of a directory?</li>
+	<li>How do we change a directory?</li>
+	<li>How do we print the working directory?</li>
 </ul>
-<details>
-<ul>	
-	<li>Although Python 3.x is the eventual future of Python, it hasn't been widely adopted in production systems yet, so we're going with 2.x</li>  
-	<li>2.7.1 is on Lion and Natty</li>
-	<li>Though for most of what we're doing, 2.7.x or 2.6.x should suffice</li>
+</section>
+
+<section>
+<h2>commandline</h2>
+<ul>
+	<li>ls</li>
+	<li>cd</li>
+	<li>pwd</li>
 </ul>
-</details>
-</section>
-
-<section>
-<h1>From here on in.... follow along!</h1>
 </section>
 
 
 <section>
-<h2>First, a little help</h2>
-<p>Find the slides here: <a href="http://jversoza.github.com/MTEC2002/class1/slides/setup.html#6">http://jversoza.github.com/MTEC2002/class1/slides/setup.html#6</a></p>
+<h2>Two ways to run Python</h2>
+<ul>
+	<li>How do we run the interactive shell?</li>
+	<li>How do we run a file using the python interpreter?</li>
+</ul>
 </section>
 
 
 <section>
-<h2>Checking the Python install</h2>
-<p>Test your install by typing "python" in terminal or cmd.exe</p>
+<h2>Two ways to run Python</h2>
+<p>Using the interactive shell</p>
 {% highlight pycon %}
 walsh:~ joe$ python
 Python 2.7.1 (r271:86832, Jun 16 2011, 16:59:05) 
@@ -75,126 +65,99 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> print "hi!"
 hi!
 {% endhighlight %}
-<details>
-<p>There are a couple of ways to run Python code.  Using the interactive shell, you can get immediate feedback on Python commands.  The other way is to run a file using the intepreter... which we'll get to in a moment.</p>
-</details>
+<p>Running a file</p>
+{% highlight pycon %}
+python myfile.py
+{% endhighlight %}
 </section>
 
 <section>
-<h2>TextWrangler install</h2>
+<h2>Strings</h2>
 <ul>
-	<li><a href="http://www.barebones.com/products/textwrangler/">Download TextWrangler</a></li>
-	<li>Double click on the .dmg</li>
-	<li>Drag the app to the Applications folder... (or the desktop if you're prompted for a password - we'll clean it up later)</li>
-	<li>Double click on the TextWrangler icon to start it</li>
-</ul>
-</section>
-
-
-<section>
-<h2>Github</h2>
-<ul>
-	<li>Create a github account by going to <a href="https://github.com">github.com</a></li>
-	<li>Go to the repository that has this course's assignment templates: <a href="https://github.com/jversoza/mtec2002_assignments">https://github.com/jversoza/mtec2002_assignments</a></li>
-	<li>Fork this repository!</li>
-	<li>Check your newly forked repository</li>
-</ul>
-<details>
-<ul>
-	<li>Again, github is a site that lets you share code online; it's built on top of the version control system that we'll be using, git</li>
-	<li>I created this repository to set up a template that can be followed for submitting labs/assignments</li>
-	<li>Forking a repository means making a copy of it so that you can edit it on your own.  More generally, though, it means a divergent branch of the same code base that's made from a legal copy.</li>
-</ul>
-</details>
-</section>
-
-
-<section>
-<h2>Putting it all together</h2>
-<p>Before starting the exercise, let's see how everything works together.</p>
-<ul>
-	<li>Create a file called lpthw_ex1.py in TextWrangler</li>
-	<li>
-		Open terminal and find the file using the following commands:
-		<ul>
-		<li><strong>pwd</strong> - print the name of the current working directory</li>
-		<li><strong>ls</strong> - list the contents of a directory</li>
-		<li><strong>cd [<u>dir</u>]</strong> - change to directory [<u>dir</u>]</li>
-		<li><strong>cat [<u>file</u> ...]</strong> - print out the contents of [<u>file</u>]</li>
-		</ul>
-	</li>
-	<li>use the python interpreter to run the program</li>
-	<li>python lpthw_ex1.py</li>
-	<li>(won't print anything yet...)</li>
-</ul>
-<details>
-<ul>
-	<li>The path to the file is on top of TextWrangler</li>
-	<li>~ means home directory</li>
-	<li>Talk about pwd, ls and cd</li>
-	<li>One way to run Python programs is to use the Python interpreter</li>
-</ul>
-</details>
-</section>
-
-
-<section>
-<h2>Aaaaaaaaaaaaand go!</h2>
-<p>Now that we have all of our tools set up, let's try an exercise.  LPTHW, Exercise 1: <a href="http://learnpythonthehardway.org/book/ex1.html">A Good First Program</p></a>
-<ul>
-	<li>Remember to prefix the file name with lpthw - for example ex1.py should be lpthw_ex1.py</li>
-	<li>Let's go through the exercise together</li>
-	<li>Remember to <strong>type</strong> everything out; don't copy and paste</li>
-	<li>Let's purposely make a mistake (and then fix it)</li>
-</ul>
-<details>
-<ul>
-	<li>How do we know where to find the mistake?  Is the error correct... try to figure out what the error means</li>
-</ul>
-</details>
-</section>
-
-
-<section>
-<h2>Sharing your work online</h2>
-<ul>
-	<li>Go to you <strong>your</strong> version of mtec2002_assignments</li>
-	<li>Click through class1&rarr;labs&rarr;lpthw_ex1.py</li>
-	<li>Click on the "Edit the file" button</li> 
-	<li>Paste your code there (don't worry, it's ok <em>this</em> time)</li>
-	<li>Type in a commit message (make it useful!)</li>
-	<li>Click on "Commit Changes"</li>
+	<li>What are three ways to represent strings?</li>
+	<li>How do we use string interpolation to format a string?</li>
 </ul>
 </section>
 
 
 <section>
-<h2>Mandatory 'Extra Credit'</h2>
-<ul>
-	<li>There's an Extra Credit section at the end of each LPTHW exercise</li>
-	<li>Let's work through the Extra Credit section together!</li>
-</ul>
-<details>
-<ul>
-	<li>Extra Credit - How do I make it print another line?</li>
-	<li>Extra Credit - How do I get rid of all bu one?</li>
-	<li>Extra Credit - Put the number sign in front of a line... what does it do?</li>
-</ul>
-</details>
-</section>
-
-<section>
-<h2>For today's lab exercises...</h2>
-<ul>
-	<li><a href="../../syllabus.html">Find the links in the syllabus</a></li>
-	<li>There will be 3 more parts to this lab, each with multiple exercises</li>
-	<li>Submit each lab by pasting your code into the appropriate file in github</li>
-	<li>After you've submitted your code, do the Extra Credit; it's mandatory for the lab work!</li>
-	<li>We'll worry about how to submit that extra work in a later class</li> 
-</ul>
+<h2>Strings</h2>
+<p>Representing strings</p>
+{% highlight pycon %}
+'single quotes'
+"double quotes"
+""" triple 
+double 
+quotes"""
+{% endhighlight %}
+<p>String interpolation</p>
+{% highlight pycon %}
+"1, %d, 3, %d" % (2, 4)
+"one, %s, three, %s" % ("two", "four")
+{% endhighlight %}
 </section>
 
 
 <section>
-<h1>Questions</h1>
+<h2>Numbers</h2>
+<ul>
+	<li>5 / 2 = ?</li>
+	<li>5 / 2.0 = ?</li>
+</ul>
+</section>
+
+
+<section>
+<h2>Variables</h2>
+<ul>
+	<li>How do you declare a variable in Python?</li>
+	<li>Do you declare a type?</li>
+</ul>
+</section>
+
+
+<section>
+<h2>Conditionals</h2>
+<ul>
+	<li>What are some comparison operations that can be used for conditionals?</li>
+	<li>What are three boolean operations that can be used for combining multiple comparison expressions?</li>
+	<li>How do you separate a the body of a conditional from the conditional itself?</li>
+	<li>How do you chain multiple conditions? (How do you do an else if?)</li>
+</ul>
+</section>
+
+<section>
+<h2>Conditionals</h2>
+<ul>
+	<li>==, !=, &lt;&gt;, &gt;=, &lt;=, is, is not</li>
+	<li>and, or, not</li>
+</ul>
+<p>Conditionals</p>
+{% highlight pycon %}
+if x > 4 and x < 6:
+	print "somewhere between 4 and 6"
+{% endhighlight %}
+<p>Chaining conditions</p>
+{% highlight pycon %}
+if x > 4:
+	print "greater than 4"
+elif x < 4:
+	print "less than 4"
+{% endhighlight %}
+</section>
+
+<section>
+<h2>Prompting for input</h2>
+<ul>
+	<li>How do you prompt a user for input?</li>
+	<li>What's the type of the input when it's entered?  int?  str?  list?</li>
+</ul>
+</section>
+
+<section>
+<h2>Prompting for input</h2>
+<ul>
+	<li>raw_input()</li>
+	<li>String</li>
+</ul>
 </section>
