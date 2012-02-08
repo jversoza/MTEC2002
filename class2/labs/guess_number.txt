@@ -1,6 +1,6 @@
 lab - guess_number.py
 =====
-1.  Open guess_number.py.  Write a program that stores a number in a variable named secret_number.  When the program is run, it asks the user to:
+1.  Write a program that stores a number in a variable named secret_number.  When the program is run, it asks the user to:
 
 Guess what number I'm thinking of...
 

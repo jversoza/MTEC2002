@@ -90,7 +90,7 @@ Class 2 - February 8th - Functions, Lists, and Loops
 * [Functions](class2/slides/functions.html)
 * [Lists, Sequences](class2/slides/lists.html)
 * [Loops and Lists](class2/slides/loops_and_lists.html)
-* [Loopier - While Loops, Nested Loops](class2/slides/loopier.html)
+* [Loopier - While Loops](class2/slides/loops_and_lists.html#4)
 
 ###Labs
 For this lab, create a directory called mtec2002_class2, and place all you Python source files (.py) and text files (.txt) there.  Zip up the folder and email it to me.
@@ -129,60 +129,38 @@ __Part 2__ - Functions
 
 __Part 3__ - Lists, Sequences
 * Open up terminal and start the interactive shell
-* Do the activities in http://www.diveintopython.net/native_data_types/lists.html
-* Copy the as much as you can of your session and paste it into a file called diveintopython_lists_output.txt
-* [Strings to Lists and Back](class2/labs/strings_to_lists)
+* Do the activities in [Dive Into Python 3.2 - Introducing Lists](http://www.diveintopython.net/native_data_types/lists.html)
+* Copy the output of your your interactive python session and paste it into a file called diveintopython_lists_output.txt
+* EXTRA CREDIT: [str_list](class2/labs/str_list.txt)
 
 __Part 4__ - Loops and Lists
-* LPTHW, Exercise 32: [Loops_and_Lists](http://learnpythonthehardway.org/book/ex32.html)
-* [Loops and Cubes](class2/labs/loops_cubes.txt)
+* LPTHW, Exercise 32: [Loops_and_Lists](http://learnpythonthehardway.org/book/ex32.html) - save your file as lpthw_ex32.py
 * [Loops and Three Letter Words](class2/labs/loops_three_letter.txt)
-* Loops Sum
+* [Loops Sum](class2/labs/loops_sums.txt)
 
-__Part 5__ - Loopier - While Loops, Nested Loops
+__Part 5__ - Loopier - While Loops
+* LPTHW, Exercise 33: [While Loops](http://learnpythonthehardway.org/book/ex33.html) - save your file as lpthw_ex33.py
 * [Fizz Buzz](class2/labs/fizz_buzz.txt) (via [Imran On Tech](http://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/)) -  
-* [Nested Loops, Nested Lists]()
 
-
-EXTRA CREDIT
-* review strings + string methods
-* lists
-* some quick list exercises
-* string methods and lists
-* 2 ways to loop through
-	* cubes
-	* uppercase
-* use loop to return only 3 letters
-	* handle
-* some array manipulation exercises
-* main?
-* print out a matrix... used rand
-* if main
-* indes vs search
-* nested lists
 ###hw
-* greetings
-	* list of names
-	* ask for input, greet all names
-		* do two ways
-	* limit the greeting to just greetings in list
-	* do some branching that allows you to add greetings
-* implement modulo
-* modify number guessing so that you have to continue guessing
-	* don't give the answer
-* binary search
-* lpth function on functions?
-	* extra credit - use a function so that you have a func and a list comprehension
+* [Greetings](class2/hw/greetings.txt)
+* EXTRA CREDIT: [Modulo](class2/hw/modulo.txt)
+* EXTRA CREDIT: modify guess_number.py so that you have to continue guessing until you guess correctly (hint... try using a while loop!)
 
 
 Class 3 - February 15th - Functions
 =====
-* [Sans Loops - List Comprehensions](class2/slides/sans_loops.html)
-__Part 1__ - Sans Loops - List Comprehensions
-* Loops and Cubes using list comp
-* Tuples and Dictionaries
-* More built-in functions
-* More About Functions
+* More functions, testing
+* Nested loops, nested lists
+* List comprehensions
+* Tuples and dictionaries
+* Keyword args, etc
+* More built-in functions?
+
+###Labs
+__Part 1__ -  [How to Think Like a Computer Scientist: Chapter 4 - Fruitful Functions](http://www.openbookproject.net/thinkcs/python/english2e/ch04.html)
+__Part 2__ - Sans Loops - List Comprehensions
+* Loops and Cubes using list comprehensions
 
 
 Class 4 - February 22nd - Classes
