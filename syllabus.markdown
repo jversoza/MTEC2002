@@ -79,6 +79,7 @@ Due before next class, __Feb 8th, Wednesday, 6PM__
 	* LPTHW, Exercise 31: [Making Decisions](http://learnpythonthehardway.org/book/ex31.html)
 
 
+<a class="class2" id="class2"></a>
 Class 2 - February 8th - Functions, Lists, and Loops
 =====
 * Functions
