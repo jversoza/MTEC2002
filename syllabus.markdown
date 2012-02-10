@@ -80,18 +80,15 @@ Due before next class, __Feb 8th, Wednesday, 6PM__
 
 
 <a class="class2" id="class2"></a>
-Class 2 - February 8th - Functions, Lists, and Loops
+Class 2 - February 8th - Functions, Lists
 =====
 * Functions
 * Lists
-* Loops
 
 ###Slides
 * [Review - Strings, Variables, Conditionals, etc](class2/slides/review.html)
 * [Functions](class2/slides/functions.html)
 * [Lists, Sequences](class2/slides/lists.html)
-* [Loops and Lists](class2/slides/loops_and_lists.html)
-* [Loopier - While Loops](class2/slides/loops_and_lists.html#4)
 
 ###Labs
 For this lab, create a directory called mtec2002_class2, and place all you Python source files (.py) and text files (.txt) there.  Zip up the folder and email it to me.
@@ -104,68 +101,55 @@ __Part 2__ - Functions
 * [How to Think Like a Computer Scientist: Chapter 3 - Functions](http://www.openbookproject.net/thinkcs/python/english2e/ch03.html)
 * Read the entire chapter, including the definitions
 * Follow along in the interactive shell
-* Create a file called thinkcs_chap_03.txt.  Use it for the activities in this chapter (see below)
-* Section 3.1 - Definitions and use
-	* create tryme1.py
-	* try running it
-* Section 3.3 - Parameters, arguments, and the import statement
-	* paste activities from interactive shell into thinkcs_chap_03.txt 
-	* put them under a heading called "==3.3=="
-	* create chap03.py and try running it
-* Section 3.4 - Composition
-	* paste activities from interactive shell into thinkcs_chap_03.txt 
-	* put them under a heading called "==3.4=="
-* Section 3.5 - Variables and parameters are local
-	* paste activities from interactive shell into thinkcs_chap_03.txt 
-	* put them under a heading called "==3.5=="
-* Section 3.6 - Stack Diagrams
-	* tryme2.py
-	* try running it
-* Section 3.8 - Exercises
-	1. create tryme3.py
-	2. create a new version of tryme3.py called tryme3_2.py.  Answer the quetion and paste it into thinkcs_chap_03.txt under a heading called "==3.8 - 2=="
-	3. create a new version of tryme3.py called tryme3_3.py.  Answer the question and paste it into thinkcs_chap_03.txt under a heading called "==3.8 - 3=="
-	4. create import_test.py and paste the output from you interactive shell session in thinkcs_chap_03.txt under a heading called "==3.8 - 4=="
-* EXTRA CREDIT: Wrap the code in your last version of guess_number.py in a function that accepts two parameters: secret_number and close_by.  Try importing the file in the interactive shell... and call your function.  Save your new file  as guess_number_function.py and the results of your interactive session.
 
 __Part 3__ - Lists, Sequences
-* Open up terminal and start the interactive shell
+* See homework below
+
+<a class="homework2" id="homework2"></a>
+###Homework
+* [Guess a number](class2/labs/guess_number.txt)
+	* After going through all of the exercises in the above file (up to #3), send me your final version of guess_number.py
+	* Send me the output of your tests
+	* If you're having difficulties with this homework, see LPTHW Exerecises [1](http://learnpythonthehardway.org/book/ex1.html),[4](http://learnpythonthehardway.org/book/ex4.html)[27](http://learnpythonthehardway.org/book/ex27.html),[28](http://learnpythonthehardway.org/book/ex28.html),[29](http://learnpythonthehardway.org/book/ex29.html), and [30](http://learnpythonthehardway.org/book/ex30.html)
+	* The EXTRA CREDIT section is optional
+* [How to Think Like a Computer Scientist: Chapter 3 - Functions](http://www.openbookproject.net/thinkcs/python/english2e/ch03.html)
+	* Send me all of the output from your interactive shell sessions, as well as any files that the exercises tell you to create (tryme.py, tryme1.py, tryme2.py, tryme3.py)
 * Do the activities in [Dive Into Python 3.2 - Introducing Lists](http://www.diveintopython.net/native_data_types/lists.html)
-* Copy the output of your your interactive python session and paste it into a file called diveintopython_lists_output.txt
+	* Copy the output of your your interactive python session and paste it into a file called diveintopython_lists_output.txt
 * EXTRA CREDIT: [str_list](class2/labs/str_list.txt)
 
-__Part 4__ - Loops and Lists
+Class 3 - February 15th - Functions, Loops
+=====
+* Functions revisited
+* Loops
+* List comprehensions
+
+###Loops
+* [Loops and Lists](class2/slides/loops_and_lists.html)
+* [Loopier - While Loops](class2/slides/loops_and_lists.html#4)
+
+###Labs
+__Part 1__ -  [How to Think Like a Computer Scientist: Chapter 4 - Fruitful Functions](http://www.openbookproject.net/thinkcs/python/english2e/ch04.html)
+__Part 2__ - Loops and Lists
 * LPTHW, Exercise 32: [Loops_and_Lists](http://learnpythonthehardway.org/book/ex32.html) - save your file as lpthw_ex32.py
 * [Loops and Three Letter Words](class2/labs/loops_three_letter.txt)
 * [Loops Sum](class2/labs/loops_sums.txt)
-
-__Part 5__ - Loopier - While Loops
+__Part 3__ - Loopier - While Loops
 * LPTHW, Exercise 33: [While Loops](http://learnpythonthehardway.org/book/ex33.html) - save your file as lpthw_ex33.py
 * [Fizz Buzz](class2/labs/fizz_buzz.txt) (via [Imran On Tech](http://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/)) -  
+__Part 4__ - Sans Loops - List Comprehensions
+* Loops and Cubes using list comprehensions
 
 ###hw
 * [Greetings](class2/hw/greetings.txt)
 * EXTRA CREDIT: [Modulo](class2/hw/modulo.txt)
 * EXTRA CREDIT: modify guess_number.py so that you have to continue guessing until you guess correctly (hint... try using a while loop!)
 
-
-Class 3 - February 15th - Functions
+Class 4 - February 22nd - Classes
 =====
-* More functions, testing
-* Nested loops, nested lists
-* List comprehensions
 * Tuples and dictionaries
 * Keyword args, etc
 * More built-in functions?
-
-###Labs
-__Part 1__ -  [How to Think Like a Computer Scientist: Chapter 4 - Fruitful Functions](http://www.openbookproject.net/thinkcs/python/english2e/ch04.html)
-__Part 2__ - Sans Loops - List Comprehensions
-* Loops and Cubes using list comprehensions
-
-
-Class 4 - February 22nd - Classes
-=====
 * Classes and objects
 
 

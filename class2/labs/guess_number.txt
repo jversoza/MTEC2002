@@ -86,6 +86,6 @@ walsh:~ joe$
 	b.  EXTRA CREDIT: What does the function "abs()" do?  Use "help()" in the interactive shell to figure it out.  Would abs be helpful in your program?  If you haven't already used it in your implementation, try using it now.  Turn in your new code and answer the questions below:
 	===
 
-5.  EXTRA CREDIT: You can compose functions.  For example, if you have a function f, and a function g, you can call f(g(x)).  This means that you're using the result of g(x) and making the value that's passed into funciton f.  Specifically, you can make raw_input and the conversion into int just one line.   Test that the new program works (use all 5 test cases) and write the "composed" function below:
+5.  EXTRA CREDIT: You can compose functions.  For example, if you have a function f, and a function g, you can call f(g(x)).  This means that you're using the result of g(x) and making the value that's passed into function f.  Specifically, you can make raw_input and the conversion into int just one line.   Test that the new program works (use all 5 test cases) and write the "composed" function below:
 ===
 
