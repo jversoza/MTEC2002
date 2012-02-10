@@ -113,9 +113,11 @@ __Part 3__ - Lists, Sequences
 	* If you're having difficulties with this homework, see LPTHW Exerecises [1](http://learnpythonthehardway.org/book/ex1.html), [4](http://learnpythonthehardway.org/book/ex4.html), [27](http://learnpythonthehardway.org/book/ex27.html), [28](http://learnpythonthehardway.org/book/ex28.html), [29](http://learnpythonthehardway.org/book/ex29.html), and [30](http://learnpythonthehardway.org/book/ex30.html)
 	* The EXTRA CREDIT section is optional
 * [How to Think Like a Computer Scientist: Chapter 3 - Functions](http://www.openbookproject.net/thinkcs/python/english2e/ch03.html)
-	* Send me all of the output from your interactive shell sessions, as well as any files that the exercises tell you to create (tryme.py, tryme1.py, tryme2.py, tryme3.py)
+	* Send me all of the output from your interactive shell sessions
+	* ... as well as any files that the exercises tell you to create (tryme.py, tryme1.py, tryme2.py, tryme3.py)
 * Do the activities in [Dive Into Python 3.2 - Introducing Lists](http://www.diveintopython.net/native_data_types/lists.html)
-	* Copy the output of your your interactive python session and paste it into a file called diveintopython_lists_output.txt
+	* Copy the output of your your interactive python session 
+	* Paste it into a file called diveintopython_lists_output.txt, and send that file to me
 * EXTRA CREDIT: [str_list](class2/labs/str_list.txt)
 
 Class 3 - February 15th - Functions, Loops
