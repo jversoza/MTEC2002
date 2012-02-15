@@ -13,5 +13,3 @@ Example Output (after importing into Python interactive shell):
 >>> f_to_c(32)
 0.0
 """
-def f_to_c(temperature):
-	return 5/9.0 * (temperature - 32)

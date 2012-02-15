@@ -30,19 +30,3 @@ Write this program in incremental steps.
 3. Within that conditional, if the user said "Hi" or "Hello", ask the user for their name and store it in a variable.  
 4. Finally, nest another conditional in your first if statement to check if your name matches the their name.  If you have the same name, print out a greeting again, but this time, with their name in it.
 """
-
-my_name = 'Joe'
-print "Hi there!"
-greeting = raw_input("> ")
-
-if  greeting == "Hi" or greeting == "Hello":
-
-	print "What's your name?"
-	their_name = raw_input("> ")
-	if their_name == my_name:
-		print "Hi %s, we have the same name!" % (their_name)
-	else:
-		print "Hi %s!" % (their_name)
-else:
-	print "Bye!"
-		

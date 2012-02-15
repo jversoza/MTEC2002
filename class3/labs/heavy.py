@@ -12,5 +12,3 @@ Example Output (after importing into Python interactive shell):
 
 Extra Credit #1 - What happens if you don't pass in a number?  How can you clean the input or prevent an error from occurring if a string is passed in rather than a number?  Implement it.
 """
-def lb_to_kg(weight):
-	return weight/2.2

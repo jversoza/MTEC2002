@@ -14,11 +14,3 @@ want cake?
 want cake?
 > no
 """
-
-def ask_cake():
-	print "want cake?"
-	answer = raw_input("> ")
-	if answer != "yes":
-		ask_cake()
-	else:
-		return "you got it"

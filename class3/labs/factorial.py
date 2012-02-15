@@ -37,8 +37,3 @@ Example Output (after importing into Python interactive shell):
 
 Want to cheat?  See http://www.openbookproject.net/thinkcs/python/english2e/ch11.html, sections 11.8 and 11.9.
 """
-def fact(n):
-	if n == 0:
-		return 1
-	else:
-		return n * fact(n-1)

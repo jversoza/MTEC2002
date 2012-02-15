@@ -9,6 +9,4 @@ Example Output (after importing into Python interactive shell):
 >>> shout_louder("You should be whispering", 5)
 'You should be whispering!!!!!'
 """
-def shout_louder(words, n):
-	return "%s%s" % (words, "!" * n)
 

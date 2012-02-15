@@ -29,5 +29,3 @@ from shout import *
 
 ...if you started python in the same directory as your source file
 """
-def shout(words):
-	return "%s!!!" % (words)

@@ -30,15 +30,3 @@ Extra Credit #2 - if you didn't add an explicit check for "no", do so.  If the u
 
 Extra Credit #3... Could you use lists to help normalize user input?  If so, how?  Implement it.  Would a list's index() function work?  What would you need to watch out for?
 """
-print "Do want cake?"
-want_cake = raw_input("> ")
-
-if want_cake == 'yes':
-	print "Do you want frosting on your cake?"
-	want_frosting = raw_input("> ")
-	if want_frosting == 'yes':
-		print "Have a cake with frosting!"
-	else:
-		print "No frosting for you!"
-else:
-	print "No cake for you!"
