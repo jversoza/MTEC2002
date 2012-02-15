@@ -110,7 +110,7 @@ __Part 3__ - Lists, Sequences
 * [Guess a number](class2/labs/guess_number.txt)
 	* After going through all of the exercises in the above file (up to #3), send me your final version of guess_number.py
 	* Send me the output of your tests
-	* If you're having difficulties with this homework, see LPTHW Exerecises [1](http://learnpythonthehardway.org/book/ex1.html), [4](http://learnpythonthehardway.org/book/ex4.html), [27](http://learnpythonthehardway.org/book/ex27.html), [28](http://learnpythonthehardway.org/book/ex28.html), [29](http://learnpythonthehardway.org/book/ex29.html), and [30](http://learnpythonthehardway.org/book/ex30.html)
+	* If you're having difficulties with this homework, see LPTHW Exercises [1](http://learnpythonthehardway.org/book/ex1.html), [4](http://learnpythonthehardway.org/book/ex4.html), [27](http://learnpythonthehardway.org/book/ex27.html), [28](http://learnpythonthehardway.org/book/ex28.html), [29](http://learnpythonthehardway.org/book/ex29.html), and [30](http://learnpythonthehardway.org/book/ex30.html)
 	* The EXTRA CREDIT section is optional
 * [How to Think Like a Computer Scientist: Chapter 3 - Functions](http://www.openbookproject.net/thinkcs/python/english2e/ch03.html)
 	* Send me all of the output from your interactive shell sessions
