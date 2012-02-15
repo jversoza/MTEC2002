@@ -144,6 +144,7 @@ Class 3 - February 15th - Review and Loops
 __Part 1__ -  Reviewing Conditionals and Indentation 
 * Follow along - [What's your name?](class3/labs/name.py)
 * Do on your own - [Have some cake](class3/labs/cake.py)
+* [How to Think Like a Computer Scientist: Chapter - 4 - Conditionals](http://www.openbookproject.net/thinkcs/python/english2e/ch04.html) - Read 4.1 to 4.8 and do exercise 6 and 7.  Put those functions in a file called think_sci_ch4.py.
 
 __Part 2__ - Functions
 * Follow along - [Shout out loud!](class3/labs/shout.py)
@@ -167,9 +168,7 @@ __Part 5__ - Loopier - While Loops
 * LPTHW, Exercise 33: [While Loops](http://learnpythonthehardway.org/book/ex33.html) - save your file as lpthw_ex33.py
 * [Fizz Buzz](class2/labs/fizz_buzz.txt) (via [Imran On Tech](http://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/))
 
-__Part 6__ -  [How to Think Like a Computer Scientist: Chapter - 4 - Conditionals](http://www.openbookproject.net/thinkcs/python/english2e/ch04.html)
 
-__Part 7__ -  [How to Think Like a Computer Scientist: Chapter - 5 - Fruitful Functions](http://www.openbookproject.net/thinkcs/python/english2e/ch05.html)
 
 Class 4 - February 22nd - Quiz, Tuples and Dictionaries, Review Loops 
 =====
