@@ -120,49 +120,83 @@ __Part 3__ - Lists, Sequences
 	* Paste it into a file called diveintopython_lists_output.txt, and send that file to me
 * EXTRA CREDIT: [str_list](class2/labs/str_list.txt)
 
-Class 3 - February 15th - Functions, Loops
+<a class="class3" id="class3"></a>
+Class 3 - February 15th - Review and Loops
 =====
-* Functions revisited
+* Homework submission and policy
+* Homework #1 Discussion
+* Review
+	* Conditionals, Indentation
+	* Functions
+	* Lists
 * Loops
-* List comprehensions
 
-###Loops
-* [Loops and Lists](class2/slides/loops_and_lists.html)
-* [Loopier - While Loops](class2/slides/loops_and_lists.html#4)
+###Slides
+* [Homework #1 -  Submission Policy, Grading, and Discussion](class3/slides/homework1.html)
+* Review
+	* [Functions](class2/slides/functions.html)
+	* [Lists, Sequences](class2/slides/lists.html)
+* [Loops and Lists](class3/slides/loops_and_lists.html)
+* [Loopier - While Loops](class3/slides/loops_and_lists.html#4)
 
 ###Labs
-__Part 1__ -  [How to Think Like a Computer Scientist: Chapter 4 - Fruitful Functions](http://www.openbookproject.net/thinkcs/python/english2e/ch04.html)
-__Part 2__ - Loops and Lists
+
+__Part 1__ -  Reviewing Conditionals and Indentation 
+* Follow along - [What's your name?](class3/labs/name.py)
+* Do on your own - [Have some cake](class3/labs/cake.py)
+
+__Part 2__ - Functions
+* Follow along - [Shout out loud!](class3/labs/shout.py)
+* Follow along - [Hotness](class3/labs/hotness.py)
+* Do on your own - [Pluralize](class3/labs/pluralize.py)
+* Do on your own - [Heavy](class3/labs/heavy.py)
+* Extra Credit - [Shout Louder](class3/labs/shout_louder.py)
+* Extra Credit - [Factorial](class3/labs/factorial.py)
+* Extra Credit - [Infinite Cake](class3/labs/infinite_cake.py)
+
+__Part 3__ - Lists
+* Follow along - [Lists](class3/labs/lists.py)
+* Do on your own - [Lists again](class3/labs/lists_again.py)
+
+__Part 4__ - Loops and Lists
 * LPTHW, Exercise 32: [Loops_and_Lists](http://learnpythonthehardway.org/book/ex32.html) - save your file as lpthw_ex32.py
 * [Loops and Three Letter Words](class2/labs/loops_three_letter.txt)
 * [Loops Sum](class2/labs/loops_sums.txt)
-__Part 3__ - Loopier - While Loops
+
+__Part 5__ - Loopier - While Loops
 * LPTHW, Exercise 33: [While Loops](http://learnpythonthehardway.org/book/ex33.html) - save your file as lpthw_ex33.py
-* [Fizz Buzz](class2/labs/fizz_buzz.txt) (via [Imran On Tech](http://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/)) -  
-__Part 4__ - Sans Loops - List Comprehensions
-* Loops and Cubes using list comprehensions
+* [Fizz Buzz](class2/labs/fizz_buzz.txt) (via [Imran On Tech](http://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/))
+
+__Part 6__ -  [How to Think Like a Computer Scientist: Chapter - 4 - Conditionals](http://www.openbookproject.net/thinkcs/python/english2e/ch04.html)
+
+__Part 7__ -  [How to Think Like a Computer Scientist: Chapter - 5 - Fruitful Functions](http://www.openbookproject.net/thinkcs/python/english2e/ch05.html)
+
+Class 4 - February 22nd - Quiz, Tuples and Dictionaries, Review Loops 
+=====
+* Quiz
+* Tuples and dictionaries
+* Keyword args, etc
+* More built-in functions?
+* List comprehensions
 
 ###hw
 * [Greetings](class2/hw/greetings.txt)
 * EXTRA CREDIT: [Modulo](class2/hw/modulo.txt)
-* EXTRA CREDIT: modify guess_number.py so that you have to continue guessing until you guess correctly (hint... try using a while loop!)
 
-Class 4 - February 22nd - Classes
+Class 5 - February 29th - Classes, Objects, Review Tuples and Dictionaries 
 =====
-* Tuples and dictionaries
-* Keyword args, etc
-* More built-in functions?
 * Classes and objects
 
 
-Class 5 - February 29th - Exceptions and Testing
+Class 6 - March 7th - Exceptions and Testing, Review Classes and Objects
 =====
 * Unit Tests
 * Exceptions
 * Refactoring
+* Documentation
 
 
-Class 6 - March 7th - Creating and Using Modules and Packages
+Class 7 - March 14th - Creating and Using Modules and Packages, Review Testing
 =====
 * Common modules
 	* math, sys, re, os, os.path
@@ -170,7 +204,7 @@ Class 6 - March 7th - Creating and Using Modules and Packages
 * Organizing code - packages, modules
 
 
-Class 7 - March 14th - Consuming the Web
+Class 8 - March 21st - Consuming the Web
 =====
 * HTTP
 * urllib
@@ -179,7 +213,7 @@ Class 7 - March 14th - Consuming the Web
 * machine learning
 
 
-Class 8 - March 21st - Web Development I 
+Class 9 - March 28th - Web Development I 
 =====
 * About web development
 * Django basics
@@ -190,7 +224,7 @@ Class 8 - March 21st - Web Development I
 * Databases and quick intro to database design
 
 
-Class 9 - March 28th - Web Development II 
+Class 10 - April 4th - Web Development II
 =====
 * Advanced Django
 	* Context processors
@@ -200,18 +234,13 @@ Class 9 - March 28th - Web Development II
 	* csrf
 * Users / authentication
 
-
-Class 10 - April 4th - Socket Programming, More File I/O, Creating an HTTP Server
+Class 11 - April 11th - Socket Programming, More File I/O, Creating an HTTP Server
 =====
 * Socket programming
 * Creating a server
 
 
-Class 11 - April 11th - PyGame/GASP I
-=====
-
-
-Class 12 - April 18th - PyGame/GASP II
+Class 12 - April 18th - PyGame/GASP I
 =====
 
 
