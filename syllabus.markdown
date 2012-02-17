@@ -155,7 +155,7 @@ __Part 2__ - Functions
 * Quiz next week.
 * [How to Think Like a Computer Scientist: Chapter - 4 - Conditionals](http://www.openbookproject.net/thinkcs/python/english2e/ch04.html) - Read 4.1 to 4.8
 
-Class 4 - February 22nd - Quiz, Tuples and Dictionaries, Review Loops 
+Class 4 - February 22nd - Quiz, Loops and Lists
 =====
 * Solutions to homework
 * Quiz
@@ -183,32 +183,35 @@ __Part 3__ - Loopier - While Loops
 * [Greetings](class2/hw/greetings.txt)
 * EXTRA CREDIT: [Modulo](class2/hw/modulo.txt)
 
-Class 5 - February 29th - Classes, Objects, Review Tuples and Dictionaries 
+Class 5 - February 29th - Dictionaries and Tuples, Review Loops and Lists
 =====
-* Dictionaries
-* Classes and objects
+* Dictionaries Tuples
 * Keyword args, etc
 * More built-in functions?
 * List comprehensions
-* Tuples
 
-Class 6 - March 7th - Exceptions and Testing, Review Classes and Objects
+Class 6 - March 7th - Using Modules and Packages, Review Tuples and Dictionaries
+=====
+* Common modules
+	* math, sys, re, os, os.path
+	* logging, datetime, time and re
+* Optional Topic - Organizing code / creating your own packages, modules
+
+Class 7 - March 14th -  Classes, Objects, Review Modules and Packages
+=====
+* objects
+	* Creating objects
+	* Calling methods
+* Optional Topic - classes (you can make your own!)
+
+Class 8 - March 21st - Exceptions and Testing, Review Modules and Packages
 =====
 * Unit Tests
 * Exceptions
 * Refactoring
 * Documentation
-
-
-Class 7 - March 14th - Creating and Using Modules and Packages, Review Testing
-=====
-* Common modules
-	* math, sys, re, os, os.path
-	* logging, datetime, time and re
-* Organizing code - packages, modules
-
-
-Class 8 - March 21st - Consuming the Web
+ 
+Class 9 - March 28th - Consuming the Web
 =====
 * HTTP
 * urllib
@@ -216,8 +219,7 @@ Class 8 - March 21st - Consuming the Web
 * beautiful soup
 * machine learning
 
-
-Class 9 - March 28th - Web Development I 
+Class 10 - April 4th - Web Development I 
 =====
 * About web development
 * Django basics
@@ -227,8 +229,7 @@ Class 9 - March 28th - Web Development I
 	* Forms
 * Databases and quick intro to database design
 
-
-Class 10 - April 4th - Web Development II
+Class 11 - April 11th -  Web Development II
 =====
 * Advanced Django
 	* Context processors
@@ -238,14 +239,11 @@ Class 10 - April 4th - Web Development II
 	* csrf
 * Users / authentication
 
-Class 11 - April 11th - Socket Programming, More File I/O, Creating an HTTP Server
+
+Class 12 - April 18th - Socket Programming, More File I/O, Creating an HTTP Server
 =====
 * Socket programming
 * Creating a server
-
-
-Class 12 - April 18th - PyGame/GASP I
-=====
 
 
 Class 13 - April 25th - Final Project Proposals / Advanced Python 
