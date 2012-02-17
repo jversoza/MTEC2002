@@ -195,14 +195,14 @@ Class 6 - March 7th - Using Modules and Packages, Review Tuples and Dictionaries
 * Common modules
 	* math, sys, re, os, os.path
 	* logging, datetime, time and re
-* Optional Topic - Organizing code / creating your own packages, modules
+* Organizing code / creating your own packages, modules
 
 Class 7 - March 14th -  Classes, Objects, Review Modules and Packages
 =====
 * objects
 	* Creating objects
 	* Calling methods
-* Optional Topic - classes (you can make your own!)
+* Classes (you can make your own!)
 
 Class 8 - March 21st - Exceptions and Testing, Review Modules and Packages
 =====
