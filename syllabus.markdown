@@ -135,6 +135,7 @@ Class 3 - February 15th - Homewor Submission, Review Conditionals and Indentatio
   * [Prompts and Conditionals](class1/slides/prompts_and_conditionals.html)
 	* [Functions](class2/slides/functions.html)
 
+<a class="labs3" id="labs3"></a>
 ###Labs
 __Part 1__ -  Reviewing Conditionals and Indentation 
 * Follow along - [What's your name?](class3/labs/name.py)
@@ -149,6 +150,7 @@ __Part 2__ - Functions
 * Extra Credit - [Factorial](class3/labs/factorial.py)
 * Extra Credit - [Infinite Cake](class3/labs/infinite_cake.py)
 
+<a class="homework3" id="homework3"></a>
 ###Homework
 * Finish Part 1 and 2 of the Labs.
 * Extra Credit is Optional.
