@@ -121,30 +121,24 @@ __Part 3__ - Lists, Sequences
 * EXTRA CREDIT: [str_list](class2/labs/str_list.txt)
 
 <a class="class3" id="class3"></a>
-Class 3 - February 15th - Review and Loops
+Class 3 - February 15th - Homewor Submission, Review Conditionals and Indentation
 =====
 * Homework submission and policy
 * Homework #1 Discussion
 * Review
 	* Conditionals, Indentation
 	* Functions
-	* Lists
-* Loops
 
 ###Slides
 * [Homework #1 -  Submission Policy, Grading, and Discussion](class3/slides/homework1.html)
 * Review
+  * [Prompts and Conditionals](class1/slides/prompts_and_conditionals.html)
 	* [Functions](class2/slides/functions.html)
-	* [Lists, Sequences](class2/slides/lists.html)
-* [Loops and Lists](class3/slides/loops_and_lists.html)
-* [Loopier - While Loops](class3/slides/loops_and_lists.html#4)
 
 ###Labs
-
 __Part 1__ -  Reviewing Conditionals and Indentation 
 * Follow along - [What's your name?](class3/labs/name.py)
 * Do on your own - [Have some cake](class3/labs/cake.py)
-* [How to Think Like a Computer Scientist: Chapter - 4 - Conditionals](http://www.openbookproject.net/thinkcs/python/english2e/ch04.html) - Read 4.1 to 4.8 and do exercise 6 and 7.  Put those functions in a file called think_sci_ch4.py.
 
 __Part 2__ - Functions
 * Follow along - [Shout out loud!](class3/labs/shout.py)
@@ -155,28 +149,35 @@ __Part 2__ - Functions
 * Extra Credit - [Factorial](class3/labs/factorial.py)
 * Extra Credit - [Infinite Cake](class3/labs/infinite_cake.py)
 
-__Part 3__ - Lists
+###Homework
+* Finish Part 1 and 2 of the Labs.
+* Extra Credit is Optional.
+* Quiz next week.
+* [How to Think Like a Computer Scientist: Chapter - 4 - Conditionals](http://www.openbookproject.net/thinkcs/python/english2e/ch04.html) - Read 4.1 to 4.8
+
+Class 4 - February 22nd - Quiz, Tuples and Dictionaries, Review Loops 
+=====
+* Solutions to homework
+* Quiz
+* Loops and Lists
+
+### Slides
+* [Loops and Lists](class3/slides/loops_and_lists.html)
+* [Loopier - While Loops](class3/slides/loops_and_lists.html#4)
+
+### Labs
+__Part 1__ - Lists
 * Follow along - [Lists](class3/labs/lists.py)
 * Do on your own - [Lists again](class3/labs/lists_again.py)
 
-__Part 4__ - Loops and Lists
+__Part 2__ - Loops and Lists
 * LPTHW, Exercise 32: [Loops_and_Lists](http://learnpythonthehardway.org/book/ex32.html) - save your file as lpthw_ex32.py
 * [Loops and Three Letter Words](class2/labs/loops_three_letter.txt)
 * [Loops Sum](class2/labs/loops_sums.txt)
 
-__Part 5__ - Loopier - While Loops
+__Part 3__ - Loopier - While Loops
 * LPTHW, Exercise 33: [While Loops](http://learnpythonthehardway.org/book/ex33.html) - save your file as lpthw_ex33.py
 * [Fizz Buzz](class2/labs/fizz_buzz.txt) (via [Imran On Tech](http://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/))
-
-
-
-Class 4 - February 22nd - Quiz, Tuples and Dictionaries, Review Loops 
-=====
-* Quiz
-* Tuples and dictionaries
-* Keyword args, etc
-* More built-in functions?
-* List comprehensions
 
 ###hw
 * [Greetings](class2/hw/greetings.txt)
@@ -184,8 +185,12 @@ Class 4 - February 22nd - Quiz, Tuples and Dictionaries, Review Loops
 
 Class 5 - February 29th - Classes, Objects, Review Tuples and Dictionaries 
 =====
+* Dictionaries
 * Classes and objects
-
+* Keyword args, etc
+* More built-in functions?
+* List comprehensions
+* Tuples
 
 Class 6 - March 7th - Exceptions and Testing, Review Classes and Objects
 =====
