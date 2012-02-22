@@ -159,31 +159,67 @@ __Part 2__ - Functions
 
 Class 4 - February 22nd - Quiz, Loops and Lists
 =====
-* Solutions to homework
 * Quiz
-* Loops and Lists
+* Review / solutions to homework
+* Lists
+* Loops
 
 ### Slides
-* [Loops and Lists](class3/slides/loops_and_lists.html)
-* [Loopier - While Loops](class3/slides/loops_and_lists.html#4)
+* [Quiz Instructions](class4/slides/quiz.html)
+	* Hand-in quiz when finished
+	* If you finish early, read [How to Think Like a Computer Scientist - Chapter 9 - Lists](http://openbookproject.net/thinkcs/python/english2e/ch09.html) to get a head start 
+* [Lab Submission](class4/slides/lab_submission.html)
+* Homework Solutions / Import
+	* [Have some cake](class3/labs/cake.py)
+	* [Pluralize](class3/labs/pluralize.py)
+	* [Heavy](class3/labs/heavy.py)
+* Extra Credit 
+	* [Shout Louder](class3/labs/shout_louder.py)
+	* [Factorial](class3/labs/factorial.py)
+	* [Infinite Cake](class3/labs/infinite_cake.py)
+* [Lists](class4/slides/lists.html)
+* [Loops and Lists](class4/slides/loops_and_lists.html)
+* [Loopier - While Loops](class4/slides/loops_and_lists.html#4)
 
 ### Labs
 __Part 1__ - Lists
-* Follow along - [Lists](class3/labs/lists.py)
-* Do on your own - [Lists again](class3/labs/lists_again.py)
+* Follow along - [Lists](class4/labs/lists.py)
+* Do on your own - [Lists again](class4/labs/lists_again.py)
+* (REFERENCE) - [How to Think Like a Computer Scientist - Chapter 9 - Lists](http://openbookproject.net/thinkcs/python/english2e/ch09.html)
 
 __Part 2__ - Loops and Lists
-* LPTHW, Exercise 32: [Loops_and_Lists](http://learnpythonthehardway.org/book/ex32.html) - save your file as lpthw_ex32.py
-* [Loops and Three Letter Words](class2/labs/loops_three_letter.txt)
-* [Loops Sum](class2/labs/loops_sums.txt)
+* [Printing Out All Values](class4/labs/all_values.py)
+	* Follow along for the first three parts
+	* Do the second two on your own
+* (OPTIONAL) LPTHW, Exercise 32: [Loops_and_Lists](http://learnpythonthehardway.org/book/ex32.html)
+* (REFERENCE) Python Docs: [for-statements](http://docs.python.org/tutorial/controlflow.html#for-statements)
 
-__Part 3__ - Loopier - While Loops
+__Part 3__ - Building Lists and Accumulating Values
+* Follow along - [Only Larger Than 5](class4/labs/larger_than_five.py)
+* Follow along - [Cubes](class4/labs/cubes.py)
+* Follow along - [Sum](class4/labs/sum.py)
+* On your own - [Only Three Letter Words](class4/labs/three_letter_words.py)
+* On your own - [Sum of Cubes](class4/labs/sum_of_cubes.py)
+* (INTERMEDIATE) - Read about [List Comprehensions](http://docs.python.org/tutorial/datastructures.html#list-comprehensions)
+* (INTERMEDIATE) - Read about [Functional Programming Tools](http://docs.python.org/tutorial/datastructures.html#functional-programming-tools)
+* (INTERMEDIATE) - Modify larger_than_five.py so that it is a single list comprehension 
+	*Hint: use the if syntax in the reading... (it's not explicit about it)
+	*Or see the [third example] (http://www.secnetix.de/olli/Python/list_comprehensions.hawk) under "This is how you do the above in Python:"
+* (INTERMEDIATE) - Modify three_letter_words.py so that it is a single list comprehension
+* (INTERMEDIATE) - Modify cubes.py so that it is a singles list comprehension
+* (INTERMEDIATE) - Modify cubes.py so that it uses the function map (hint... the example in the reading gives this one away) 
+* (INTERMEDIATE) - Modify sum so that it uses the function reduce (hint... the example in the reading gives this one away) 
+
+__Part 4__ - Putting it all together
+* ...And if you want to do the above over and over?
+* Follow along - [Convert cubes.py into a function](class4/labs/cubes_func.py)
+* On your own - [Convert larger_than_five into a function](class4/labs/larger_than_five_func.py) 
+* (INTERMEDIATE) - [Input Cubed](class4/labs/input_cubed.py)
+
+__Time Permitting__ - Loopier - While Loops
 * LPTHW, Exercise 33: [While Loops](http://learnpythonthehardway.org/book/ex33.html) - save your file as lpthw_ex33.py
-* [Fizz Buzz](class2/labs/fizz_buzz.txt) (via [Imran On Tech](http://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/))
+* (INTERMEDIATE) [Modulo](class2/hw/modulo.txt)
 
-###hw
-* [Greetings](class2/hw/greetings.txt)
-* EXTRA CREDIT: [Modulo](class2/hw/modulo.txt)
 
 Class 5 - February 29th - Dictionaries and Tuples, Review Loops and Lists
 =====
@@ -191,6 +227,11 @@ Class 5 - February 29th - Dictionaries and Tuples, Review Loops and Lists
 * Keyword args, etc
 * More built-in functions?
 * List comprehensions
+
+###Labs
+__Part 1__ Review Loops and Lists
+* [Fizz Buzz](class2/labs/fizz_buzz.txt) (via [Imran On Tech](http://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/))
+* [Greetings](class2/hw/greetings.txt)
 
 Class 6 - March 7th - Using Modules and Packages, Review Tuples and Dictionaries
 =====

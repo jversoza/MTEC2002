@@ -76,8 +76,8 @@ Attendance is required for all classes. If a student misses a class session, it 
 
 Grading
 ====
-* 10% - participation (in class, and electronically!)
-* 5% - quizzes
+* 5% - participation (in class, and electronically!)
+* 10% - quizzes
 * 50% - labwork/homework
 * 10% - midterm
 * 25% - final project

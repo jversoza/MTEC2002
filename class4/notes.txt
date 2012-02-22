@@ -1,0 +1,28 @@
+# Basic list comprehension
+>>> [s for s in ["asdf", "asd", "sdf", "fdsa"]]
+['asdf', 'asd', 'sdf', 'fdsa']
+
+# Cubes using for in
+>>> temp = []
+>>> for i in range(10):
+...  temp.append(i**3)
+... 
+>>> temp
+[0, 1, 8, 27, 64, 125, 216, 343, 512, 729]
+
+# Cubes using list comprehension
+>>> [x**3 for x in range(10)]
+[0, 1, 8, 27, 64, 125, 216, 343, 512, 729]
+
+# Filter using list comprehension
+>>> [s for s in ["asdf", "asd", "sdf", "fdsa"] if len(s) > 3]
+['asdf', 'fdsa']
+
+# Filter using filter
+>>> def f(s):
+...  if len(s) > 3:
+...   return s
+... 
+>>> filter(f, ["asdf", "asd", "sdf", "fdsa"])
+['asdf', 'fdsa']
+>>> 
