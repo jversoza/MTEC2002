@@ -157,6 +157,7 @@ __Part 2__ - Functions
 * Quiz next week.
 * [How to Think Like a Computer Scientist: Chapter - 4 - Conditionals](http://www.openbookproject.net/thinkcs/python/english2e/ch04.html) - Read 4.1 to 4.8
 
+<a class="class4" id="class4"></a>
 Class 4 - February 22nd - Quiz, Loops and Lists
 =====
 * Quiz
@@ -188,9 +189,7 @@ __Part 1__ - Lists
 * (REFERENCE) - [How to Think Like a Computer Scientist - Chapter 9 - Lists](http://openbookproject.net/thinkcs/python/english2e/ch09.html)
 
 __Part 2__ - Loops and Lists
-* [Printing Out All Values](class4/labs/all_values.py)
-	* Follow along for the first three parts
-	* Do the second two on your own
+* [Printing Out All Values](class4/labs/all_values.py) (Follow along for the first three parts)
 * (OPTIONAL) LPTHW, Exercise 32: [Loops_and_Lists](http://learnpythonthehardway.org/book/ex32.html)
 * (REFERENCE) Python Docs: [for-statements](http://docs.python.org/tutorial/controlflow.html#for-statements)
 
@@ -201,14 +200,14 @@ __Part 3__ - Building Lists and Accumulating Values
 * On your own - [Only Three Letter Words](class4/labs/three_letter_words.py)
 * On your own - [Sum of Cubes](class4/labs/sum_of_cubes.py)
 * (INTERMEDIATE) - Read about [List Comprehensions](http://docs.python.org/tutorial/datastructures.html#list-comprehensions)
-* (INTERMEDIATE) - Read about [Functional Programming Tools](http://docs.python.org/tutorial/datastructures.html#functional-programming-tools)
+* (OPTIONAL) - Read about [Functional Programming Tools](http://docs.python.org/tutorial/datastructures.html#functional-programming-tools)
 * (INTERMEDIATE) - Modify larger_than_five.py so that it is a single list comprehension 
 	*Hint: use the if syntax in the reading... (it's not explicit about it)
 	*Or see the [third example] (http://www.secnetix.de/olli/Python/list_comprehensions.hawk) under "This is how you do the above in Python:"
 * (INTERMEDIATE) - Modify three_letter_words.py so that it is a single list comprehension
-* (INTERMEDIATE) - Modify cubes.py so that it is a singles list comprehension
-* (INTERMEDIATE) - Modify cubes.py so that it uses the function map (hint... the example in the reading gives this one away) 
-* (INTERMEDIATE) - Modify sum so that it uses the function reduce (hint... the example in the reading gives this one away) 
+* (INTERMEDIATE) - Modify cubes.py so that it is a single list comprehension
+* (OPTIONAL) - Modify cubes.py so that it uses the function map (hint... the example in the reading gives this one away) 
+* (OPTIONAL) - Modify sum so that it uses the function reduce (hint... the example in the reading gives this one away) 
 
 __Part 4__ - Putting it all together
 * ...And if you want to do the above over and over?
@@ -220,7 +219,7 @@ __Time Permitting__ - Loopier - While Loops
 * LPTHW, Exercise 33: [While Loops](http://learnpythonthehardway.org/book/ex33.html) - save your file as lpthw_ex33.py
 * (INTERMEDIATE) [Modulo](class2/hw/modulo.txt)
 
-
+<a class="class5" id="class5"></a>
 Class 5 - February 29th - Dictionaries and Tuples, Review Loops and Lists
 =====
 * Dictionaries Tuples
