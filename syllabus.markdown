@@ -121,7 +121,7 @@ __Part 3__ - Lists, Sequences
 * EXTRA CREDIT: [str_list](class2/labs/str_list.txt)
 
 <a class="class3" id="class3"></a>
-Class 3 - February 15th - Homewor Submission, Review Conditionals and Indentation
+Class 3 - February 15th - Homework Submission, Review Conditionals and Indentation
 =====
 * Homework submission and policy
 * Homework #1 Discussion
@@ -193,6 +193,22 @@ __Part 2__ - Loops and Lists
 * (OPTIONAL) LPTHW, Exercise 32: [Loops_and_Lists](http://learnpythonthehardway.org/book/ex32.html)
 * (REFERENCE) Python Docs: [for-statements](http://docs.python.org/tutorial/controlflow.html#for-statements)
 
+<a class="class5" id="class5"></a>
+Class 5 - February 29th - Version Control, More Loops and Lists, Together with Functions and Conditionals
+=====
+* Version Control
+* Review Lists and For Loops
+* Loops, Conditionals and Functions Together
+* While Loops
+* (INTERMEDIATE) List comprehensions
+
+###Labs
+__Part 1__ Version Control
+
+__Part 2__ Review Loops and Lists
+* [Fizz Buzz](class2/labs/fizz_buzz.txt) (via [Imran On Tech](http://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/))
+* [Greetings](class2/hw/greetings.txt)
+
 __Part 3__ - Building Lists and Accumulating Values
 * Follow along - [Only Larger Than 5](class4/labs/larger_than_five.py)
 * Follow along - [Cubes](class4/labs/cubes.py)
@@ -215,45 +231,46 @@ __Part 4__ - Putting it all together
 * On your own - [Convert larger_than_five into a function](class4/labs/larger_than_five_func.py) 
 * (INTERMEDIATE) - [Input Cubed](class4/labs/input_cubed.py)
 
-__Time Permitting__ - Loopier - While Loops
+__Part 5__ - Loopier - While Loops
 * LPTHW, Exercise 33: [While Loops](http://learnpythonthehardway.org/book/ex33.html) - save your file as lpthw_ex33.py
 * (INTERMEDIATE) [Modulo](class2/hw/modulo.txt)
 
-<a class="class5" id="class5"></a>
-Class 5 - February 29th - Dictionaries and Tuples, Review Loops and Lists
+Class 6 - March 7th - Dictionaries, Tuples, Review Looping
 =====
-* Dictionaries Tuples
-* Keyword args, etc
-* More built-in functions?
-* List comprehensions
+* Review looping
+* Tuples
+* Dictionaries 
+* (INTERMEDIATE) Unpacking
+* Iterating over dictionaries
+* (INTERMEDIATE) Keyword Args
 
-###Labs
-__Part 1__ Review Loops and Lists
-* [Fizz Buzz](class2/labs/fizz_buzz.txt) (via [Imran On Tech](http://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/))
-* [Greetings](class2/hw/greetings.txt)
-
-Class 6 - March 7th - Using Modules and Packages, Review Tuples and Dictionaries
+Class 7 - March 14th -  Objects, Commonly Used Modules, Organizing Code, Mid-Term Project, Review Dictionaries
 =====
+* Mid-term project
+* Review dictionaries
+* Objects
+	* Creating objects
+	* Calling methods
 * Common modules
 	* math, sys, re, os, os.path
 	* logging, datetime, time and re
-* Organizing code / creating your own packages, modules
+* (INTERMEDIATE) Organizing code / creating your own packages, modules
 
-Class 7 - March 14th -  Classes, Objects, Review Modules and Packages
+Class 8 - March 21st - Classes, Review Objects, Modules and Packages 
 =====
-* objects
-	* Creating objects
-	* Calling methods
 * Classes (you can make your own!)
+* Keyword args, etc
+* More built-in functions?
 
-Class 8 - March 21st - Exceptions and Testing, Review Modules and Packages
+ 
+Class 9 - March 28th - Exceptions and Testing, Review Classes
 =====
 * Unit Tests
 * Exceptions
 * Refactoring
 * Documentation
- 
-Class 9 - March 28th - Consuming the Web
+
+Class 10 - April 4th - Consuming the Web 
 =====
 * HTTP
 * urllib
@@ -261,59 +278,38 @@ Class 9 - March 28th - Consuming the Web
 * beautiful soup
 * machine learning
 
-Class 10 - April 4th - Web Development I 
+Class 11 - April 11th -  Web Development I
 =====
 * About web development
+	* HTTP
+	* How the web "works"
+	* HTML/CSS
 * Django basics
 	* urls.py
 	* views
 	* Templates
-	* Forms
-* Databases and quick intro to database design
+* (INTERMEDIATE) Regular Expressions, urls.py
+* (INTERMEDIATE) Try Heroku?
 
-Class 11 - April 11th -  Web Development II
+Class 12 - April 18th - Web Development II
 =====
-* Advanced Django
-	* Context processors
-	* Caching
-* Security
-	* SQL Injection
-	* csrf
-* Users / authentication
+* Databases and quick intro to database design
+* Forms
+* Admin
+* (INTERMEDIATE) Other Django features
 
-
-Class 12 - April 18th - Socket Programming, More File I/O, Creating an HTTP Server
+Class 13 - April 25th - Final Project Proposals / Socket Programming, More File I/O, Creating an HTTP Server
 =====
 * Socket programming
 * Creating a server
 
 
-Class 13 - April 25th - Final Project Proposals / Advanced Python 
+Class 14 - May 2nd - Final Project Progress / Scripting in Blender
 =====
-* Iterators
-* Generators
-* functools
-* Magic methods
-* Design patterns in Python
-* Proposals
 
 
-Class 14 - May 2nd - Final Project Progress / Data structures
+Class 15 - May 9th - Final Project Progress / TBD
 =====
-* Data structures 
-	* Linked lists
-	* Queues
-	* Stacks
-* Project check-in
-
-
-Class 15 - May 9th - Final Project Progress / Algorithms
-=====
-* Algorithms
-	* Sorting
-	* Searching
-	* Compression
-	* Run-time analysis
 * Project check-in
 
 Class 16 - May 23rd - Final Project Presentations
