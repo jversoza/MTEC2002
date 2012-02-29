@@ -7,29 +7,60 @@ nav-state: index
 For this class, primarily as a way of uploading files to github
 <h2>At the beginning of each class:</h2>
 <ol>
-<li>log into github</li>
-<li>get the http URL of your repository</li>
 <li>open terminal</li>
 <li>change directory to Desktop
-{% highlight pycon %}cd Desktop{% endhighlight %}
+{% highlight bash %}
+cd Desktop
+{% endhighlight %}
 </li>
 <li>make a directory with your first initial and last name
-{% highlight pycon %}mkdir jversoza{% endhighlight %}
+{% highlight bash %}
+mkdir jversoza
+{% endhighlight %}
 </li>
 <li>change directory to the one that you just created
-{% highlight pycon %}cd jversoza{% endhighlight %}
+{% highlight bash %}
+cd jversoza
+{% endhighlight %}
 </li>
-<li>git clone</li>
-<li>git username</li>
-<li>git email</li>
-<li>mkdir class#</li>
-<li>cd class#</li>
-<li>Open that folder in finder</li>
+<li>log into github</li>
+<li>get the http URL of your repository</li>
+<li> make sure you're in the directory you just created
+{% highlight bash %}
+pwd
+# should return /Users/joe/Desktop/jversoza/
+{% endhighlight %}
+</li>
+<li>download your assignments repository from github using the url that you copied above
+{% highlight bash %}
+git clone https://your_usrname@github.com/your_username/mtec2002_assignments.git
+{% endhighlight %}
+</li>
+<li>set your username (first initial, last name works)
+{% highlight bash %}
+git config user.name "your_username"
+{% endhighlight %}
+</li>
+<li> set your email
+{% highlight bash %}
+git config user.email "your_email@citytech.cuny.edu"
+{% endhighlight %}
+</li>
+<li> change directory to the repository that you just checked out 
+{% highlight bash %}
+cd mtech2002_assignments
+{% endhighlight %}
+</li>
+<li> create a new directory for this class
+{% highlight bash %}
+# make sure to use the right number... we're using class 5 as an example
+mkdir class5
+{% endhighlight %}
+</li>
+<li> change directory to the one that you just made
+{% highlight bash %}
+cd class5
+{% endhighlight %}
+</li>
+<li>open that folder in finder</li>
 </ol>
-
-<ol>
-Cd desktop/jversoza/mtec2002_assignments/class1
-<h1>Cloning a Repository</h1>
-
-git config user.name=jversoza
-
