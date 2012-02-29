@@ -207,7 +207,8 @@ __Part 1__ Version Control
 * [At the beginning of every class, set up your local workspace](git.html)
 
 __Part 2__ Review Loops and Lists
-* Follow along - [Greetings](class5/labs/greetings.py)
+* Follow along - [Lists and loops review](class5/labs/lists_loops_review.py)
+* On your own - [Greetings](class5/labs/greetings.py)
 * (INTERMEDIATE) [Fizz Buzz](class5/labs/fizz_buzz.py) (via [Imran On Tech](http://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/))
 
 __Part 3__ - Building Lists and Accumulating Values
