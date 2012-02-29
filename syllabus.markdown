@@ -204,17 +204,18 @@ Class 5 - February 29th - Version Control, More Loops and Lists, Together with F
 
 ###Labs
 __Part 1__ Version Control
+* [At the beginning of every class, set up your local workspace](git.html)
 
 __Part 2__ Review Loops and Lists
-* [Fizz Buzz](class2/labs/fizz_buzz.txt) (via [Imran On Tech](http://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/))
-* [Greetings](class2/hw/greetings.txt)
+* Follow along - [Greetings](class5/labs/greetings.py)
+* (INTERMEDIATE) [Fizz Buzz](class5/labs/fizz_buzz.py) (via [Imran On Tech](http://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/))
 
 __Part 3__ - Building Lists and Accumulating Values
-* Follow along - [Only Larger Than 5](class4/labs/larger_than_five.py)
-* Follow along - [Cubes](class4/labs/cubes.py)
-* Follow along - [Sum](class4/labs/sum.py)
-* On your own - [Only Three Letter Words](class4/labs/three_letter_words.py)
-* On your own - [Sum of Cubes](class4/labs/sum_of_cubes.py)
+* Follow along - [Only Larger Than 5](class5/labs/larger_than_five.py)
+* Follow along - [Cubes](class5/labs/cubes.py)
+* Follow along - [Sum](class5/labs/sum.py)
+* On your own - [Only Three Letter Words](class5/labs/three_letter_words.py)
+* On your own - [Sum of Cubes](class5/labs/sum_of_cubes.py)
 * (INTERMEDIATE) - Read about [List Comprehensions](http://docs.python.org/tutorial/datastructures.html#list-comprehensions)
 * (OPTIONAL) - Read about [Functional Programming Tools](http://docs.python.org/tutorial/datastructures.html#functional-programming-tools)
 * (INTERMEDIATE) - Modify larger_than_five.py so that it is a single list comprehension 
@@ -227,13 +228,13 @@ __Part 3__ - Building Lists and Accumulating Values
 
 __Part 4__ - Putting it all together
 * ...And if you want to do the above over and over?
-* Follow along - [Convert cubes.py into a function](class4/labs/cubes_func.py)
-* On your own - [Convert larger_than_five into a function](class4/labs/larger_than_five_func.py) 
-* (INTERMEDIATE) - [Input Cubed](class4/labs/input_cubed.py)
+* Follow along - [Convert cubes.py into a function](class5/labs/cubes_func.py)
+* On your own - [Convert larger_than_five into a function](class5/labs/larger_than_five_func.py) 
+* (INTERMEDIATE) - [Input Cubed](class5/labs/input_cubed.py)
 
 __Part 5__ - Loopier - While Loops
 * LPTHW, Exercise 33: [While Loops](http://learnpythonthehardway.org/book/ex33.html) - save your file as lpthw_ex33.py
-* (INTERMEDIATE) [Modulo](class2/hw/modulo.txt)
+* (INTERMEDIATE) [Modulo](class5/labs/modulo.py)
 
 Class 6 - March 7th - Dictionaries, Tuples, Review Looping
 =====
