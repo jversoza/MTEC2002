@@ -39,11 +39,13 @@ git clone https://your_usrname@github.com/your_username/mtec2002_assignments.git
 </li>
 <li>set your username (first initial, last name works)
 {% highlight bash %}
+# Note that this info is publicly available, so make sure you use a user name you're available
 git config user.name "your_username"
 {% endhighlight %}
 </li>
 <li> set your email
 {% highlight bash %}
+# Note that this info is publicly available, so take care to use an appropriate email address! 
 git config user.email "your_email@citytech.cuny.edu"
 {% endhighlight %}
 </li>
@@ -65,3 +67,60 @@ cd class5
 </li>
 <li>open that folder in finder</li>
 </ol>
+<h2>Committing ("Saving") /your Work:</h2>
+<ol>
+<li>check to see if there's anything to commit or if there's anything staged to be committed
+{% highlight bash %}
+git status
+{% endhighlight %}
+you should see files that are not yet "tracked" by git under "Untracked files:"
+{% highlight bash %}
+# On branch master
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	class5/
+{% endhighlight %}
+</li>
+<li>Stage your commit by adding files; check the status again
+{% highlight bash %}
+git add class5
+git status
+{% endhighlight %}
+{% highlight bash %}
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   class5/lists_loops_review.py
+#
+{% endhighlight %}
+</li>
+<li>Commit your work - use a relevant commit message after the "-m"!
+{% highlight bash %}
+git  commit -m "put in a commit message here"
+{% endhighlight %}
+You should see something like...
+{% highlight bash %}
+[master 01f5b6e] added another line to...
+{% endhighlight %}
+</li>
+</ol>
+<h2>Sending Your Work to github:</h2>
+<ol>push your work to github
+<li>
+{% highlight bash %}
+git push
+{% endhighlight %}
+You should see something like...
+{% highlight bash %}
+Password for 'github.com': 
+Counting objects: 5, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 397 bytes, done.
+Total 3 (delta 1), reused 0 (delta 0)
+...
+{% endhighlight %}
+</li>
+</ul>
