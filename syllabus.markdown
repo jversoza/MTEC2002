@@ -248,16 +248,16 @@ Class 6 - March 7th - While Loops, Dictionaries, Tuples, Review For Loops
 
 <a class="labs6" id="labs6"></a>
 ###Labs
-__Part 1__ - Review - Submitting code, for loops
+__Part 1__ - Review - Submitting Code, For Loops
 * At the Beginning of each class, download zip file, also download intermediate
 * Use git to add, commit and push ALL files in directory
 * Try sum of cubes as a review
 
 __Part 2__ - Loopier - While Loops
-* Follow along - [equal to 3 using while loop](class6/labs/equal_to_three.py)
-* On your own - [found it](class6/labs/found_it.py)
+* Follow along - [equal to 3 using while loop](class6/labs/equal_to_three_while.py)
+* Follow along - [infinite cake](class6/labs/infinite_cake_while.py)
+* On your own - [found it](class6/labs/found_it_while.py)
 * On your own - [cubes using while loop](class6/labs/cubes_while.py)
-* Follow along - [infinite cake](class6/labs/infinite_cake.py)
 * (INTERMEDIATE) [turn "found it" into a function called has_element - don't use "in" or index()](class6/labs/index.py)
 * (INTERMEDIATE) [reimplement index as binary search](class6/labs/binary_search.py)
 * (INTERMEDIATE) [implement integer division](class6/labs/integer_division.py)
@@ -265,8 +265,8 @@ __Part 2__ - Loopier - While Loops
 __Part 3__ - Tuples, Dictionaries
 * Follow along - [tuples](class6/labs/tuples.py)
 * Follow along - [dictionary operations part 1](class6/labs/dictionary_1.py)
-* On your own - [dictionary operations part 2](class6/labs/dictionary_2.py) - saving a record)
 * Follow along - [word count] (class6/labs/word_count.py)
+* On your own - [dictionary operations part 2](class6/labs/dictionary_2.py) - saving a record)
 * On your own - [character count](class6/labs/character_count.py) via [How To Think Like a Computer Scientist, 12.7](http://openbookproject.net/thinkcs/python/english2e/ch12.html)
 * Follow along - [iterating over a dictionary](class6/labs/loop_dictionary.py)
 * (INTERMEDIATE) [Reimplement English to Spanish](class6/labs/espanol.py)
@@ -289,15 +289,15 @@ Class 7 - March 14th -  Objects, Commonly Used Modules, Organizing Code, Mid-Ter
 * Common modules
 	* math, sys, re, os, os.path
 	* logging, datetime, time and re
+* (INTERMEDIATE) Classes (you can make your own!)
 * (INTERMEDIATE) Organizing code / creating your own packages, modules
 
 <a class="labs7" id="labs7"></a>
 ###Labs
 
 <a class="class8" id="class8"></a>
-Class 8 - March 21st - Classes, Review Objects, Modules and Packages 
+Class 8 - March 21st - Putting Everything Together, Functions, Review Objects, Modules and Packages 
 =====
-* Classes (you can make your own!)
 * Keyword args, etc
 * More built-in functions?
 * Everything together
@@ -305,20 +305,20 @@ Class 8 - March 21st - Classes, Review Objects, Modules and Packages
 
 <a class="labs8" id="labs8"></a>
 ###Labs
-__Part 5__ - Review / Putting it all together
+__Part 1__ - Putting it all together
 * ...And if you want to do the above over and over?
 * Follow along - [Convert cubes.py into a function](class5/labs/cubes_func.py)
 * On your own - [Convert larger_than_five into a function](class5/labs/larger_than_five_func.py) 
 * (INTERMEDIATE) - [Input Cubed](class5/labs/input_cubed.py)
 
- 
 <a class="class9" id="class9"></a>
-Class 9 - March 28th - Exceptions and Testing, Review Classes
+Class 9 - March 28th - PyGame, Exceptions and Testing, Review Functions Again...
 =====
-* Unit Tests
-* Exceptions
-* Refactoring
+* PyGame
 * Documentation
+* (Intermediate) Unit Tests
+* (Intermediate) Exceptions
+* (Intermediate) Refactoring
 
 <a class="labs9" id="labs9"></a>
 ###Labs
