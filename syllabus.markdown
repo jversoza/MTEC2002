@@ -198,7 +198,6 @@ Class 5 - February 29th - Version Control, More Loops and Lists, Together with F
 =====
 * Version Control
 * Review Lists and For Loops
-* Loops, Conditionals and Functions Together
 * While Loops
 * (INTERMEDIATE) List comprehensions
 
@@ -227,27 +226,58 @@ __Part 3__ - Building Lists and Accumulating Values
 * (OPTIONAL) - Modify cubes.py so that it uses the function map (hint... the example in the reading gives this one away) 
 * (OPTIONAL) - Modify sum so that it uses the function reduce (hint... the example in the reading gives this one away) 
 
-__Part 4__ - Putting it all together
-* ...And if you want to do the above over and over?
-* Follow along - [Convert cubes.py into a function](class5/labs/cubes_func.py)
-* On your own - [Convert larger_than_five into a function](class5/labs/larger_than_five_func.py) 
-* (INTERMEDIATE) - [Input Cubed](class5/labs/input_cubed.py)
 
-__Part 5__ - Loopier - While Loops
-* LPTHW, Exercise 33: [While Loops](http://learnpythonthehardway.org/book/ex33.html) - save your file as lpthw_ex33.py
-* (INTERMEDIATE) [Modulo](class5/labs/modulo.py)
-
-Class 6 - March 7th - Dictionaries, Tuples, Review Looping
+<a class="class6" id="class6"></a>
+Class 6 - March 7th - While Loops, Dictionaries, Tuples, Review For Loops
 =====
-* Review looping
+* New process 
+	* Create a zip
+	* zip is downloaded and extracted to class#
+	* first step is to add dir and push
+	* copy images over
+
+* Review clone process
+* How to add on your own from home (don't need to reclone, just git up)
+* Review for loops
+* While loops
 * Tuples
 * Dictionaries 
-* (INTERMEDIATE) Unpacking
 * Iterating over dictionaries
-* (INTERMEDIATE) Keyword Args
 
+###Labs
+__Part 1__ - Review - Submitting code, for loops
+* At the Beginning of each class, download zip file, also download intermediate
+* Use git to add, commit and push ALL files in directory
+* Try sum of cubes as a review
+
+__Part 2__ - Loopier - While Loops
+* Follow along - [equal to 3 using while loop](class6/labs/equal_to_three.py)
+* On your own - [found it](class6/labs/found_it.py)
+* On your own - [cubes using while loop](class6/labs/cubes_while.py)
+* Follow along - [infinite cake](class6/labs/infinite_cake.py)
+* (INTERMEDIATE) [turn "found it" into a function called has_element - don't use "in" or index()](class6/labs/index.py)
+* (INTERMEDIATE) [reimplement index as binary search](class6/labs/binary_search.py)
+* (INTERMEDIATE) [implement integer division](class6/labs/integer_division.py)
+
+__Part 3__ - Tuples, Dictionaries
+* Follow along - [tuples](class6/labs/tuples.py)
+* Follow along - [dictionary operations part 1](class6/labs/dictionary_1.py)
+* On your own - [dictionary operations part 2](class6/labs/dictionary_2.py) - saving a record)
+* Follow along - [word count] (class6/labs/word_count.py)
+* On your own - [character count](class6/labs/character_count.py) via [How To Think Like a Computer Scientist, 12.7](http://openbookproject.net/thinkcs/python/english2e/ch12.html)
+* Follow along - [iterating over a dictionary](class6/labs/loop_dictionary.py)
+* (INTERMEDIATE) [Reimplement English to Spanish](class6/labs/espanol.py)
+* (INTERMEDIATE) [Run length encoding and decoding](class6/labs/run_length.py)
+* (INTERMEDIATE) [Iterate over a list of tuples using items() on a dictionary](class6/labs/list_comprehensions_again.py)
+
+
+<a class="class7" id="class7"></a>
 Class 7 - March 14th -  Objects, Commonly Used Modules, Organizing Code, Mid-Term Project, Review Dictionaries
 =====
+* Manual installs
+	* Modify .profile appropriately on all comps
+	* Install source tree?
+	* Script for creating directory?
 * Mid-term project
 * Review dictionaries
 * Objects
@@ -258,13 +288,24 @@ Class 7 - March 14th -  Objects, Commonly Used Modules, Organizing Code, Mid-Ter
 	* logging, datetime, time and re
 * (INTERMEDIATE) Organizing code / creating your own packages, modules
 
+<a class="class8" id="class8"></a>
 Class 8 - March 21st - Classes, Review Objects, Modules and Packages 
 =====
 * Classes (you can make your own!)
 * Keyword args, etc
 * More built-in functions?
+* Everything together
+* Follow along / on your own - [rock paper scissors]
+
+## Labs
+__Part 5__ - Review / Putting it all together
+* ...And if you want to do the above over and over?
+* Follow along - [Convert cubes.py into a function](class5/labs/cubes_func.py)
+* On your own - [Convert larger_than_five into a function](class5/labs/larger_than_five_func.py) 
+* (INTERMEDIATE) - [Input Cubed](class5/labs/input_cubed.py)
 
  
+<a class="class9" id="class9"></a>
 Class 9 - March 28th - Exceptions and Testing, Review Classes
 =====
 * Unit Tests
@@ -272,6 +313,7 @@ Class 9 - March 28th - Exceptions and Testing, Review Classes
 * Refactoring
 * Documentation
 
+<a class="class10" id="class10"></a>
 Class 10 - April 4th - Consuming the Web 
 =====
 * HTTP
@@ -280,6 +322,7 @@ Class 10 - April 4th - Consuming the Web
 * beautiful soup
 * machine learning
 
+<a class="class11" id="class11"></a>
 Class 11 - April 11th -  Web Development I
 =====
 * About web development
@@ -293,6 +336,7 @@ Class 11 - April 11th -  Web Development I
 * (INTERMEDIATE) Regular Expressions, urls.py
 * (INTERMEDIATE) Try Heroku?
 
+<a class="class12" id="class12"></a>
 Class 12 - April 18th - Web Development II
 =====
 * Databases and quick intro to database design
@@ -300,20 +344,24 @@ Class 12 - April 18th - Web Development II
 * Admin
 * (INTERMEDIATE) Other Django features
 
+<a class="class13" id="class13"></a>
 Class 13 - April 25th - Final Project Proposals / Socket Programming, More File I/O, Creating an HTTP Server
 =====
 * Socket programming
 * Creating a server
 
 
+<a class="class14" id="class14"></a>
 Class 14 - May 2nd - Final Project Progress / Scripting in Blender
 =====
 
 
+<a class="class15" id="class15"></a>
 Class 15 - May 9th - Final Project Progress / TBD
 =====
 * Project check-in
 
+<a class="class16" id="class16"></a>
 Class 16 - May 23rd - Final Project Presentations
 =====
 * Final project presentations
