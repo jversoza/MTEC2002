@@ -258,21 +258,22 @@ __Part 2__ - Loopier - While Loops
 * Follow along - [infinite cake](class6/labs/infinite_cake_while.py)
 * On your own - [found it](class6/labs/found_it_while.py)
 * On your own - [cubes using while loop](class6/labs/cubes_while.py)
-* (INTERMEDIATE) [turn "found it" into a function called has_element - don't use "in" or index()](class6/labs/index.py)
-* (INTERMEDIATE) [reimplement index as binary search](class6/labs/binary_search.py)
+* (INTERMEDIATE) [turn "found it" into a function called has_element - don't use "in" or index()](class6/labs/search.py)
+* (INTERMEDIATE) [reimplement search as binary search](class6/labs/binary_search.py)
 * (INTERMEDIATE) [implement integer division](class6/labs/integer_division.py)
 
 __Part 3__ - Tuples, Dictionaries
 * Follow along - [tuples](class6/labs/tuples.py)
 * Follow along - [dictionary operations part 1](class6/labs/dictionary_1.py)
-* Follow along - [word count] (class6/labs/word_count.py)
+* Follow along/on your own - [word count] (class6/labs/word_count.py)
 * On your own - [dictionary operations part 2](class6/labs/dictionary_2.py) - saving a record)
 * On your own - [character count](class6/labs/character_count.py) via [How To Think Like a Computer Scientist, 12.7](http://openbookproject.net/thinkcs/python/english2e/ch12.html)
-* Follow along - [iterating over a dictionary](class6/labs/loop_dictionary.py)
 * (INTERMEDIATE) [Reimplement English to Spanish](class6/labs/espanol.py)
 * (INTERMEDIATE) [Run length encoding and decoding](class6/labs/run_length.py)
-* (INTERMEDIATE) [Iterate over a list of tuples using items() on a dictionary](class6/labs/list_comprehensions_again.py)
 
+__Part 4__ - Iterating Over a Dictionary
+* Follow along - [iterating over a dictionary](class6/labs/loop_dictionary.py)
+* (INTERMEDIATE) [Iterate over a list of tuples using items() on a dictionary](class6/labs/list_comprehensions_again.py)
 
 <a class="class7" id="class7"></a>
 Class 7 - March 14th -  Objects, Commonly Used Modules, Organizing Code, Mid-Term Project, Review Dictionaries
