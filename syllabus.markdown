@@ -182,6 +182,7 @@ Class 4 - February 22nd - Quiz, Loops and Lists
 * [Loops and Lists](class4/slides/loops_and_lists.html)
 * [Loopier - While Loops](class4/slides/loops_and_lists.html#4)
 
+<a class="labs4" id="labs4"></a>
 ### Labs
 __Part 1__ - Lists
 * Follow along - [Lists](class4/labs/lists.py)
@@ -201,6 +202,7 @@ Class 5 - February 29th - Version Control, More Loops and Lists, Together with F
 * While Loops
 * (INTERMEDIATE) List comprehensions
 
+<a class="labs5" id="labs5"></a>
 ###Labs
 __Part 1__ Version Control
 * [At the beginning of every class, set up your local workspace](git.html)
@@ -244,6 +246,7 @@ Class 6 - March 7th - While Loops, Dictionaries, Tuples, Review For Loops
 * Dictionaries 
 * Iterating over dictionaries
 
+<a class="labs6" id="labs6"></a>
 ###Labs
 __Part 1__ - Review - Submitting code, for loops
 * At the Beginning of each class, download zip file, also download intermediate
@@ -288,6 +291,9 @@ Class 7 - March 14th -  Objects, Commonly Used Modules, Organizing Code, Mid-Ter
 	* logging, datetime, time and re
 * (INTERMEDIATE) Organizing code / creating your own packages, modules
 
+<a class="labs7" id="labs7"></a>
+###Labs
+
 <a class="class8" id="class8"></a>
 Class 8 - March 21st - Classes, Review Objects, Modules and Packages 
 =====
@@ -297,7 +303,8 @@ Class 8 - March 21st - Classes, Review Objects, Modules and Packages
 * Everything together
 * Follow along / on your own - [rock paper scissors]
 
-## Labs
+<a class="labs8" id="labs8"></a>
+###Labs
 __Part 5__ - Review / Putting it all together
 * ...And if you want to do the above over and over?
 * Follow along - [Convert cubes.py into a function](class5/labs/cubes_func.py)
@@ -313,6 +320,9 @@ Class 9 - March 28th - Exceptions and Testing, Review Classes
 * Refactoring
 * Documentation
 
+<a class="labs9" id="labs9"></a>
+###Labs
+
 <a class="class10" id="class10"></a>
 Class 10 - April 4th - Consuming the Web 
 =====
@@ -321,6 +331,9 @@ Class 10 - April 4th - Consuming the Web
 * json
 * beautiful soup
 * machine learning
+
+<a class="labs10" id="labs10"></a>
+###Labs
 
 <a class="class11" id="class11"></a>
 Class 11 - April 11th -  Web Development I
@@ -336,6 +349,9 @@ Class 11 - April 11th -  Web Development I
 * (INTERMEDIATE) Regular Expressions, urls.py
 * (INTERMEDIATE) Try Heroku?
 
+<a class="labs11" id="labs11"></a>
+###Labs
+
 <a class="class12" id="class12"></a>
 Class 12 - April 18th - Web Development II
 =====
@@ -344,17 +360,25 @@ Class 12 - April 18th - Web Development II
 * Admin
 * (INTERMEDIATE) Other Django features
 
+<a class="labs12" id="labs12"></a>
+###Labs
+
 <a class="class13" id="class13"></a>
 Class 13 - April 25th - Final Project Proposals / Socket Programming, More File I/O, Creating an HTTP Server
 =====
 * Socket programming
 * Creating a server
 
+<a class="labs13" id="labs13"></a>
+###Labs
+
 
 <a class="class14" id="class14"></a>
 Class 14 - May 2nd - Final Project Progress / Scripting in Blender
 =====
 
+<a class="labs14" id="labs14"></a>
+###Labs
 
 <a class="class15" id="class15"></a>
 Class 15 - May 9th - Final Project Progress / TBD
