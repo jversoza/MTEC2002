@@ -232,12 +232,6 @@ __Part 3__ - Building Lists and Accumulating Values
 <a class="class6" id="class6"></a>
 Class 6 - March 7th - While Loops, Dictionaries, Tuples, Review For Loops
 =====
-* New process 
-	* Create a zip
-	* zip is downloaded and extracted to class#
-	* first step is to add dir and push
-	* copy images over
-
 * Review clone process
 * How to add on your own from home (don't need to reclone, just git up)
 * Review for loops
@@ -249,7 +243,7 @@ Class 6 - March 7th - While Loops, Dictionaries, Tuples, Review For Loops
 <a class="labs6" id="labs6"></a>
 ###Labs
 __Part 1__ - Review - Submitting Code, For Loops
-* At the Beginning of each class, download zip file, also download intermediate
+* At the Beginning of each class, [download the labs zip file](class6/labs/class6.zip), also [download intermediate](class6/labs/intermediate.zip) if appropriate
 * Use git to add, commit and push ALL files in directory
 * Try sum of cubes as a review
 
