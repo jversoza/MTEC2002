@@ -255,25 +255,21 @@ __Part 1__ - Review - Submitting Code, For Loops
 
 __Part 2__ - Loopier - While Loops
 * Follow along - [equal to 3 using while loop](class6/labs/equal_to_three_while.py)
-* Follow along - [infinite cake](class6/labs/infinite_cake_while.py)
-* On your own - [found it](class6/labs/found_it_while.py)
+* Follow along - [gimmeh divisible by 12](class6/labs/divisible_by_twelve.py)
+* On your own- [quit it](class6/labs/quit_it.py)
 * On your own - [cubes using while loop](class6/labs/cubes_while.py)
-* (INTERMEDIATE) [turn "found it" into a function called has_element - don't use "in" or index()](class6/labs/search.py)
-* (INTERMEDIATE) [reimplement search as binary search](class6/labs/binary_search.py)
-* (INTERMEDIATE) [implement integer division](class6/labs/integer_division.py)
+* (INTERMEDIATE) [equal to 3 using while loop and pop](class6/labs/equal_to_three_while_pop.py)
+* (INTERMEDIATE) [binary search](class6/labs/binary_search.py)
 
 __Part 3__ - Tuples, Dictionaries
 * Follow along - [tuples](class6/labs/tuples.py)
 * Follow along - [dictionary operations part 1](class6/labs/dictionary_1.py)
-* Follow along/on your own - [word count] (class6/labs/word_count.py)
+* Follow along - [iterating over a dictionary](class6/labs/loop_dictionary.py)
 * On your own - [dictionary operations part 2](class6/labs/dictionary_2.py) - saving a record)
 * On your own - [character count](class6/labs/character_count.py) via [How To Think Like a Computer Scientist, 12.7](http://openbookproject.net/thinkcs/python/english2e/ch12.html)
-* (INTERMEDIATE) [Reimplement English to Spanish](class6/labs/espanol.py)
-* (INTERMEDIATE) [Run length encoding and decoding](class6/labs/run_length.py)
-
-__Part 4__ - Iterating Over a Dictionary
-* Follow along - [iterating over a dictionary](class6/labs/loop_dictionary.py)
+* On your own [Reimplement English to Spanish](class6/labs/espanol.py)
 * (INTERMEDIATE) [Iterate over a list of tuples using items() on a dictionary](class6/labs/list_comprehensions_again.py)
+* (INTERMEDIATE) [Run length encoding](class6/labs/run_length.py)
 
 <a class="class7" id="class7"></a>
 Class 7 - March 14th -  Objects, Commonly Used Modules, Organizing Code, Mid-Term Project, Review Dictionaries
