@@ -244,7 +244,7 @@ Class 6 - March 7th - While Loops, Dictionaries, Tuples, Review For Loops
 ###Labs
 __Part 1__ - Review - Submitting Code, For Loops
 * At the Beginning of each class, [download the labs zip file](class6/labs/class6.zip), also [download intermediate](class6/labs/intermediate.zip) if appropriate
-* Use git to add, commit and push ALL files in directory
+* Use git to add, commit and push ALL files in directory, refer to: [Setting up your local workspace](git.html)
 * Try sum of cubes as a review
 
 __Part 2__ - Loopier - While Loops
