@@ -258,12 +258,6 @@ __Part 2__ - Loopier - While Loops
 __Part 3__ - Tuples, Dictionaries
 * Follow along - [tuples](class6/labs/tuples.py)
 * Follow along - [dictionary operations part 1](class6/labs/dictionary_1.py)
-* Follow along - [iterating over a dictionary](class6/labs/loop_dictionary.py)
-* On your own - [dictionary operations part 2](class6/labs/dictionary_2.py) - saving a record)
-* On your own - [character count](class6/labs/character_count.py) via [How To Think Like a Computer Scientist, 12.7](http://openbookproject.net/thinkcs/python/english2e/ch12.html)
-* On your own [Reimplement English to Spanish](class6/labs/espanol.py)
-* (INTERMEDIATE) [Iterate over a list of tuples using items() on a dictionary](class6/labs/list_comprehensions_again.py)
-* (INTERMEDIATE) [Run length encoding](class6/labs/run_length.py)
 
 <a class="class7" id="class7"></a>
 Class 7 - March 14th -  Objects, Commonly Used Modules, Organizing Code, Mid-Term Project, Review Dictionaries
@@ -285,6 +279,13 @@ Class 7 - March 14th -  Objects, Commonly Used Modules, Organizing Code, Mid-Ter
 
 <a class="labs7" id="labs7"></a>
 ###Labs
+* Follow along - [iterating over a dictionary](class6/labs/loop_dictionary.py)
+* On your own - [dictionary operations part 2](class6/labs/dictionary_2.py) - saving a record)
+* On your own - [character count](class6/labs/character_count.py) via [How To Think Like a Computer Scientist, 12.7](http://openbookproject.net/thinkcs/python/english2e/ch12.html)
+* On your own [Reimplement English to Spanish](class6/labs/espanol.py)
+* (INTERMEDIATE) [Iterate over a list of tuples using items() on a dictionary](class6/labs/list_comprehensions_again.py)
+* (INTERMEDIATE) [Run length encoding](class6/labs/run_length.py)
+
 
 <a class="class8" id="class8"></a>
 Class 8 - March 21st - Putting Everything Together, Functions, Review Objects, Modules and Packages 
