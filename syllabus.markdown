@@ -260,48 +260,65 @@ __Part 3__ - Tuples, Dictionaries
 * Follow along - [dictionary operations part 1](class6/labs/dictionary_1.py)
 
 <a class="class7" id="class7"></a>
-Class 7 - March 14th -  Objects, Commonly Used Modules, Organizing Code, Mid-Term Project, Review Dictionaries
+Class 7 - March 14th -  Dictionaries, Modules, Commonly Used Modules, Organizing Code, Mid-Term Project, Review While Loops
 =====
-* Manual installs
-	* Modify .profile appropriately on all comps
-	* Install source tree?
-	* Script for creating directory?
-* Mid-term project
-* Review dictionaries
-* Objects
-	* Creating objects
-	* Calling methods
+* [Midterm Project](midterm.html) due on __March 28th__
+* Quiz next week, __March 21st__
+	* for loops
+	* lists
+	* while loops
+	* dictionaries
+* Review one problem from homework
+* Review while loops, tuples 
+* Dictionaries Continued
 * Common modules
 	* math, sys, re, os, os.path
 	* logging, datetime, time and re
-* (INTERMEDIATE) Classes (you can make your own!)
-* (INTERMEDIATE) Organizing code / creating your own packages, modules
 
 <a class="labs7" id="labs7"></a>
 ###Labs
-* Follow along - [iterating over a dictionary](class6/labs/loop_dictionary.py)
-* On your own - [dictionary operations part 2](class6/labs/dictionary_2.py) - saving a record)
-* On your own - [character count](class6/labs/character_count.py) via [How To Think Like a Computer Scientist, 12.7](http://openbookproject.net/thinkcs/python/english2e/ch12.html)
-* On your own [Reimplement English to Spanish](class6/labs/espanol.py)
-* (INTERMEDIATE) [Iterate over a list of tuples using items() on a dictionary](class6/labs/list_comprehensions_again.py)
-* (INTERMEDIATE) [Run length encoding](class6/labs/run_length.py)
+__Part 1__ - Prep for labs, review homework
+* At the Beginning of each class, [download the labs zip file](class7/labs/class7.zip), also [download intermediate](class7/labs/intermediate.zip) if appropriate
+* Use git to add, commit and push ALL files in directory, refer to: [Setting up your local workspace](git.html)
+* Review one of the homework questions: [equal to 3 using while loop and pop](class6/labs/equal_to_three_while_pop.py)
 
+__Part 2__ while loops reviewed and multiline strings revisited
+* Follow along - [while loops and exit - guess number or quit](class7/labs/guess_number_or_quit.py)
+* Follow along - [for loops and multiline strings revisited - print a pattern](class7/labs/pattern.py)
+* On your own - [ascii art](class7/labs/ascii_art.py)
+* (INTERMEDIATE) - add a command to ascii_art to show help; help will display the available commands.
+
+__Part 3__
+* Follow along - [dictionary operations](class7/labs/dictionary_operations.py)
+* Follow along - [iterating over a dictionary](class7/labs/loop_dictionaries.py)
+* On your own - [dictionary operations again](class7/labs/dictionaries_again.py)
+* On your own - [character count](class7/labs/character_count.py) via [How To Think Like a Computer Scientist, 12.7](http://openbookproject.net/thinkcs/python/english2e/ch12.html)
+* On your own [Reimplement English to Spanish](class7/labs/espanol.py)
+* (INTERMEDIATE) [Iterate over a list of tuples using items() on a dictionary](class7/labs/list_comprehensions_again.py)
+* (INTERMEDIATE) [Run length encoding](class7/labs/run_length.py)
+
+__Part 4__
+* Follow along - [modules](class7/labs/mods.py)
+	* random
+	* sys
+	* math
+* On your own - [fortune teller](class7/labs/fortune_teller.py)
+* (INTERMEDIATE) - read about doctest in section 5.8 in [chapter 5 of How to Think Like a Computer Scientist](http://www.openbookproject.net/thinkcs/python/english2e/ch05.html); [convert the test cases to doctests in your binary search function](class7/labs/binary_search_tested.py)
 
 <a class="class8" id="class8"></a>
-Class 8 - March 21st - Putting Everything Together, Functions, Review Objects, Modules and Packages 
+Class 8 - March 21st - Installing Modules, Functions Revisited, Putting Everything Together, Review Modules 
 =====
-* Keyword args, etc
-* More built-in functions?
+* Review Modules
+* Installing Modules
+* Functions Revisited
+	* Keyword args, etc
+	* Scope
+	* More built-in functions
 * Everything together
-* Follow along / on your own - [rock paper scissors]
+* (INTERMEDIATE) Organizing code / creating your own packages, modules
 
 <a class="labs8" id="labs8"></a>
 ###Labs
-__Part 1__ - Putting it all together
-* ...And if you want to do the above over and over?
-* Follow along - [Convert cubes.py into a function](class5/labs/cubes_func.py)
-* On your own - [Convert larger_than_five into a function](class5/labs/larger_than_five_func.py) 
-* (INTERMEDIATE) - [Input Cubed](class5/labs/input_cubed.py)
 
 <a class="class9" id="class9"></a>
 Class 9 - March 28th - PyGame, Exceptions and Testing, Review Functions Again...
@@ -319,10 +336,8 @@ Class 9 - March 28th - PyGame, Exceptions and Testing, Review Functions Again...
 Class 10 - April 4th - Consuming the Web 
 =====
 * HTTP
-* urllib
+* request
 * json
-* beautiful soup
-* machine learning
 
 <a class="labs10" id="labs10"></a>
 ###Labs
