@@ -278,7 +278,7 @@ Class 7 - March 14th -  Dictionaries, Modules, Commonly Used Modules, Organizing
 <a class="labs7" id="labs7"></a>
 ###Labs
 __Part 1__ - Prep for labs, review homework
-* At the Beginning of each class, [download the labs zip file](class7/labs/class7.zip), also [download intermediate](class7/labs/intermediate.zip) if appropriate
+* At the Beginning of each class, [download the labs zip file](class7/class7.zip)
 * Use git to add, commit and push ALL files in directory, refer to: [Setting up your local workspace](git.html)
 * Review one of the homework questions: [equal to 3 using while loop and pop](class6/labs/equal_to_three_while_pop.py)
 
@@ -303,7 +303,7 @@ __Part 4__
 	* sys
 	* math
 * On your own - [fortune teller](class7/labs/fortune_teller.py)
-* (INTERMEDIATE) - read about doctest in section 5.8 in [chapter 5 of How to Think Like a Computer Scientist](http://www.openbookproject.net/thinkcs/python/english2e/ch05.html); [convert the test cases to doctests in your binary search function](class7/labs/binary_search_tested.py)
+* (OPTIONAL) - read about doctest in section 5.8 in [chapter 5 of How to Think Like a Computer Scientist](http://www.openbookproject.net/thinkcs/python/english2e/ch05.html); [convert the test cases to doctests in your binary search function](class7/labs/binary_search_tested.py)
 
 <a class="class8" id="class8"></a>
 Class 8 - March 21st - Installing Modules, Functions Revisited, Putting Everything Together, Review Modules 
