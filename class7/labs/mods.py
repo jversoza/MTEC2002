@@ -26,9 +26,6 @@ Python has many built-in modules.  We'll go over 3 of those modules in this file
 	* math.argv - a list of all of the "commandline" arguments
 """
 # import the random, math and sys modules
-import random
-import math
-import sys
 
 ### random
 # create a list of mythical creatures, "unicorn", "dragon", and "yeti"... and assign it to a variable called creatures
