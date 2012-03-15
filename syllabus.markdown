@@ -290,12 +290,8 @@ __Part 2__ while loops reviewed and multiline strings revisited
 
 __Part 3__
 * Follow along - [dictionary operations](class7/labs/dictionary_operations.py)
-* Follow along - [iterating over a dictionary](class7/labs/loop_dictionaries.py)
 * On your own - [dictionary operations again](class7/labs/dictionaries_again.py)
-* On your own - [character count](class7/labs/character_count.py) via [How To Think Like a Computer Scientist, 12.7](http://openbookproject.net/thinkcs/python/english2e/ch12.html)
-* On your own [Reimplement English to Spanish](class7/labs/espanol.py)
-* (INTERMEDIATE) [Iterate over a list of tuples using items() on a dictionary](class7/labs/list_comprehensions_again.py)
-* (INTERMEDIATE) [Run length encoding](class7/labs/run_length.py)
+
 
 __Part 4__
 * Follow along - [modules](class7/labs/mods.py)
@@ -319,7 +315,11 @@ Class 8 - March 21st - Installing Modules, Functions Revisited, Putting Everythi
 
 <a class="labs8" id="labs8"></a>
 ###Labs
-
+* Follow along - [iterating over a dictionary](class7/labs/loop_dictionaries.py)
+* On your own - [character count](class7/labs/character_count.py) via [How To Think Like a Computer Scientist, 12.7](http://openbookproject.net/thinkcs/python/english2e/ch12.html)
+* On your own [Reimplement English to Spanish](class7/labs/espanol.py)
+* (INTERMEDIATE) [Iterate over a list of tuples using items() on a dictionary](class7/labs/list_comprehensions_again.py)
+* (INTERMEDIATE) [Run length encoding](class7/labs/run_length.py)
 <a class="class9" id="class9"></a>
 Class 9 - March 28th - PyGame, Exceptions and Testing, Review Functions Again...
 =====
