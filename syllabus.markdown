@@ -302,24 +302,41 @@ __Part 4__
 * (OPTIONAL) - read about doctest in section 5.8 in [chapter 5 of How to Think Like a Computer Scientist](http://www.openbookproject.net/thinkcs/python/english2e/ch05.html); [convert the test cases to doctests in your binary search function](class7/labs/binary_search_tested.py)
 
 <a class="class8" id="class8"></a>
-Class 8 - March 21st - Installing Modules, Functions Revisited, Putting Everything Together, Review Modules 
+Class 8 - March 21st - Iterating Over Dictionaries, Installing Modules, Functions Revisited, Putting Everything Together, Review Modules 
 =====
+* Midterm Project Proposals
+* Quiz
 * Review Modules
 * Installing Modules
-* Functions Revisited
-	* Keyword args, etc
-	* Scope
-	* More built-in functions
+* Dictionaries One Last Time
 * Everything together
+	* Functions Revisited
+	* Keyword args, variable name of args
 * (INTERMEDIATE) Organizing code / creating your own packages, modules
 
 <a class="labs8" id="labs8"></a>
 ###Labs
+__Part 1__ Modules - Review and Install on Your Own
+* Follow along - [Using random, use with turtle!]()
+* Follow along - [Install a module named ... run on the commandline]()
+* On your own - [Install a module named PyGame (fill in the blanks, use random)]()
+
+__Part 2__ Dictonaries... One More Time
 * Follow along - [iterating over a dictionary](class7/labs/loop_dictionaries.py)
-* On your own - [character count](class7/labs/character_count.py) via [How To Think Like a Computer Scientist, 12.7](http://openbookproject.net/thinkcs/python/english2e/ch12.html)
 * On your own [Reimplement English to Spanish](class7/labs/espanol.py)
+* On your own - [character count](class7/labs/character_count.py) via [How To Think Like a Computer Scientist, 12.7](http://openbookproject.net/thinkcs/python/english2e/ch12.html)
 * (INTERMEDIATE) [Iterate over a list of tuples using items() on a dictionary](class7/labs/list_comprehensions_again.py)
 * (INTERMEDIATE) [Run length encoding](class7/labs/run_length.py)
+
+__Part 3__
+* Follow along - [review functions and conditionals]()
+* Follow along - [chaining conditionals, keyword args, arbitrary args]()
+* Follow along - [counting based on input]()
+* Follow along - [flow charts, pseudo code]()
+* On your own - [square, cube, or both]()
+* On your own- [coin flips]()
+
+
 <a class="class9" id="class9"></a>
 Class 9 - March 28th - PyGame, Exceptions and Testing, Review Functions Again...
 =====
