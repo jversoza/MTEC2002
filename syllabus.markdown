@@ -319,7 +319,7 @@ __Part 1__ Built-in Modules - Review
 * On your own - [Confused turtle](class8/labs/confused_turtle.py)
 
 __Part 2__ Dictonaries... One More Time
-* Follow along - [iterating over a dictionary](class8/labs/loop_dictionaries.py)
+* Follow along - [iterating over a dictionary](class8/labs/loop_dictionary.py)
 * On your own [Reimplement English to Spanish](class8/labs/espanol.py)
 * On your own - [character count](class8/labs/character_count.py) via [How To Think Like a Computer Scientist, 12.7](http://openbookproject.net/thinkcs/python/english2e/ch12.html)
 * (INTERMEDIATE) [Iterate over a list of tuples using items() on a dictionary](class8/labs/list_comprehensions_again.py)
