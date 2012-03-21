@@ -313,6 +313,9 @@ Class 8 - March 21st - Iterating Over Dictionaries, Putting Everything Together,
 
 <a class="labs8" id="labs8"></a>
 ###Labs
+* At the Beginning of each class, [download the labs zip file](class8/class8.zip)
+* Use git to add, commit and push ALL files in directory, refer to: [Setting up your local workspace](git.html)
+
 __Part 1__ Built-in Modules - Review
 * Follow along - [Drawing lines using the turtle module](class8/labs/turtle_lines.py)
 * On your own - [Draw square](class8/labs/draw_square.py)
