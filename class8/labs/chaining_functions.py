@@ -7,6 +7,10 @@ chaining_functions.py
 4. f3 will call f2 and also print "three"
 5. print out "calling f1" and call f1; do the same for f3
 
+This is to prep for:
+
+http://learnpythonthehardway.org/book/ex35.html
+
 Expected Output:
 calling f1
 one
