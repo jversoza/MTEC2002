@@ -353,6 +353,7 @@ Class 10 - April 4th - Consuming the Web, Exceptions and Testing
 * Exceptions
 * Testing
 * Documentation
+* revisit sys module (commandline args?)
 
 <a class="labs10" id="labs10"></a>
 ###Labs
