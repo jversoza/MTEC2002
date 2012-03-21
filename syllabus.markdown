@@ -302,24 +302,23 @@ __Part 4__
 * (OPTIONAL) - read about doctest in section 5.8 in [chapter 5 of How to Think Like a Computer Scientist](http://www.openbookproject.net/thinkcs/python/english2e/ch05.html); [convert the test cases to doctests in your binary search function](class7/labs/binary_search_tested.py)
 
 <a class="class8" id="class8"></a>
-Class 8 - March 21st - Iterating Over Dictionaries, Installing Modules, Functions Revisited, Putting Everything Together, Review Modules 
+Class 8 - March 21st - Iterating Over Dictionaries, Functions Revisited, Putting Everything Together, Review Modules 
 =====
 * Midterm Project Proposals
 * Quiz
-* Review Modules
-* Installing Modules
+* Review Built-In Modules
 * Dictionaries One Last Time
 * Everything together
 	* Functions Revisited
 	* Keyword args, variable name of args
-* (INTERMEDIATE) Organizing code / creating your own packages, modules
+* Start Midterm Projects
 
 <a class="labs8" id="labs8"></a>
 ###Labs
-__Part 1__ Modules - Review and Install on Your Own
-* Follow along - [Using random, use with turtle!]()
-* Follow along - [Install a module named ... run on the commandline]()
-* On your own - [Install a module named PyGame (fill in the blanks, use random)]()
+__Part 1__ Built-in Modules - Review
+* Follow along - [Drawing lines using the turtle module](class8/labs/turtle_lines.py)
+* On your own - [Draw square](class8/labs/draw_square.py)
+* On your own - [Confused turtle](class8/labs/confused_turtle.py)
 
 __Part 2__ Dictonaries... One More Time
 * Follow along - [iterating over a dictionary](class7/labs/loop_dictionaries.py)
@@ -336,25 +335,27 @@ __Part 3__
 * On your own - [square, cube, or both]()
 * On your own- [coin flips]()
 
-
 <a class="class9" id="class9"></a>
-Class 9 - March 28th - PyGame, Exceptions and Testing, Review Functions Again...
+Class 9 - March 28th - PyGame, Installing Modules
 =====
+* Installing Modules
 * PyGame
-* Documentation
-* (Intermediate) Unit Tests
-* (Intermediate) Exceptions
-* (Intermediate) Refactoring
 
 <a class="labs9" id="labs9"></a>
 ###Labs
+__Part 1__
+* Follow along - [Install a module named ... run on the commandline]()
+* On your own - [Install a module named PyGame (fill in the blanks, use random)]()
 
 <a class="class10" id="class10"></a>
-Class 10 - April 4th - Consuming the Web 
+Class 10 - April 4th - Consuming the Web, Exceptions and Testing
 =====
 * HTTP
 * request
 * json
+* Exceptions
+* Testing
+* Documentation
 
 <a class="labs10" id="labs10"></a>
 ###Labs
