@@ -368,8 +368,8 @@ Class 11 - April 11th -  Web Development I
 * Django basics
 	* urls.py
 	* views
-	* Templates
-* (INTERMEDIATE) Regular Expressions, urls.py
+	* templates
+* (INTERMEDIATE) Regular Expressions for urls?, urls.py
 * (INTERMEDIATE) Try Heroku?
 
 <a class="labs11" id="labs11"></a>
