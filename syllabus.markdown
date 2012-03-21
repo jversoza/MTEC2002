@@ -302,15 +302,13 @@ __Part 4__
 * (OPTIONAL) - read about doctest in section 5.8 in [chapter 5 of How to Think Like a Computer Scientist](http://www.openbookproject.net/thinkcs/python/english2e/ch05.html); [convert the test cases to doctests in your binary search function](class7/labs/binary_search_tested.py)
 
 <a class="class8" id="class8"></a>
-Class 8 - March 21st - Iterating Over Dictionaries, Functions Revisited, Putting Everything Together, Review Modules 
+Class 8 - March 21st - Iterating Over Dictionaries, Putting Everything Together, Review Built-In Modules 
 =====
 * Midterm Project Proposals
 * Quiz
 * Review Built-In Modules
 * Dictionaries One Last Time
-* Everything together
-	* Functions Revisited
-	* Keyword args, variable name of args
+* Problem Solving, Putting Everything Together
 * Start Midterm Projects
 
 <a class="labs8" id="labs8"></a>
@@ -327,13 +325,9 @@ __Part 2__ Dictonaries... One More Time
 * (INTERMEDIATE) [Iterate over a list of tuples using items() on a dictionary](class7/labs/list_comprehensions_again.py)
 * (INTERMEDIATE) [Run length encoding](class7/labs/run_length.py)
 
-__Part 3__
-* Follow along - [review functions and conditionals]()
-* Follow along - [chaining conditionals, keyword args, arbitrary args]()
-* Follow along - [counting based on input]()
-* Follow along - [flow charts, pseudo code]()
-* On your own - [square, cube, or both]()
-* On your own- [coin flips]()
+__Part 3__ Problem Solving, Putting Everything Together, Preparing for Mid-term Project
+* Follow along - [dice wars](class8/labs/dice_wars.py)
+* Follow along - [chaining functions](class8/labs/chaining_functions.py)
 
 <a class="class9" id="class9"></a>
 Class 9 - March 28th - PyGame, Installing Modules
@@ -378,11 +372,12 @@ Class 11 - April 11th -  Web Development I
 ###Labs
 
 <a class="class12" id="class12"></a>
-Class 12 - April 18th - Web Development II
+Class 12 - April 18th - Web Development II, Revisiting Functions
 =====
 * Databases and quick intro to database design
 * Forms
 * Admin
+* Keyword args
 * (INTERMEDIATE) Other Django features
 
 <a class="labs12" id="labs12"></a>
