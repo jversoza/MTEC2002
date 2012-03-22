@@ -338,6 +338,28 @@ Class 9 - March 28th - PyGame, Installing Modules
 * Installing Modules
 * PyGame
 
+Getting Set Up
+* echo "source /usr/local/bin/virtualenvwrapper.sh" > ~/.bash_login; source ~/.bash_login; mkvirtualenv mtec2002; echo "workon mtec2002" >> ~/.bash_login
+* pip install pygame
+* http://helloworldbookblog.com/12-days-of-python-day-1/
+
+you should see this:
+Last login: Wed Mar 21 20:12:42 on ttys001
+virtualenvwrapper.user_scripts creating /Users/professor/.virtualenvs/initialize
+virtualenvwrapper.user_scripts creating /Users/professor/.virtualenvs/premkvirtualenv
+virtualenvwrapper.user_scripts creating /Users/professor/.virtualenvs/postmkvirtualenv
+virtualenvwrapper.user_scripts creating /Users/professor/.virtualenvs/prermvirtualenv
+virtualenvwrapper.user_scripts creating /Users/professor/.virtualenvs/postrmvirtualenv
+virtualenvwrapper.user_scripts creating /Users/professor/.virtualenvs/predeactivate
+virtualenvwrapper.user_scripts creating /Users/professor/.virtualenvs/postdeactivate
+virtualenvwrapper.user_scripts creating /Users/professor/.virtualenvs/preactivate
+virtualenvwrapper.user_scripts creating /Users/professor/.virtualenvs/postactivate
+virtualenvwrapper.user_scripts creating /Users/professor/.virtualenvs/get_env_details
+virtualenvwrapper.user_scripts creating /Users/professor/.virtualenvs/premkproject
+virtualenvwrapper.user_scripts creating /Users/professor/.virtualenvs/postmkproject
+virtualenvwrapper.user_scripts creating /Users/professor/.virtualenvs/prermproject
+virtualenvwrapper.user_scripts creating /Users/professor/.virtualenvs/postrmproject
+
 <a class="labs9" id="labs9"></a>
 ###Labs
 __Part 1__
