@@ -65,4 +65,7 @@ For example:
 * use the [regular expression library, regex](http://docs.python.org/library/re.html), to enhance the [pluralizer function that we created in class 3](class3/labs/pluralize.py)
 * using the [datetime library] (http://docs.python.org/library/datetime.html) write a utility that asks a user for their birthday; it will determine how many weeks it is until that date
 * try connecting to and retrieving information from a simple database called [sqlite3](http://docs.python.org/library/sqlite3.html#module-sqlite3)
-* use the [turtle library](http://docs.python.org/library/turtle.html) to draw a picture
+* use the [turtle library](http://docs.python.org/library/turtle.html) to draw a picture.  make sure you:
+	* use at least 4 functions that we did not cover in class
+	* use a random element
+	* use a list and a loop (while or for)
