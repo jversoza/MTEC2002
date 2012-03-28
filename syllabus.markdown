@@ -313,7 +313,7 @@ Class 8 - March 21st - Iterating Over Dictionaries, Putting Everything Together,
 
 <a class="labs8" id="labs8"></a>
 ###Labs
-* At the Beginning of each class, [download the labs zip file](class8/class8.zip)
+* At the Beginning of each class, [download the labs zip file](class9/class9.zip)
 * Use git to add, commit and push ALL files in directory, refer to: [Setting up your local workspace](git.html)
 
 __Part 1__ Built-in Modules - Review
@@ -335,36 +335,43 @@ __Part 3__ Problem Solving, Putting Everything Together, Preparing for Mid-term 
 <a class="class9" id="class9"></a>
 Class 9 - March 28th - PyGame, Installing Modules
 =====
+* More About Modules
 * Installing Modules
 * PyGame
 
-Getting Set Up
-* echo "source /usr/local/bin/virtualenvwrapper.sh" > ~/.bash_login; source ~/.bash_login; mkvirtualenv mtec2002; echo "workon mtec2002" >> ~/.bash_login
-* pip install pygame
-* http://helloworldbookblog.com/12-days-of-python-day-1/
-
-you should see this:
-Last login: Wed Mar 21 20:12:42 on ttys001
-virtualenvwrapper.user_scripts creating /Users/professor/.virtualenvs/initialize
-virtualenvwrapper.user_scripts creating /Users/professor/.virtualenvs/premkvirtualenv
-virtualenvwrapper.user_scripts creating /Users/professor/.virtualenvs/postmkvirtualenv
-virtualenvwrapper.user_scripts creating /Users/professor/.virtualenvs/prermvirtualenv
-virtualenvwrapper.user_scripts creating /Users/professor/.virtualenvs/postrmvirtualenv
-virtualenvwrapper.user_scripts creating /Users/professor/.virtualenvs/predeactivate
-virtualenvwrapper.user_scripts creating /Users/professor/.virtualenvs/postdeactivate
-virtualenvwrapper.user_scripts creating /Users/professor/.virtualenvs/preactivate
-virtualenvwrapper.user_scripts creating /Users/professor/.virtualenvs/postactivate
-virtualenvwrapper.user_scripts creating /Users/professor/.virtualenvs/get_env_details
-virtualenvwrapper.user_scripts creating /Users/professor/.virtualenvs/premkproject
-virtualenvwrapper.user_scripts creating /Users/professor/.virtualenvs/postmkproject
-virtualenvwrapper.user_scripts creating /Users/professor/.virtualenvs/prermproject
-virtualenvwrapper.user_scripts creating /Users/professor/.virtualenvs/postrmproject
-
 <a class="labs9" id="labs9"></a>
 ###Labs
-__Part 1__
-* Follow along - [Install a module named ... run on the commandline]()
-* On your own - [Install a module named PyGame (fill in the blanks, use random)]()
+* At the Beginning of each class, [download the labs zip file](class9/class9.zip)
+* Use git to add, commit and push ALL files in directory, refer to: [Setting up your local workspace](git.html)
+
+__Part 1__ Adminstrative Stuff - Submitting Your Midterm, Setting Up for Installing Modules
+* Submit your midterm using git
+* [Prep your workstation](modules.html) for installing modules
+
+__Part 2__ Creating Modules, Installing Modules
+* Follow along - [Creating](class9/labs/my_module.py) and [using](class9/labs/my_program.py) modules
+* Follow along - [Install a module named markdown](class9/labs/marky_mark.py), and read its [documentation](http://packages.python.org/Markdown/reference.html#safe_mode) to learn how to use it
+* On your own - [Install a module named upsidedown](class9/labs/flip_out.py), and read its [documentation](http://pypi.python.org/pypi/upsidedown/0.3) to learn how to use it
+
+__Part 3__ Hello!
+* pip install pygame
+* Follow along - [Hello PyGame](class9/labs/hello_pygame.py)
+* On your own - Look up the documentation on drawing shapes, and use it add more elements to the above program: http://www.pygame.org/docs/ref/draw.html
+
+__Part 4__ Animation
+* Follow along - [Simple Animation](class9/labs/simple_animation.py)
+* Follow along - [Random Animation](class9/labs/random_animation.py) 
+* Follow along - [Screen Wrap](class9/labs/screen_wrap.py)
+* Follow along - [Multiple Objects](class9/labs/multiple_objects.py)
+* On your own - [Bounces](class9/labs/bounces.py)
+* (INTERMEDIATE) - Add gravity to above
+* On your own - [Winter Scene](class9/labs/winter_scene.py)
+* (INTERMEDIATE) - Make each object have its own velocity
+
+__Part 4__ Interaction
+* Follow along - [Key Press](class9/labs/key_press.py)
+* Follow along - [Mouse Press](class9/labs/mouse.py)
+* On your own - [Arrow Keys](class9/labs/arrow_keys.py)
 
 <a class="class10" id="class10"></a>
 Class 10 - April 4th - Consuming the Web, Exceptions and Testing
@@ -376,6 +383,7 @@ Class 10 - April 4th - Consuming the Web, Exceptions and Testing
 * Testing
 * Documentation
 * revisit sys module (commandline args?)
+* scrapely
 
 <a class="labs10" id="labs10"></a>
 ###Labs
