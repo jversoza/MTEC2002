@@ -391,7 +391,6 @@ __Lab 1__ Exception Handling
 * Follow along - [ascii times.py](class10/labs/ascii_times.py) - draw ascii art multiple times based on user input (no ascii art at key) AND (how many times)]()
 * On your own - [try_except.py](class10/labs/try_except.py) - exception handling basics
 * On your own - [velocity.py](class10/labs/velocity.py) - calculate velocity based on user input (divide by zero and value error - velocity function with input)
-* (INTERMEDIATE) Raising your own exceptions
 
 __Lab 2__ Intro to Requests / Beautiful Soup
 * Talking HTTP - protocol, methods, response codes, etc
