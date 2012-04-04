@@ -398,6 +398,7 @@ __Lab 1__ Exception Handling
 * On your own - [try_except.py](class10/labs/try_except.py) - exception handling basics
 * On your own - [velocity.py](class10/labs/velocity.py) - calculate velocity based on user input (divide by zero and value error - velocity function with input)
 * (INTERMEDIATE) Raising your own exceptions
+
 __Lab 2__ Intro to Requests / Beautiful Soup
 * Talking HTTP - protocol, methods, response codes, etc
 * Follow along - [get_html.py](class10/labs/get_html.py) - get html using requests module
@@ -405,6 +406,7 @@ __Lab 2__ Intro to Requests / Beautiful Soup
 * On your own - [scrape_food.py](class10/labs/scrape_food.py) - use requests and beautiful soup to get list of resetaurants
 * On your own - [scrape_food_user_input.py](class10/labs/scrape_food_user_input.py) - same as above, but with user input
 * (INTERMEDIATE) - [scrape_food_hours.py](class10/labs/scrape_food_hours.py) - try to continue scraping to get the hours
+
 __Lab 3__ More About Requests / JSON
 * Time permitting - [twitter and json](class10/labs/twitter.py)
 
