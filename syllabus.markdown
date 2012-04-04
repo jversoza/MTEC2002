@@ -387,12 +387,6 @@ Class 10 - April 4th - Exceptions and Testing, Consuming the Web
 * Use git to add, commit and push ALL files in directory, refer to: [Setting up your local workspace](git.html)
 
 __Lab 1__ Exception Handling
-* preview exceptions
-	* KeyError in dictionaries
-	* ValueError when converting a string
-	* TypeError when multiplying two strings, using  a string to index a list
-	* IndexError when accessing a list
-	* ZeroDivisionError when dividing by 0
 * Follow along - [exceptions.py](class10/labs/exceptions.py) - what to do when things go wrong
 * Follow along - [ascii times.py](class10/labs/ascii_times.py) - draw ascii art multiple times based on user input (no ascii art at key) AND (how many times)]()
 * On your own - [try_except.py](class10/labs/try_except.py) - exception handling basics
