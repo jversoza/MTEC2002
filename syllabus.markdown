@@ -383,6 +383,9 @@ Class 10 - April 4th - Exceptions and Testing, Consuming the Web
 
 <a class="labs10" id="labs10"></a>
 ###Labs
+* At the Beginning of each class, [download the labs zip file](class10/class10.zip)
+* Use git to add, commit and push ALL files in directory, refer to: [Setting up your local workspace](git.html)
+
 __Lab 1__ Exception Handling
 * preview exceptions
 	* KeyError in dictionaries
