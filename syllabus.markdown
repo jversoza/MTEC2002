@@ -374,19 +374,36 @@ __Part 4__ Interaction
 * On your own - [Arrow Keys](class9/labs/arrow_keys.py)
 
 <a class="class10" id="class10"></a>
-Class 10 - April 4th - Consuming the Web, Exceptions and Testing
+Class 10 - April 4th - Exceptions and Testing, Consuming the Web
 =====
-* HTTP
-* request
-* json
 * Exceptions
-* Testing
-* Documentation
-* revisit sys module (commandline args?)
-* scrapely
+* making HTTP requests with requests
+* parsing HTML with Beautiful Soup 
+* the json module
 
 <a class="labs10" id="labs10"></a>
 ###Labs
+__Lab 1__ Exception Handling
+* preview exceptions
+	* KeyError in dictionaries
+	* ValueError when converting a string
+	* TypeError when multiplying two strings, using  a string to index a list
+	* IndexError when accessing a list
+	* ZeroDivisionError when dividing by 0
+* Follow along - [exceptions.py](class10/labs/exceptions.py) - what to do when things go wrong
+* Follow along - [ascii times.py](class10/labs/ascii_times.py) - draw ascii art multiple times based on user input (no ascii art at key) AND (how many times)]()
+* On your own - [try_except.py](class10/labs/try_except.py) - exception handling basics
+* On your own - [velocity.py](class10/labs/velocity.py) - calculate velocity based on user input (divide by zero and value error - velocity function with input)
+* (INTERMEDIATE) Raising your own exceptions
+__Lab 2__ Intro to Requests / Beautiful Soup
+* Talking HTTP - protocol, methods, response codes, etc
+* Follow along - [get_html.py](class10/labs/get_html.py) - get html using requests module
+* Follow along - [parse_html.py](class10/labs/parse_html.py) - parse html using beautiful soup
+* On your own - [scrape_food.py](class10/labs/scrape_food.py) - use requests and beautiful soup to get list of resetaurants
+* On your own - [scrape_food_user_input.py](class10/labs/scrape_food_user_input.py) - same as above, but with user input
+* (INTERMEDIATE) - [scrape_food_hours.py](class10/labs/scrape_food_hours.py) - try to continue scraping to get the hours
+__Lab 3__ More About Requests / JSON
+* Time permitting - [twitter and json](class10/labs/twitter.py)
 
 <a class="class11" id="class11"></a>
 Class 11 - April 11th -  Web Development I
