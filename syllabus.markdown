@@ -404,36 +404,73 @@ __Lab 3__ More About Requests / JSON
 * Time permitting - [twitter and json](class10/labs/twitter.py)
 
 <a class="class11" id="class11"></a>
-Class 11 - April 11th -  Web Development I
+Class 11 - April 18th -  Classes, Tests, Documentation and Web Development Intro
 =====
-* About web development
-	* HTTP
-	* How the web "works"
-	* HTML/CSS
-* Django basics
-	* urls.py
-	* views
-	* templates
-* (INTERMEDIATE) Regular Expressions for urls?, urls.py
-* (INTERMEDIATE) Try Heroku?
+* Review Exceptions
+* Doc Tests
+* Classes
+* Web Development with Django - hello world
 
 <a class="labs11" id="labs11"></a>
 ###Labs
+At the Beginning of each class, [download the labs zip file](class11/class11.zip)
+
+__Lab 1__ Reviewing exceptions
+* On your own - [key_error.py](class11/labs/key_error.py)
+* (INTERMEDIATE) - [shout_file.py](class11/labs/shout_file.py)
+
+__Lab 2__ Classes, objects and methods
+* Follow along / On your own: [Point class](class11/labs/point.py)
+* On your own - [Book class](class11/labs/book.py)
+* On your own - [Fraction class](class11/labs/my_fractions.py)
+* Follow along - [Pet class](class11/labs/pet.py)
+* On your own - [Monster class](class11/labs/monster.py)
+
+__Lab 3__ Django
+In terminal:
+
+<pre>
+sudo pip install django
+#change to your class11 folder
+django-admin.py startproject my_site
+cd my_site
+python manage.py startapp hello
+cd hello
+</pre>
+
+edit the following files:
+my_site/urls.py
+<pre>url(r'^hello/$', 'hello.views.hello'),</pre> 
+(before the last closing parentheses)
+
+hello/views.py
+<pre>
+from django.http import HttpResponse
+def index(request):
+    return HttpResponse("Hello, world.")
+</pre>
+
+lastly... in terminal python manage.py runserver
+
+__Lab 4__ (ime permitting) Doctest
+* Follow along - [add_three_tested](class11/labs/add_three_tested.py)
+* On your own - [cube_tested](class11/labs/cube_tested.py)
 
 <a class="class12" id="class12"></a>
-Class 12 - April 18th - Web Development II, Revisiting Functions
+Class 12 - April 25 - Web Development II, Revisiting Functions
 =====
 * Databases and quick intro to database design
 * Forms
 * Admin
 * Keyword args
 * (INTERMEDIATE) Other Django features
+* (INTERMEDIATE) Try Heroku?
 
 <a class="labs12" id="labs12"></a>
 ###Labs
 
 <a class="class13" id="class13"></a>
-Class 13 - April 25th - Final Project Proposals / Socket Programming, More File I/O, Creating an HTTP Server
+Class 13 - May 2nd - Final Project Proposals / Socket Programming, More File I/O, Creating an HTTP Server
 =====
 * Socket programming
 * Creating a server
@@ -443,14 +480,14 @@ Class 13 - April 25th - Final Project Proposals / Socket Programming, More File 
 
 
 <a class="class14" id="class14"></a>
-Class 14 - May 2nd - Final Project Progress / Scripting in Blender
+Class 14 - May 9th - Final Project Progress / Scripting in Blender
 =====
 
 <a class="labs14" id="labs14"></a>
 ###Labs
 
 <a class="class15" id="class15"></a>
-Class 15 - May 9th - Final Project Progress / TBD
+Class 15 - May 16th - Final Project Progress / TBD
 =====
 * Project check-in
 
