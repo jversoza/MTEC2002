@@ -424,10 +424,10 @@ __Lab 2__ Classes, objects and methods
 * On your own - [Book class](class11/labs/book.py)
 * On your own - [Fraction class](class11/labs/my_fractions.py)
 * Follow along - [Pet class](class11/labs/pet.py)
-* On your own - [Monster class](class11/labs/monster.py)
 
 __Lab 3__ Django
-In terminal:
+
+1. In terminal:
 
 <pre>
 sudo pip install django
@@ -438,10 +438,11 @@ python manage.py startapp hello
 cd hello
 </pre>
 
-edit the following files:
-my_site/urls.py
+2. edit the following files:
+
+my_site/urls.py (before the last closing parentheses)
 <pre>url(r'^hello/$', 'hello.views.hello'),</pre> 
-(before the last closing parentheses)
+
 
 hello/views.py
 <pre>
@@ -450,7 +451,10 @@ def index(request):
     return HttpResponse("Hello, world.")
 </pre>
 
-lastly... in terminal python manage.py runserver
+3. lastly... in terminal 
+<pre>
+python manage.py runserver
+</ore>
 
 __Lab 4__ (ime permitting) Doctest
 * Follow along - [add_three_tested](class11/labs/add_three_tested.py)
