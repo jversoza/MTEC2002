@@ -431,7 +431,7 @@ ___In terminal:___
 
 <pre>
 sudo pip install django
-#change to your class11 folder
+cd class11 # or the full path to your class11 folder
 django-admin.py startproject my_site
 cd my_site
 python manage.py startapp hello
@@ -454,7 +454,7 @@ def index(request):
 ___lastly... in terminal ___
 <pre>
 python manage.py runserver
-</ore>
+</pre>
 
 __Lab 4__ (ime permitting) Doctest
 * Follow along - [add_three_tested](class11/labs/add_three_tested.py)
