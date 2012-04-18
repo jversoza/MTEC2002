@@ -427,7 +427,7 @@ __Lab 2__ Classes, objects and methods
 
 __Lab 3__ Django
 
-1. In terminal:
+___In terminal:___
 
 <pre>
 sudo pip install django
@@ -438,7 +438,7 @@ python manage.py startapp hello
 cd hello
 </pre>
 
-2. edit the following files:
+___edit the following files:___
 
 my_site/urls.py (before the last closing parentheses)
 <pre>url(r'^hello/$', 'hello.views.hello'),</pre> 
@@ -451,7 +451,7 @@ def index(request):
     return HttpResponse("Hello, world.")
 </pre>
 
-3. lastly... in terminal 
+___lastly... in terminal ___
 <pre>
 python manage.py runserver
 </ore>
