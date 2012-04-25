@@ -404,7 +404,7 @@ __Lab 3__ More About Requests / JSON
 * Time permitting - [twitter and json](class10/labs/twitter.py)
 
 <a class="class11" id="class11"></a>
-Class 11 - April 18th -  Classes, Tests, Documentation and Web Development Intro
+Class 11 - April 18th -  Reviewing Exceptions, Classes, Inheritance, Web Development Overview
 =====
 * Review Exceptions
 * Doc Tests
@@ -425,55 +425,26 @@ __Lab 2__ Classes, objects and methods
 * On your own - [Fraction class](class11/labs/my_fractions.py)
 * Follow along - [Pet class](class11/labs/pet.py)
 
-__Lab 3__ Django
-
-___In terminal:___
-
-<pre>
-sudo pip install django
-cd class11 # or the full path to your class11 folder
-django-admin.py startproject my_site
-cd my_site
-python manage.py startapp hello
-cd hello
-</pre>
-
-___edit the following files:___
-
-my_site/urls.py (before the last closing parentheses)
-<pre>url(r'^hello/$', 'hello.views.hello'),</pre> 
-
-
-hello/views.py
-<pre>
-from django.http import HttpResponse
-def index(request):
-    return HttpResponse("Hello, world.")
-</pre>
-
-___lastly... in terminal ___
-<pre>
-python manage.py runserver
-</pre>
-
-__Lab 4__ (ime permitting) Doctest
-* Follow along - [add_three_tested](class11/labs/add_three_tested.py)
-* On your own - [cube_tested](class11/labs/cube_tested.py)
-
 <a class="class12" id="class12"></a>
-Class 12 - April 25 - Web Development II, Revisiting Functions
+Class 12 - April 25 - Web Development
 =====
-* Databases and quick intro to database design
-* Forms
-* Admin
-* Keyword args
-* (INTERMEDIATE) Other Django features
-* (INTERMEDIATE) Try Heroku?
+* Quiz next week - dictionaries, exceptions, classes
+* Review classes - Point class
+* Django
+	* urls
+	* views
+	* templates
 
 <a class="labs12" id="labs12"></a>
+
 ###Labs
 
+__Lab 1__ [Hello World](django-lab-1.html)
+
+__Lab 2__ [My Site](django-lab-2.html)
+
 <a class="class13" id="class13"></a>
+
 Class 13 - May 2nd - Final Project Proposals / Socket Programming, More File I/O, Creating an HTTP Server
 =====
 * Socket programming
