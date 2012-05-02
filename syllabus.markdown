@@ -445,14 +445,33 @@ __Lab 2__ [My Site](django-lab-2.html)
 
 <a class="class13" id="class13"></a>
 
-Class 13 - May 2nd - Final Project Proposals / Socket Programming, More File I/O, Creating an HTTP Server
+Class 13 - May 2nd - Final Project Information, Creating a Socket Server and Client, Tests, Commandline Scripts, Blender 
 =====
+At the Beginning of each class, [download the labs zip file](class13/class13.zip)
+* Evaluations
+* Quiz
+* [Final Project](final.html)
+* Running main
+* Passing arguments via the commandline
+* doctests
 * Socket programming
-* Creating a server
 
 <a class="labs13" id="labs13"></a>
 ###Labs
+__Lab 1__ 
+* Follow along - [Spanish again!](class13/labs/spanish.py)
+* Follow along - [Translating (Importing revisted and using commandline arguments)](class13/labs/translate.py)
+* On your own - [Shout again!](class13/labs/myutils.py)
+* On your own - [Using your utils module](class13/labs/shout.py)
 
+__Lab 2__ Socket Programming
+* Follow along - [Echo server](class13/labs/echo_server.py)
+* Follow along - [Echo client](class13/labs/echo_client.py)
+* Follow along - [Translation server](class13/labs/translation_server.py)
+
+__Lab 3__ Working Together? ... (Time Permitting)
+* On your own / or as a group exercise - create a server that adds five to the data sent to it.
+* On your own / or as a group exercise - create a client... try causing an error in the  the add five server by sending bad input!
 
 <a class="class14" id="class14"></a>
 Class 14 - May 9th - Final Project Progress / Scripting in Blender
