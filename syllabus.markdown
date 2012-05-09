@@ -476,9 +476,33 @@ __Lab 3__ Working Together? ... (Time Permitting)
 <a class="class14" id="class14"></a>
 Class 14 - May 9th - Final Project Progress / Scripting in Blender
 =====
+At the Beginning of each class, [download the labs zip file](class14/class14.zip)
+* Final project proposals
+* Nested loops
+* Functions with keyword arguments and arbitrary number of arguments
+* Blender API
 
 <a class="labs14" id="labs14"></a>
+
 ###Labs
+__Lab 1__ 
+* Follow along - [nested for loops](class14/labs/nested_for_loops.py)
+* Follow along - [keyword arguments](class14/labs/mad_libs.py)
+* Follow along - [arbitrary number of arguments](class14/labs/arbitrary.py)
+* On your own - [sum](class14/labs/sum.py)
+* On your own - [nested for loops - iterate over a list of lists](class14/labs/list_of_lists.py)
+
+__Lab 2__
+* Follow along - [blender](blender-lab.html)
+* Follow along - [create a cube](class14/labs/cube.py)
+* Follow along - [loops](class14/labs/loops.py)
+* On your own - [other shapes](class14/labs/other_shapes.py)
+* On your own - [multiple cubes along every axis](class14/labs/multiple_cubes.py)
+* Follow along - [mesh - triangle](class14/labs/mesh_triangle.py)
+* Follow along - [mesh - pyramid](class14/labs/mesh_pyramid.py)
+* On your own - [mesh - square](class14/labs/mesh_square.py)
+* Time permitting - [square function](class14/labs/square_function.py)
+* Time permitting - [random mesh](class14/labs/random_mesh.py)
 
 <a class="class15" id="class15"></a>
 Class 15 - May 16th - Final Project Progress / TBD
