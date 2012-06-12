@@ -3,7 +3,28 @@ layout: default
 title: MTEC2002 - Programming Foundations for Emerging Technology - Spring 2012
 nav-state: syllabus
 ---
+Contents
+=====
+<ul>
+<li><a href="#class1">Class 1 - February 1st</a> - Introductions, Basic Types</li>
+<li><a href="#class2">Class 2 - February 8th</a> - Functions, Lists</li>
+<li><a href="#class3">Class 3 - February 15th</a> - Homework Submission, Review Conditionals and Indentation</li>
+<li><a href="#class4">Class 4 - February 22nd</a> - Quiz, Loops and Lists</li>
+<li><a href="#class5">Class 5 - February 29th</a> - Version Control, More Loops and Lists, Together with Functions and Conditionals</li>
+<li><a href="#class6">Class 6 - March 7th</a> - While Loops, Dictionaries, Tuples, Review For Loops</li>
+<li><a href="#class7">Class 7 - March 14th</a> -  Dictionaries, Modules, Commonly Used Modules, Organizing Code, Mid-Term Project, Review While Loops</li>
+<li><a href="#class8">Class 8 - March 21st</a> - Iterating Over Dictionaries, Putting Everything Together, Review Built-In Modules </li>
+<li><a href="#class9">Class 9 - March 28th</a> - PyGame, Installing Modules</li>
+<li><a href="#class10">Class 10 - April 4th</a> - Exceptions and Testing, Consuming the Web</li>
+<li><a href="#class11">Class 11 - April 18th</a> -  Reviewing Exceptions, Classes, Inheritance, Web Development Overview</li>
+<li><a href="#class12">Class 12 - April 25</a> - Web Development</li>
+<li><a href="#class13">Class 13 - May 2nd</a> - Final Project Information, Creating a Socket Server and Client, Tests, Commandline Scripts, Blender </li>
+<li><a href="#class14">Class 14 - May 9th</a> - Final Project Progress / Scripting in Blender</li>
+<li><a href="#class15">Class 15 - May 16th</a> - Final Project Progress / TBD</li>
+<li><a href="#class16">Class 16 - May 23rd</a> - Final Project Presentations</li>
+</ul>
 
+<a class="class1" id="class1"></a>
 Class 1 - February 1st - Introductions, Basic Types
 =====
 ###Topics
